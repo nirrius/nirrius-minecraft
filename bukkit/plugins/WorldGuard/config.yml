@@ -1,0 +1,61 @@
+#
+# WorldGuard's main configuration file
+#
+# This is the global configuration file. Anything placed into here will
+# be applied to all worlds. However, each world has its own configuration
+# file to allow you to replace any setting in here for that world only.
+#
+# About editing this file:
+# - DO NOT USE TABS. You MUST use spaces or Bukkit will complain. If
+#   you use an editor like Notepad++ (recommended for Windows users), you
+#   must configure it to "replace tabs with spaces." In Notepad++, this can
+#   be changed in Settings > Preferences > Language Menu.
+# - Don't get rid of the indents. They are indented so some entries are
+#   in categories (like "enforce-single-session" is in the "protection"
+#   category.
+# - If you want to check the format of this file before putting it
+#   into WorldGuard, paste it into http://yaml-online-parser.appspot.com/
+#   and see if it gives "ERROR:".
+# - Lines starting with # are comments and so they are ignored.
+#
+
+suppress-tick-sync-warnings: false
+permissions:
+    users:
+        sk89q:
+            permissions:
+            - worldguard.region.*
+            - worldgurad.god
+regions:
+    use-scheduler: true
+auto-invincible-permission: false
+op-permissions: true
+protection:
+    enforce-single-session: true
+simulation:
+    classic-water: false
+default:
+    disable-health-regain: false
+physics:
+    disable-water-damage-blocks: []
+fire:
+    lava-spread-blocks: []
+    disable-fire-spread-blocks: []
+player-damage:
+    disable-mob-damage: false
+    disable-explosion-damage: false
+weather:
+    prevent-lightning-strike-blocks: []
+dynamics:
+    disable-ice-melting: false
+    disable-snow-formation: false
+    disable-mushroom-spread: false
+    disable-snow-melting: false
+    disable-leaf-decay: false
+    disable-ice-formation: false
+mobs:
+    block-creature-spawn: []
+blacklist:
+    logging:
+        database:
+            pass: ''

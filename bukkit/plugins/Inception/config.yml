@@ -1,0 +1,23 @@
+inception:
+    link0:
+        worldUpper:
+            worldName: avalon 
+            environment: NORMAL
+        worldLower:
+            worldName: valhalla
+            environment: NORMAL
+        overlap: true
+        enableFall: true
+        enableClimb: true
+        upperLimit: 128
+        lowerLimit: 0
+        overlapDepth: 6
+        sync: false
+
+
+autoInception: false
+fallDamage: false
+glassStep: true
+dynamicOverlapUpperToLower: false
+dynamicOverlapLowerToUpper: true
+exemptBlockID: 7, 8, 9, 10, 11

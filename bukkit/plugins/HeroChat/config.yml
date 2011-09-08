@@ -1,0 +1,133 @@
+globals:
+    separate-chat-log: false
+    incoming-tell-format: '&8From {player}: &d'
+    censors:
+    - \bu+\W*m+a+d+(\W*br(a|o)+)?
+    - some_other_word;replacement
+    plugin-tag: '§e[HeroChat] '
+    craftIRC-prefix: '#'
+    outgoing-tell-format: '&8To {receiver}: &d'
+    default-channel: Global
+    default-message-format: '{color}[{nick}] &f{prefix}{player}{suffix}{color}: '
+    craftIRC-message-format: '[{nick}] {player}: '
+channels:
+    Local:
+        local-distance: 100
+        color: YELLOW
+        nickname: l
+        permissions:
+            speak: []
+            join: []
+        message-format: '&f{prefix}{player}{suffix}{color}: '
+        craftIRC:
+            game-to-IRC: []
+            IRC-to-game: []
+        worlds: []
+        password: ''
+        lists:
+            bans: []
+            moderators: []
+        options:
+            hidden: false
+            shortcut-allowed: true
+            auto-join: true
+            local: true
+            cross-world-chat: true
+            join-messages: false
+            forced: false
+    Staff:
+        color: LIGHT_GREEN
+        nickname: staff
+        permissions:
+            speak: []
+            join:
+            - admins
+            - mods
+        message-format: '{default}'
+        craftIRC:
+            game-to-IRC: []
+            IRC-to-game: []
+        worlds: []
+        password: ''
+        lists:
+            bans: []
+            moderators: []
+        options:
+            hidden: true
+            shortcut-allowed: true
+            auto-join: true
+            local: false
+            cross-world-chat: true
+            join-messages: true
+            forced: false
+    AlertSystem:
+        color: ROSE
+        nickname: alert
+        permissions:
+            speak:
+            - admins
+            - mods
+            join: []
+        message-format: '&4[ALERT]{color}: '
+        craftIRC:
+            game-to-IRC: []
+            IRC-to-game: []
+        worlds: []
+        password: ''
+        lists:
+            bans: []
+            moderators: []
+        options:
+            hidden: false
+            shortcut-allowed: true
+            auto-join: true
+            local: false
+            cross-world-chat: true
+            join-messages: false
+            forced: true
+    Global:
+        color: GREEN
+        nickname: g
+        permissions:
+            speak: []
+            join: []
+        message-format: '{default}'
+        craftIRC:
+            game-to-IRC: []
+            IRC-to-game: []
+        worlds: []
+        password: ''
+        lists:
+            bans: []
+            moderators: []
+        options:
+            hidden: false
+            shortcut-allowed: true
+            auto-join: true
+            local: false
+            cross-world-chat: true
+            join-messages: false
+            forced: false
+    HelpMe:
+        color: LIGHT_BLUE
+        nickname: h
+        permissions:
+            speak: []
+            join: []
+        message-format: '{default}'
+        craftIRC:
+            game-to-IRC: []
+            IRC-to-game: []
+        worlds: []
+        password: ''
+        lists:
+            bans: []
+            moderators: []
+        options:
+            hidden: false
+            shortcut-allowed: true
+            auto-join: true
+            local: false
+            cross-world-chat: true
+            join-messages: false
+            forced: false

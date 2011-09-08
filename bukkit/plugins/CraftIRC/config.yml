@@ -1,0 +1,176 @@
+settings:
+  #### This node contains the global scope. Settings defined here are either global settings or defaults that apply to all
+  ####  bots and channels (unless overriden in the bot or channel scope).
+  
+  #The prefix for the IRC-side bot commands; Can be overriden in the bot scope.
+  command-prefix: '.'
+  
+  #You probably don't need this.
+  debug: false
+  
+  console-commands: ['reload', 'save-all']
+  
+  ignored-prefixes:
+    irc: ['!']
+    game: []
+    
+  #Delay in milliseconds for these game events to be ignored after the plugin is enabled (prevents initial flood burst).
+  hold-after-enable:
+    chat: 0
+    joins: 5000
+    quits: 5000
+    kicks: 0
+    bans: 0
+    
+  formatting:
+    #### Formatting for the messages relayed by the plugin. You can override all formatting strings in the bot or channel
+    ####  scope (within a formatting: block). In irc-to-irc, the target channel controls the format strings.
+    ####     VARIABLES (may be blank depending on the context): %sender% %message% %moderator% %srcChannel% %trgChannel%
+    ####     IF YOU'RE RUNNING Permissions: %prefix% %suffix% %modPredix% %modSuffix% (game-to-irc only)
+    ####     IRC FORMATTING: %b% %u% %r% %o% %k% %kNUM% (NUM is 0 to 15); Do the same as CTRL+key in mIRC
+    ####     GAME COLORS: §NUM (NUM is 1 to f); Do not use in the end of a line
+    ####     EASY COLORS: Use the names defined in the colormap: block, such as %blue% %foreground% %yellow% etc.
+    game-to-irc:
+      chat: '%prefix%%o%%sender%: %message%'
+      action: '%prefix%%o%%sender% %message%'
+      joins: '%prefix%%o%%sender% has connected'
+      quits: '%prefix%%o%%sender% has disconnected'
+      kicks: '%moderator% KICKED %prefix%%o%%sender% (%message%)'
+      bans: '%moderator% BANNED %prefix%%o%%sender% (%message%)'
+    irc-to-game:
+      chat: '%blue%IRC: %foreground%%sender%: %message%'
+      action: '%blue%IRC: %foreground%%sender% %message%'
+      joins: '%foreground%%sender% has joined %blue%%srcChannel%'
+      parts: '%foreground%%sender% has left %blue%%srcChannel%'
+      quits: '%foreground%%sender% has disconnected from %blue%%srcChannel%'
+      kicks: '%foreground%%sender% was kicked from %blue%%srcChannel%%foreground% by %moderator%'
+      nicks: '%foreground%%sender% changed nick to %message%'
+    irc-to-irc:
+      chat: '%blue%%srcChannel%: %foreground%<%sender%> %message%'
+      action: '%blue%%srcChannel%: %foreground%%sender% %message%'
+      joins: '%foreground%%sender% has joined %blue%%srcChannel%'
+      parts: '%foreground%%sender% has left %blue%%srcChannel%'
+      quits: '%foreground%%sender% has disconnected'
+      kicks: '%foreground%%sender% was kicked from %blue%%srcChannel%%foreground% by %moderator%'
+      nicks: '%foreground%%sender% changed nick to %message%'
+    custom:
+      #Custom blocks define custom variables you can use within formatting strings
+      botname: ''
+      network: ''
+  
+  # Optional: Bind to a non-default local address	  
+  # bind-address: 127.0.0.1
+  
+  events:
+    #### Turn different types of messages on and off here. cancelled-chat only exists in the global scope; The remaining
+    ####  events can be redefined in the bot or channel scopes (within an events: block). In irc-to-irc, the source
+    ####  channel controls the events.
+    game-to-irc:
+      cancelled-chat: false
+      all-chat: true
+      joins: true
+      quits: true
+      kicks: true
+      bans: true
+    irc-to-game:
+      all-chat: true
+      joins: true
+      parts: true
+      quits: true
+      kicks: true
+      nicks: true
+    irc-to-irc:
+      all-chat: true
+      joins: false
+      parts: false
+      quits: false
+      kicks: false
+      nicks: false
+      
+  #Tags allow you to target messages to all the channels within a scope. The global scope contains all channels.
+  tag: 'all'
+     
+bots:
+  #### A list of bots; You should only need one bot for each IRC server (the same bot can join multiple channels).
+  ####  Settings that apply to all channels of a bot should be defined in a bot's node. The dash in the third
+  ####  column starts a new bot.
+  
+  - nickname: 'nirrius-IRC'
+    server: 'irc.rizon.net'
+    port: 6667
+    userident: 'bot'
+    serverpass: ''  #This isn't the nickserv password
+    ssl: false
+    
+    #Delay between messages helps prevent triggering server-side flood protections (milliseconds)
+    message-delay: 1000
+    
+    #Types of IRC users that are considered admins within an admin channel (has no effect in normal channels)
+    admin-prefixes: ['@', '%']
+    
+    #Ignore users in this server by nickname
+    ignored-users: []
+    
+    #Tags allow you to target messages to all the channels within a scope.
+    tag: 'nirrius'
+    
+    formatting:
+      custom:
+        botname: 'nirrius-IRC'
+        network: 'rizon'
+    
+    #Services authentication of the bot's nickname goes here. The username may not be required.
+    #Available methods: 'none', 'nickserv', 'gamesurge', 'quakenet'
+    auth:
+      method: 'nickserv'
+      username: ''
+      password: 'devachancraft'
+
+    #List here raw IRC commands you want the bot to perform after it connects to the server
+    on-connect:
+    # - 'PRIVMSG MyBoss :I live again!'
+    
+    channels:
+      #### A list of channels; Define here all the channels you want this bot to join. Settings that apply to a single
+      ####  channel can be defined in the channel node. A dash in the 7th column starts a new channel.
+      
+      - name: '#nirrius'
+        password: ''
+        
+        #In admin channels, admins can use console commands (when this feature is supported) and be send emergency
+        # notices from users.
+        admin: false
+        
+        #This tag targets only this channel.
+        tag: 'nirriusd'
+        
+        #Allow IRC color codes in messages to be converted to Minecraft colors; Set to false to just remove them.
+        chat-colors: true
+        
+        #Enables Permissions prefixes and suffixes for this channel (iChat-format colors are supported).
+        name-colors: true
+        
+        #List here raw IRC commands you want the bot to perform after it joins this channel.
+        on-join:
+         - 'PRIVMSG #nirrius :Genesis server online, accepting connections.'
+
+colormap:
+  #### Map colors to your taste here; Make sure each irc, game and name appears once and only once.
+  ####  The color 'foreground' *must* exist and will be used as the default by certain features.
+  
+  - {irc: 0, game: '§0', name: 'background'}
+  - {irc: 2, game: '§1', name: 'navy'}
+  - {irc: 3, game: '§2', name: 'darkgreen'}
+  - {irc: 10, game: '§3', name: 'teal'}
+  - {irc: 5, game: '§4', name: 'maroon'}
+  - {irc: 6, game: '§5', name: 'purple'}
+  - {irc: 7, game: '§6', name: 'orange'}
+  - {irc: 15, game: '§7', name: 'grey'}
+  - {irc: 14, game: '§8', name: 'darkgrey'}
+  - {irc: 12, game: '§9', name: 'blue'}
+  - {irc: 9, game: '§a', name: 'green'}
+  - {irc: 11, game: '§b', name: 'cyan'}
+  - {irc: 4, game: '§c', name: 'red'}
+  - {irc: 13, game: '§d', name: 'magenta'}
+  - {irc: 8, game: '§e', name: 'yellow'}
+  - {irc: 1, game: '§f', name: 'foreground'}

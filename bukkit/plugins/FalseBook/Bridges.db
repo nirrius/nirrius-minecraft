@@ -1,0 +1,17 @@
+BridgesCount=16
+462,71,699;470,71,699;false;valhalla
+-79,58,149;-91,58,149;false;avalon
+-76,34,155;-57,34,155;true;avalon
+-76,34,152;-57,34,152;true;avalon
+-76,34,149;-57,34,149;true;avalon
+-76,34,158;-57,34,158;true;avalon
+-76,34,161;-57,34,161;true;avalon
+-76,34,164;-57,34,164;true;avalon
+-1130,54,1500;-1139,54,1500;true;nirvana
+-586,82,-1213;-572,82,-1213;true;valhalla
+-586,82,-1216;-572,82,-1216;true;valhalla
+-586,82,-1207;-572,82,-1207;true;valhalla
+-79,58,61;-79,58,81;false;avalon
+-79,58,105;-79,58,125;false;avalon
+-79,58,127;-79,58,147;false;avalon
+-582,106,-1265;-593,106,-1265;true;valhalla

@@ -1,0 +1,28 @@
+&c/afk&7: Lists yourself as away from keyboard.
+&c/airship&7: Shows airship commands. &eVIP&7 only.
+&c/back&7: Returns to your last teleport position or death. Costs 15 Koins.
+&c/balance&7: Displays available balance.
+&c/ch&f [channel]&7: Changes chat channel. Options are &cgeneral&7 or &clocal&7.
+&c/help&f 1|2|3|...&7: Displays this help menu.
+&c/helpop&f (your question)&7: Requests assistance from an operators.
+&c/home&7: Teleports you to your home point.
+&c/ignore [playername]&7: Ignores a player's chat.
+&c/kit&f [kitname]&7: Lists available kits.
+&c/mail&7: Sends and receives mail from other users. Type &c/mail&7 for more info.
+&c/me&7: Performs an action in chat such as &c/me&f jumps up
+&c/motd&7: Displays the message of the day.
+&c/msg&f [username] (your message)&7: Private messages other players.
+&c/mvspawn&7: Teleports you to a world's spawn point.
+&c/mvtp&f [world]&7: Teleports you to different worlds. devachan|nirvana|vahalla
+&c/nick&f(nickname)&7: Changes your nickname. Costs 560 Koins.
+&c/pay&f [username] (amount)&7: Pays a player from your balance.
+&c/ping&7: Pings the server. Useful for testing connection lag.
+&c/rules&7: Displays the server rules.
+&c/sell&7: Sells the item in your hand. Buy kits and services by selling gold!
+&c/sethome&7: Sets home point. Use &c/home&7 to teleport home.
+&c/spawn&7: Teleports you back to the Valhalla spawn point.
+&c/tpa&f [username]&7: Asks a player if you can teleport to them. Costs 15 Koins.
+&c/tpahere&f [username]&7: Asks a player if you can teleport them to you. Costs 15 Koins.
+&c/warp&7: Displays available warps. Use by typing &c/warp&f [name]
+&c/who&7: Displays who is online.
+&c/worth&7: Displays how much an item is worth.

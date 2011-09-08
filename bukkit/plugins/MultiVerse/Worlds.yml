@@ -1,0 +1,71 @@
+worlds:
+    valhalla_nether:
+        animals: true
+        pvp: true
+        alias: nether
+        blockBlacklist: ''
+        worldBlacklist: ''
+        spawn: -26:64:40:0.0:0.0
+        mobs: true
+        price: 0.0
+        environment: NETHER
+        editWhitelist: ''
+        playerBlacklist: ''
+        playerWhitelist: ''
+        editBlacklist: ''
+    valhalla:
+        animals: true
+        pvp: true
+        alias: valhalla
+        blockBlacklist: ''
+        worldBlacklist: ''
+        spawn: 830:94:-477:0.60000134:-2.849992
+        mobs: true
+        price: 0.0
+        environment: NORMAL
+        editWhitelist: ''
+        playerBlacklist: ''
+        playerWhitelist: ''
+        editBlacklist: ''
+    avalon:
+        animals: true
+        pvp: true
+        alias: avalon
+        blockBlacklist: ''
+        worldBlacklist: ''
+        spawn: 1:24:-1:91.893005:-0.30011174
+        mobs: true
+        price: 0.0
+        environment: NORMAL
+        editWhitelist: ''
+        playerBlacklist: ''
+        playerWhitelist: ''
+        editBlacklist: ''
+    devachan:
+        animals: true
+        pvp: true
+        alias: devachan
+        blockBlacklist: ''
+        worldBlacklist: ''
+        spawn: -434:81:-228:1.3498585:-3.8999665
+        mobs: true
+        price: 0.0
+        environment: NORMAL
+        editWhitelist: ''
+        playerBlacklist: ''
+        playerWhitelist: ''
+        editBlacklist: ''
+    nirvana:
+        animals: true
+        pvp: true
+        alias: nirvana
+        blockBlacklist: ''
+        worldBlacklist: ''
+        spawn: 145.5:62.0:38.5:0.95
+        mobs: true
+        price: 0.0
+        environment: NORMAL
+        editWhitelist: ''
+        playerBlacklist: ''
+        playerWhitelist: ''
+        editBlacklist: ''

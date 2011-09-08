@@ -1,0 +1,55 @@
+portals:
+    devachan:
+        price: 0.0
+        destlocation: w:devachan:spawn
+        location: -30.0,64.0,-68.0:-27.0,64.0,-65.0
+        owner: dorrax
+        world: valhalla
+    valhalla:
+        price: 0.0
+        destlocation: p:CENTRAL
+        location: -456.0,82.0,-217.0:-453.0,82.0,-214.0
+        owner: dorrax
+        world: devachan
+    CENTRAL:
+        price: 0.0
+        destlocation: ''
+        location: 14.0,63.0,-46.0:14.0,63.0,-46.0
+        owner: dorrax
+        world: valhalla
+    NewCarthica:
+        price: 0.0
+        destlocation: ''
+        location: -1443.0,80.0,-657.0:-1443.0,80.0,-657.0
+        owner: dorrax
+        world: nirvana
+    lava:
+        price: 0.0
+        destlocation: ''
+        location: -1176.0,66.0,-1215.0:-1176.0,66.0,-1215.0
+        owner: dorrax
+        world: valhalla
+    test1:
+        price: 0.0
+        destlocation: ''
+        location: 878.0,64.0,-441.0:878.0,64.0,-441.0
+        owner: Teffen
+        world: valhalla
+    ss2:
+        price: 0.0
+        destlocation: p:sss1
+        location: 895.0,65.0,-431.0:895.0,66.0,-429.0
+        owner: Teffen
+        world: valhalla
+    poisonava:
+        price: 0.0
+        destlocation: p:poisonval
+        location: 621.0,95.0,-1241.0:622.0,95.0,-1240.0
+        owner: dorrax
+        world: avalon
+    poisonval:
+        price: 0.0
+        destlocation: p:poisonava
+        location: -745.0,82.0,1025.0:-744.0,82.0,1026.0
+        owner: dorrax
+        world: valhalla

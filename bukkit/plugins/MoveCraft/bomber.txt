@@ -1,0 +1,10 @@
+driveCommand=pilot
+minBlocks=20
+maxBlocks=1000
+structureBlocks=4,5,17,19,20,35,41,42,43,44,45,46,47,48,49,50,53,57,65,67,68,69,75,76,77,85,87,88,89,0
+maxSpeed=4
+fuelConsumptionMultiplier=1
+canFly=true
+bomber=true
+sayOnControl=You're on a bomber !
+sayOnRelease=You release the joystick

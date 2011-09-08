@@ -1,0 +1,5 @@
+default=
+Operator=pw;pwa;pwv
+Sponsor=pw
+VIP=pw
+VIPMOD=pw
