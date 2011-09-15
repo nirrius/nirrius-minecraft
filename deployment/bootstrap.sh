@@ -27,9 +27,9 @@ sed -i -e "s/# deb/deb/g" /etc/apt/sources.list
 # Install some useful stuff.
 apt-get -yy update
 apt-get -yy upgrade
-apt-get -yy install wget screen zip unzip vim htop git build-essential fcron
+apt-get -yy install wget screen zip unzip vim htop git fcron vsftpd build-essential fcron
 
-# Install Chef dependencies. Use Ruby 1.8 or Compass and Jade may cause problems.
+# Install Chef dependencies.
 apt-get -yy install ruby1.8 ruby1.8-dev libopenssl-ruby irb ssl-cert
 
 #  Clone repo.
@@ -48,7 +48,9 @@ gem update --system
 # Install Chef: This takes a few minutes.
 gem install chef --no-ri --no-rdoc
 
+mkdir /home/minecraft/maps
 # Fix file permissions now that everything is in place.
 chown -R minecraft:www /home/minecraft/
 
+cd /home/minecraft/
 echo "Server bootstrap process complete. Run /home/minecraft/nirrius-minecraft/tools/startChefSolo.sh when ready."
