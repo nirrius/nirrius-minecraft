@@ -2,7 +2,14 @@ server {
   listen 80;
   server_name  mc.nirri.us mc.nirrius.com;
   access_log  <%= node[:nginx][:log_dir] %>/localhost.access.log;
-
-  root /home/minecraft/nirrius-minecraft/site/public/;
+  root /home/minecraft/nirrius-minecraft/site/public;
   index index.html;
+  
+  location / {
+    index index.html;
+  }
+  
+  location /resources {
+    autoindex on;
+  }
 }
