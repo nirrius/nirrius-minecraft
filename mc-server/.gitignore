@@ -1,9 +1,13 @@
+#logs
 server.log
 server.log.lck
+#maps
 maps/*
 devachan
 nirvana
 valhalla
 avalon
 shangri-la
-
+#backups
+backups/*
+savestates/*
