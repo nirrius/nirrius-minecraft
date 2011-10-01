@@ -1,5 +1,5 @@
 #!/bin/bash
-# nirrius-minecraft bootstrap: installs all requirements for a Minecraft Server
+# Minecraft bootstrap: installs all requirements for a Minecraft Server.
 # Must run as root.
 # Used for clean server creation
 # The script will fail without GitHub having the proper keys SSH key in root's .ssh directory.
@@ -12,45 +12,41 @@ while true; do
     esac
 done
 
-# Get rid of annoying welcome text
-rm /etc/update-motd.d/51_update-motd
-
 # Add www group and daemon users. Add to as needed.
 groupadd www
+useradd -m www-developer --home /home/www-developer --shell /bin/bash -g www -G minecraft
 useradd -m www-server --home /home/www-server --shell /dev/null -g www
-useradd -m minecraft --home /home/www-server --shell /dev/null -g www
+useradd -m minecraft --home /home/minecraft --shell /bin/bash -g minecraft -G www
+
+echo "www-developer  ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
+cp -R /root/.ssh/ /home/www-developer/.ssh/
+chown -R www-developer:www /home/www-developer/.ssh/
+
+echo "minecraft  ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
 
 # Enable the multiverse. Used for Chef java cookbook.
-# The OpenJDK alternative has issues with jenkins.
 sed -i -e "s/# deb/deb/g" /etc/apt/sources.list
 
 # Install some useful stuff.
 apt-get -yy update
 apt-get -yy upgrade
-apt-get -yy install wget screen zip unzip vim htop git fcron vsftpd build-essential fcron
+apt-get -yy install wget screen zip unzip vim htop git build-essential
 
-# Install Chef dependencies.
-apt-get -yy install ruby1.8 ruby1.8-dev libopenssl-ruby irb ssl-cert
-
-#  Clone repo.
-cd /home/minecraft
-git clone git@github.com:REDACTED-INC/nirrius-minecraft.git
+# Install Ruby packages
+apt-get --yy install ruby1.8-dev ruby1.8 ri1.8 rdoc1.8 irb irb1.8 ruby1.9.1 ruby1.9.1-dev
+apt-get --yy install libreadline-ruby1.8 libruby1.8 libopenssl-ruby ssl-cert
 
 # Install RubyGems from source or Ubuntu will disable updates and cause random issues.
 cd /tmp
-wget http://production.cf.rubygems.org/rubygems/rubygems-1.8.7.tgz
-tar zxf rubygems-1.8.7.tgz
-cd rubygems-1.8.7 
+wget http://production.cf.rubygems.org/rubygems/rubygems-1.8.10.tgz
+tar zxf rubygems-1.8.10.tgz
+cd rubygems-1.8.10
 ruby setup.rb --no-format-executable
 
+gem install rubygems-update
 gem update --system
 
 # Install Chef: This takes a few minutes.
 gem install chef --no-ri --no-rdoc
 
-mkdir /home/minecraft/maps
-# Fix file permissions now that everything is in place.
-chown -R minecraft:www /home/minecraft/
-
-cd /home/minecraft/
-echo "Server bootstrap process complete. Run /home/minecraft/nirrius-minecraft/tools/startChefSolo.sh when ready."
+cd /home/

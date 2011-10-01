@@ -43,15 +43,8 @@ template "nginx.conf" do
   mode 0644
 end
 
-template "#{node[:nginx][:dir]}/sites-available/rdctd.com" do
-  source "rdctd.com.erb"
-  owner "root"
-  group "root"
-  mode 0644
-end
-
-template "#{node[:nginx][:dir]}/sites-available/nirrius.com" do
-  source "nirrius.com.erb"
+template "#{node[:nginx][:dir]}/sites-available/mc.nirri.us" do
+  source "mc.nirri.us.erb"
   owner "root"
   group "root"
   mode 0644
