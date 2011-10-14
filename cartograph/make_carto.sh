@@ -8,9 +8,9 @@ map_path=$carto_path/../mc-server/maps/$map_name
 image_path=/home/minecraft/nirrius-minecraft/site/public/resources/cartographs/$map_name
 
 # Render oblique and angled cartographs with a ~1000 block perimeter
-$carto_path/c10t/c10t -w $map_path -o /tmp/oblique_render.png -q -L -85,85,-85,85
+$carto_path/c10t/c10t -w $map_path -P $carto_path/c10t/pallet.txt -o /tmp/oblique_render.png -q -L -85,85,-85,85
 
-$carto_path/c10t/c10t -w $map_path -o /tmp/angled_render.png -y -L -85,85,-85,85
+$carto_path/c10t/c10t -w $map_path -P $carto_path/c10t/pallet.txt -o /tmp/angled_render.png -y -L -85,85,-85,85
 
 # Optimize - imagemagick required.
 convert -quality 0 +dither -colors 256 /tmp/oblique_render.png /tmp/oblique.png
