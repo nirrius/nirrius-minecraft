@@ -1,0 +1,4 @@
+max_warp=100
+max_categories=10
+max_warp_categorie=10
+max_warp_recall=3

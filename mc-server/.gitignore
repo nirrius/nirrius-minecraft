@@ -1,6 +1,7 @@
 #logs
-server.log
-server.log.lck
+*.log
+*.lck
+*.1
 #maps
 maps/*
 devachan

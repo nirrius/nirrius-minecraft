@@ -1,5 +1,0 @@
-cleanup_cache_minute_timeout=5
-max_cache_minute_timeout=30
-cache_cleanup_run_minute_timeout=25
-cache_online_minute_timeout=300
-cache_offline_minute_timeout=15

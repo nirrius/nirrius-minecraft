@@ -1,5 +1,6 @@
 cache_cleanup_run_minute_timeout=25
-max_warp_recall=3
+max_warp_recall=0
 cache_online_minute_timeout=300
-cache_offline_minute_timeout=15
-default_world=valhalla
+max_warp=0
+max_categories=0
+max_warp_categorie=0

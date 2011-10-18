@@ -2,7 +2,7 @@
 <MinecartManiaConfiguration>
     <version>1.0</version>
     <!--Only minecarts with players in them will be effected by Autocart-->
-    <AutocartForPlayersOnly>true</AutocartForPlayersOnly>
+    <AutocartForPlayersOnly>false</AutocartForPlayersOnly>
     <!--The default throttle percent for minecarts. Must be between 1 and 500.-->
-    <DefaultThrottle>150</DefaultThrottle>
+    <DefaultThrottle>100</DefaultThrottle>
 </MinecartManiaConfiguration>

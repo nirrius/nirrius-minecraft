@@ -1,0 +1,7 @@
+name: PluginControl
+version: 1.2.0
+author: The_Wrecker
+website: http://www.wrecker.nl
+main: wrecker.control.PluginControlPlugin
+softdepend: [Permissions]
+description: Base for other plugins. Contains base functions other plugins use.

@@ -1,0 +1,7 @@
+default=
+Miner=
+Moderator=pw
+Operator=pw;pwa;pwv
+Sponsor=pw
+VIP=pw
+VIPModerator=pw

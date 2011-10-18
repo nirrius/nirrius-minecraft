@@ -14,15 +14,15 @@
 	If set to 2, Minecarts Will clear the rails of all non-living objects, and living objects, excluding players. 
 	If Set to 3, Minecarts will clear the rails of all objects, non-living objects, living objects, and all players, excluding the owner of the minecart.
 	Objects in the way of the rails will be shunted off to the side a safe distance away.-->
-	<MinecartsClearRails>1</MinecartsClearRails>
+	<MinecartsClearRails>2</MinecartsClearRails>
 	<!--The Server will Load Chunks around minecarts, and will not unload chunks with minecarts in them. May cause excessive RAM usage.-->
-	<KeepMinecartsLoaded>true</KeepMinecartsLoaded>
+	<KeepMinecartsLoaded>false</KeepMinecartsLoaded>
 	<!--Destroyed Minecarts will be sent back to the player (or chest) that created them, if possible. If not, they will be dropped normally.-->
 	<MinecartsReturnToOwner>true</MinecartsReturnToOwner>
 	<!--Adjusts the maximum minecart speed that can be set by a sign.-->
 	<MaximumMinecartSpeedPercent>165</MaximumMinecartSpeedPercent>
 	<!--Adjusts the maximum minecart speed. 100% is equal to the vanilla Minecart speed. Large values will cause minecarts to derail.-->
-	<DefaultMinecartSpeedPercent>100</DefaultMinecartSpeedPercent>
+	<DefaultMinecartSpeedPercent>120</DefaultMinecartSpeedPercent>
 	 <!--The X and Z axis range minecarts will collect items at, farm around themselves, collect from chests, etc...-->
 	<Range>4</Range>
 	 <!--The Y axis range minecarts will collect items at, farm around themselves, collect from chests, etc...-->

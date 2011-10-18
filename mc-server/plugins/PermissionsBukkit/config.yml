@@ -1,0 +1,97 @@
+users:
+    Teffen:
+        permissions: []
+        groups:
+        - Operator
+    Tokal:
+        permissions: []
+        groups:
+        - Moderator
+        - VIP
+    katsuku:
+        permissions: []
+        groups:
+        - Moderator
+        - VIP
+groups:
+    default:
+        permissions:
+            permissions.build: false
+            essentials.help: true
+            essentials.afk: true
+            essentials.balance: true
+            essentials.compass: true
+            essentials.getpos: true
+            essentials.helpop: true
+            essentials.home: true
+            essentials.list: true
+            essentials.mail: true
+            essentials.mail.send: true
+            essentials.me: true
+            essentials.motd: true
+            essentials.msg: true
+            essentials.pay: true
+            essentials.ping: true
+            essentials.portal: true
+            essentials.rules: true
+            essentials.sell: true
+            essentials.sethome: true
+            essentials.spawn: true
+            essentials.tpa: true
+            essentials.tpaccept: true
+            essentials.tpahere: true
+            essentials.tpdeny: true
+            essentials.tptoggle: true
+            essentials.warp: true
+            essentials.warp.list: true
+            essentials.worth: true
+            essentials.suicide: true
+            essentials.ignore: true
+            essentials.back: true
+    Miner:
+        permissions:
+            essentials.sethome.multiple: true
+            permissions.build: true
+            essentials.kit: true
+            essentials.kit.*: true
+            essentials.nick: true
+        inheritance:
+        - default
+    Sponsor:
+        permissions:
+            PrivateWarp.pw: true
+            essentials.sethome.multiple.Sponsor: true
+        inheritance:
+        - Miner
+    VIP:
+        permissions:
+            essentials.sethome.multiple.VIP: true
+            movecraft.*: true
+        inheritance:
+        - Sponsor
+    SuperVIP:
+        permissions:
+            essentials.sethome.multiple.SuperVIP: true
+        inheritance:
+        - VIP
+    Moderator:
+        permissions:
+            essentials.ban: true
+            essentials.banip: true
+            essentials.kick: true
+            essentials.tp: true
+            essentials.tphere: true
+            essentials.whois: true
+            essentials.home.others: true
+        inheritance:
+        - Sponsor
+    Operator:
+        permissions:
+            permissions.*: true
+            essentials.*: true
+            worldedit.*: true
+        inheritance:
+        - Moderator
+messages:
+    build: '&cYou do not have permission to build here.'
+debug: false

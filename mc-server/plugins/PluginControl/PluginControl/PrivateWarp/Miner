@@ -1,7 +1,0 @@
-max_warp=0
-max_categories=2
-max_warp_categorie=3
-max_cache_minute_timeout=30
-cleanup_cache_minute_timeout=5
-default_world=rammap
-max_warp_recall=3

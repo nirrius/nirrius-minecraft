@@ -1,13 +1,14 @@
 settings:
-    update-folder: update
-    spawn-radius: 16
-    permissions-file: permissions.yml
-database:
-    username: bukkit
-    isolation: SERIALIZABLE
-    driver: org.sqlite.JDBC
-    password: walrus
-    url: jdbc:sqlite:{DIR}{NAME}.db
+  spawn-radius: 16
+  permissions-file: permissions.yml
+  update-folder: update
+  ping-packet-limit: 100
 aliases:
-    icanhasbukkit:
-    - version
+  icanhasbukkit:
+  - version
+database:
+  username: bukkit
+  isolation: SERIALIZABLE
+  driver: org.sqlite.JDBC
+  password: walrus
+  url: jdbc:sqlite:{DIR}{NAME}.db

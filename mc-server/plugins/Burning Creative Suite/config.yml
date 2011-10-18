@@ -1,0 +1,15 @@
+Enderman:
+  Disable Pickup: true
+Creative Players:
+  Disable Item Dropping: true
+  Disable Item Pickup: true
+  Placed Blocks Give No Drops:
+    Players: true
+    Explosions: true
+  Disable Bottom-of-the-World Bedrock Break: true
+  Attack other entities: false
+Game Mode:
+  Separate Inventories: true
+Update:
+  Notifications: true
+Blocks Save Interval: 15
