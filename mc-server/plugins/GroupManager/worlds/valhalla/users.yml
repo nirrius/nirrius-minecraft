@@ -1,12 +1,4 @@
 users:
-  Tokal:
-    subgroups: []
-    permissions: []
-    group: VIP
-  klauth:
-    subgroups: []
-    permissions: []
-    group: Moderator
   helloworld00:
     subgroups: []
     permissions: []
@@ -32,22 +24,10 @@ users:
     subgroups: []
     permissions: []
     group: Operator
-  toxsikkilla:
-    subgroups: []
-    permissions: []
-    group: Moderator
   Teffen:
     subgroups: []
     permissions: []
     group: Owner
-  thadfoo:
-    subgroups: []
-    permissions: []
-    group: VIP
-  dynamic-:
-    subgroups: []
-    permissions: []
-    group: Moderator
   gukinator:
     subgroups: []
     permissions: []
@@ -56,19 +36,59 @@ users:
     subgroups: []
     permissions: []
     group: Operator
-  silvertie:
+  thadfoo:
     subgroups: []
     permissions: []
     group: VIP
+  ClaudiusDK:
+    subgroups: []
+    permissions: []
+    group: Member
   mmmmorshu:
     subgroups: []
     permissions: []
     group: Operator
+  atineiatte:
+    subgroups: []
+    permissions: []
+    group: Member
+  crazyhacker451:
+    subgroups: []
+    permissions: []
+    group: Member
+  OriginalName010:
+    subgroups: []
+    permissions: []
+    group: Member
   jengajam2:
     subgroups: []
     permissions: []
     group: VIP
   dillin:
+    subgroups: []
+    permissions: []
+    group: VIP
+  lievreokami:
+    subgroups: []
+    permissions: []
+    group: Operator
+  Tokal:
+    subgroups: []
+    permissions: []
+    group: VIP
+  klauth:
+    subgroups: []
+    permissions: []
+    group: Moderator
+  toxsikkilla:
+    subgroups: []
+    permissions: []
+    group: Moderator
+  dynamic-:
+    subgroups: []
+    permissions: []
+    group: Moderator
+  silvertie:
     subgroups: []
     permissions: []
     group: VIP
@@ -88,7 +108,7 @@ users:
     subgroups: []
     permissions: []
     group: Sponsor
-  lievreokami:
+  dinosawr000:
     subgroups: []
     permissions: []
-    group: Operator
+    group: Member

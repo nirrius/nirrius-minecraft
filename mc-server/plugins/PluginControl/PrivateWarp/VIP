@@ -2,3 +2,5 @@ max_warp=50
 max_categories=5
 max_warp_categorie=3
 max_warp_recall=3
+warp_configbit=3
+warp_warmup=0

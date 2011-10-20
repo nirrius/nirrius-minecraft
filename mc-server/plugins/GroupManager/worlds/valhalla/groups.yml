@@ -84,6 +84,9 @@ groups:
     - essentials.warp
     - groupmanager.notify.self
     - minecartmania.signs.*
+    - multiverse.access.*
+    - multiverse.core.spawn
+    - multiverse.core.teleport.self
     inheritance: []
     info:
       prefix: '&7[V]&f'
@@ -100,8 +103,6 @@ groups:
     - groupmanager.manucheckp
     - groupmanager.manulistp
     - movecraft.*
-    - multiverse.tp
-    - multiverse.world.spawn
     - worldedit.*
     inheritance:
     - moderator

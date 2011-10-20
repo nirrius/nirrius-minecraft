@@ -1,7 +1,7 @@
 # # This is the Creativity Player settings file. Usually you don´t need to edit this !
 Player:
   Teffen:
-    mode: normal
+    mode: mccreative
     drops: false
     idrops: false
     prot: false
@@ -10,11 +10,11 @@ Player:
       creative:
         slot_0:
           id: 1
-          amount: 51
+          amount: 48
           data: 0
         slot_1:
-          id: 367
-          amount: 1
+          id: 0
+          amount: 0
           data: 0
         slot_2:
           id: 271
@@ -154,12 +154,12 @@ Player:
           data: 0
       survival:
         slot_0:
-          id: 12
+          id: 50
           amount: 1
           data: 0
         slot_1:
-          id: 0
-          amount: 0
+          id: 367
+          amount: 1
           data: 0
         slot_2:
           id: 0
@@ -297,3 +297,63 @@ Player:
           id: 0
           amount: 0
           data: 0
+  gukinator:
+    mode: normal
+    drops: false
+    idrops: false
+    prot: false
+    ranged: false
+  Helloworld00:
+    mode: normal
+    drops: false
+    idrops: false
+    prot: false
+    ranged: false
+  ClaudiusDK:
+    mode: normal
+    drops: false
+    idrops: false
+    prot: false
+    ranged: false
+  java122:
+    mode: normal
+    drops: false
+    idrops: false
+    prot: false
+    ranged: false
+  dinosawr000:
+    mode: normal
+    drops: false
+    idrops: false
+    prot: false
+    ranged: false
+  OriginalName010:
+    mode: normal
+    drops: false
+    idrops: false
+    prot: false
+    ranged: false
+  crazyhacker451:
+    mode: normal
+    drops: false
+    idrops: false
+    prot: false
+    ranged: false
+  mmmmorshu:
+    mode: normal
+    drops: false
+    idrops: false
+    prot: false
+    ranged: false
+  atineiatte:
+    mode: normal
+    drops: false
+    idrops: false
+    prot: false
+    ranged: false
+  Buck_Speedjunk:
+    mode: normal
+    drops: false
+    idrops: false
+    prot: false
+    ranged: false
