@@ -1,0 +1,182 @@
+groups:
+  VIP:
+    default: false
+    permissions:
+    - movecraft.airship.*
+    inheritance:
+    - sponsor
+    info:
+      prefix: '&e[VIP]&f'
+      build: true
+      suffix: ''
+  Owner:
+    default: false
+    permissions:
+    - '*'
+    inheritance:
+    - operator
+    info:
+      prefix: '&c~&f'
+      build: true
+      suffix: ''
+  Member:
+    default: false
+    permissions:
+    - essentials.afk
+    - essentials.back
+    - essentials.back.ondeath
+    - essentials.balance
+    - essentials.balance.others
+    - essentials.balancetop
+    - essentials.chat.color
+    - essentials.chat.question
+    - essentials.chat.shout
+    - essentials.compass
+    - essentials.depth
+    - essentials.home
+    - essentials.ignore
+    - essentials.kit
+    - essentials.kit.tools
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.me
+    - essentials.msg
+    - essentials.nick
+    - essentials.pay
+    - essentials.ping
+    - essentials.powertool
+    - essentials.signs.break.disposal
+    - essentials.signs.break.mail
+    - essentials.signs.break.protection
+    - essentials.signs.break.trade
+    - essentials.signs.create.disposal
+    - essentials.signs.create.mail
+    - essentials.signs.create.protection
+    - essentials.signs.create.trade
+    - essentials.signs.use.*
+    - essentials.suicide
+    - essentials.time
+    - essentials.time.set
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.weather
+    - essentials.worth
+    inheritance:
+    - visitor
+    info:
+      prefix: '&b[M]&f'
+      build: true
+      suffix: ''
+  Visitor:
+    default: true
+    permissions:
+    - essentials.help
+    - essentials.helpop
+    - essentials.list
+    - essentials.motd
+    - essentials.portal
+    - essentials.rules
+    - essentials.spawn
+    - essentials.warp
+    - groupmanager.notify.self
+    - minecartmania.signs.*
+    inheritance: []
+    info:
+      prefix: '&7[V]&f'
+      build: false
+      suffix: ''
+  Operator:
+    default: false
+    permissions:
+    - essentials.*
+    - groupmanager.mangcheckp
+    - groupmanager.manglistp
+    - groupmanager.mansave
+    - groupmanager.mantogglevalidate
+    - groupmanager.manucheckp
+    - groupmanager.manulistp
+    - movecraft.*
+    - multiverse.tp
+    - multiverse.world.spawn
+    - worldedit.*
+    inheritance:
+    - moderator
+    info:
+      prefix: '&c[OP]&f'
+      build: true
+      suffix: ''
+  SVIP:
+    default: false
+    permissions: []
+    inheritance:
+    - vip
+    info:
+      prefix: '&d[SVIP]&f'
+      build: true
+      suffix: ''
+  Moderator:
+    default: false
+    permissions:
+    - essentials.ban
+    - essentials.ban.notify
+    - essentials.banip
+    - essentials.broadcast
+    - essentials.clearinventory
+    - essentials.delwarp
+    - essentials.ext
+    - essentials.getpos
+    - essentials.helpop.recieve
+    - essentials.home.others
+    - essentials.invsee
+    - essentials.jails
+    - essentials.kick
+    - essentials.kick.notify
+    - essentials.kill
+    - essentials.mute
+    - essentials.nick.others
+    - essentials.ptime
+    - essentials.realname
+    - essentials.setwarp
+    - essentials.signs.break.*
+    - essentials.signs.create.*
+    - essentials.spawner
+    - essentials.thunder
+    - essentials.togglejail
+    - essentials.top
+    - essentials.tp
+    - essentials.tphere
+    - essentials.tppos
+    - essentials.tptoggle
+    - essentials.unban
+    - essentials.unbanip
+    - essentials.weather
+    - essentials.whois
+    - essentials.world
+    - groupmanager.listgroups
+    - groupmanager.mandemote
+    - groupmanager.manpromote
+    - groupmanager.manselect
+    - groupmanager.manuadd
+    - groupmanager.manudel
+    - groupmanager.manwhois
+    - groupmanager.notify.other
+    inheritance:
+    - sponsor
+    info:
+      prefix: '&9[MOD]&f'
+      build: true
+      suffix: ''
+  Sponsor:
+    default: false
+    permissions:
+    - PrivateWarp.pw
+    inheritance:
+    - member
+    info:
+      prefix: '&2[S]&f'
+      build: true
+      suffix: ''

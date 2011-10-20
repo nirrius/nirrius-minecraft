@@ -1,0 +1,94 @@
+users:
+  Tokal:
+    subgroups: []
+    permissions: []
+    group: VIP
+  klauth:
+    subgroups: []
+    permissions: []
+    group: Moderator
+  helloworld00:
+    subgroups: []
+    permissions: []
+    group: VIP
+  katsuku:
+    subgroups:
+    - VIP
+    permissions: []
+    group: Moderator
+  admiral.bacon:
+    subgroups: []
+    permissions: []
+    group: Operator
+  baconbits:
+    subgroups: []
+    permissions: []
+    group: Moderator
+  alovard:
+    subgroups: []
+    permissions: []
+    group: Moderator
+  skizerz:
+    subgroups: []
+    permissions: []
+    group: Operator
+  toxsikkilla:
+    subgroups: []
+    permissions: []
+    group: Moderator
+  Teffen:
+    subgroups: []
+    permissions: []
+    group: Owner
+  thadfoo:
+    subgroups: []
+    permissions: []
+    group: VIP
+  dynamic-:
+    subgroups: []
+    permissions: []
+    group: Moderator
+  gukinator:
+    subgroups: []
+    permissions: []
+    group: VIP
+  dorrax:
+    subgroups: []
+    permissions: []
+    group: Operator
+  silvertie:
+    subgroups: []
+    permissions: []
+    group: VIP
+  mmmmorshu:
+    subgroups: []
+    permissions: []
+    group: Operator
+  jengajam2:
+    subgroups: []
+    permissions: []
+    group: VIP
+  dillin:
+    subgroups: []
+    permissions: []
+    group: VIP
+  blazinmeow:
+    subgroups: []
+    permissions: []
+    group: Moderator
+  reykjavik:
+    subgroups: []
+    permissions: []
+    group: Moderator
+  aminim00se:
+    subgroups: []
+    permissions: []
+    group: VIP
+  Buck_Speedjunk:
+    subgroups: []
+    permissions: []
+    group: Sponsor
+  lievreokami:
+    subgroups: []
+    permissions: []
+    group: Operator

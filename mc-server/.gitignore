@@ -4,11 +4,11 @@
 *.1
 #maps
 maps/*
-devachan
-nirvana
-valhalla
-avalon
-shangri-la
+./devachan
+./nirvana
+./valhalla
+./avalon
+./shangri-la
 #backups
 backups/*
 savestates/*
