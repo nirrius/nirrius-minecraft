@@ -91,7 +91,7 @@ blacklist:
             table: blacklist_events
             user: root
             pass: ''
-summary-on-start: true
+summary-on-start: false
 weather:
     always-raining: false
     disable-powered-creepers: false
@@ -105,7 +105,7 @@ crops:
     disable-creature-trampling: false
     disable-player-trampling: false
 use-player-move-event: true
-op-permissions: true
+op-permissions: false
 player-damage:
     teleport-on-void-falling: false
     disable-drowning-damage: false

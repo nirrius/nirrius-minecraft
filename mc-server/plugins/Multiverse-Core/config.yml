@@ -1,0 +1,11 @@
+# This is the MV2 Config. If you mess it up, copy the values out
+# Delete it, and it will be regenerated. Then use the ingame interface
+# to add your values back.
+# A config with explanations can be found here:
+# https://github.com/Multiverse/Multiverse-Core/wiki/config.yml
+
+worldnameprefix: false
+enforceaccess: true
+enforcegamemodes: true
+bedrespawn: false
+version: 2.4

@@ -2,6 +2,23 @@ message: You have reached the edge of this world.
 knock-back-dist: 3.0
 timer-delay-ticks: 5
 debug-mode: true
-whoosh-effect: false
+whoosh-effect: true
 round-border: false
 cfg-version: 3
+worlds:
+    valhalla:
+        radius: 1350
+        z: 0.0
+        x: 0.0
+    valhalla_nether:
+        radius: 1350
+        z: 0.0
+        x: 0.0
+    avalon:
+        radius: 1350
+        z: 0.0
+        x: 0.0
+    shangri-la:
+        radius: 1350
+        z: 0.0
+        x: 0.0

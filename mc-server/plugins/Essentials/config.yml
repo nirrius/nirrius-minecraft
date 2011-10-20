@@ -32,7 +32,7 @@
 ops-name-color: 'none'
 
 # The character(s) to prefix all nicknames, so that you know they are not true usernames.
-nickname-prefix: '~'
+nickname-prefix: "`"
 
 # Disable this if you have any other plugin, that modifies the displayname of a user.
 change-displayname: true
@@ -88,7 +88,7 @@ warn-on-smite: true
 # The message of the day, displayed on connect and by typing /motd.
 # Valid tags are: {PLAYER}, {IP}, {BALANCE}, {MAILS}, {WORLD}, {ONLINE}, {UNIQUE}, {PLAYERLIST}
 motd:
-  - "&fWelcome to Valhalla, &c{PLAYER}&f! Brought to you by &dnirri.us"
+  - "&fWelcome to the &dnirrius &fMinecraft server, &c{PLAYER}&f!"
   - "&fType &c/help&f for a list of commands or see &c/who&f is online!"
 
 # The server rules, available by typing /rules
@@ -108,7 +108,7 @@ rules:
 # We should try to take priority over /god.  If this doesn't work, use
 # /essentials:god or /egod.  If god is set using WorldGuard, use /ungod to remove then use whichever you see fit.
 overridden-commands:
-
+ - heal
 # Disabled commands will be completelly unavailable on the server.
 disabled-commands:
 # - nick
@@ -313,7 +313,7 @@ remove-god-on-disconnect: false
 
 # Use the permission system of bukkit
 # This only works if no other permission plugins are installed
-use-bukkit-permissions: true
+use-bukkit-permissions: false
 
 # Auto-AFK
 # After this timeout in seconds, the user will be set as afk.
@@ -355,13 +355,13 @@ spawn-if-no-home: false
 # People with essentials.sethome.multiple.unlimited are not limited by these numbers.
 sethome-multiple:  
   # essentials.sethome.multiple
-  default: 1
+  #default: 1
   # essentials.sethome.multiple.Sponsor
-  Sponsor: 30
+  #Sponsor: 30
   # essentials.sethome.multiple.VIP
-  VIP: 50
+  #VIP: 50
   # essentials.sethome.multiple.SuperVIP
-  SuperVIP: 100
+  #SuperVIP: 100
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -382,6 +382,8 @@ command-costs:
   tpa: 15
   back: 25
   tpahere: 15
+  time: 80
+  weather: 80
   # /kit tools costs $1500 PER USE
   kit-32lightstone_320: 320
   kit-64lightstone_640: 640
@@ -450,16 +452,14 @@ chat:
   
   # You can also have group-specific formats, uncomment to enable:
   group-formats:
-    default: '&7[V]&f{DISPLAYNAME}&7:&f {MESSAGE}'
-    Miner: '&b[M]&f{DISPLAYNAME}&7:&f {MESSAGE}'
-    Sponsor: '&2[S]&f{DISPLAYNAME}&7:&f {MESSAGE}'
-    VIP: '&e[VIP]&f{DISPLAYNAME}&7:&f {MESSAGE}'
-    SuperVIP: '&d[VIP]&f{DISPLAYNAME}&7:&f {MESSAGE}'
-    Moderator: '&9[MOD]&f{DISPLAYNAME}&7:&f {MESSAGE}'
-    VIPModerator: '&e[MOD]&f{DISPLAYNAME}&7:&f {MESSAGE}'
-    Operator: '&c[OP]&f{DISPLAYNAME}&7:&f {MESSAGE}'
-  #  Admins: '{WORLDNAME} &c[{GROUP}]&f {DISPLAYNAME}&7:&c {MESSAGE}'
-
+#     default: '&7[V]&f{DISPLAYNAME}&7:&f {MESSAGE}'
+#     Miner: '&b[M]&f{DISPLAYNAME}&7:&f {MESSAGE}'
+#     Sponsor: '&2[S]&f{DISPLAYNAME}&7:&f {MESSAGE}'
+#     VIP: '&e[VIP]&f{DISPLAYNAME}&7:&f {MESSAGE}'
+#     SuperVIP: '&d[VIP]&f{DISPLAYNAME}&7:&f {MESSAGE}'
+#     Moderator: '&9[MOD]&f{DISPLAYNAME}&7:&f {MESSAGE}'
+#     VIPModerator: '&e[MOD]&f{DISPLAYNAME}&7:&f {MESSAGE}'
+#     Operator: '&c[OP]&f{DISPLAYNAME}&7:&f {MESSAGE}'
 
 
 
@@ -634,7 +634,7 @@ newbies:
   # If so, use this format, replacing {DISPLAYNAME} with the player name.
   # If not, set to ''
   #announce-format: ''
-  announce-format: "&dPlease welcome, {DISPLAYNAME}, they're new to the server!"
+  announce-format: "&d{DISPLAYNAME}&f has logged in for the first time :D"
   
   # When we spawn for the first time, which spawnpoint do we use?
   # Set to "none" if you want to use the spawn point of the world.

@@ -1,0 +1,7 @@
+interaction:
+    message: Visitors cannot interact with the world!
+    check: false
+    messageCooldown: 3
+build:
+    message: Visitors cannot build, feel free to explore until a staff member can assist you.
+    messageCooldown: 3

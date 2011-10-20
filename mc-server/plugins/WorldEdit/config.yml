@@ -17,8 +17,8 @@
 
 limits:
     max-blocks-changed:
-        default: 1000000
-        maximum: 1000000
+        default: 100000
+        maximum: 100000
     max-radius: 100000
     max-super-pickaxe-size: 5
     max-brush-radius: 5
@@ -33,7 +33,7 @@ logging:
     file: worldedit.log
 
 super-pickaxe:
-    drop-items: true
+    drop-items: false
     many-drop-items: false
 
 snapshots:

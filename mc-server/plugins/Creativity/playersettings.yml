@@ -1,0 +1,299 @@
+# # This is the Creativity Player settings file. Usually you don´t need to edit this !
+Player:
+  Teffen:
+    mode: normal
+    drops: false
+    idrops: false
+    prot: false
+    ranged: false
+    Inventory:
+      creative:
+        slot_0:
+          id: 1
+          amount: 51
+          data: 0
+        slot_1:
+          id: 367
+          amount: 1
+          data: 0
+        slot_2:
+          id: 271
+          amount: 1
+          data: 0
+        slot_3:
+          id: 278
+          amount: 64
+          data: 5
+        slot_4:
+          id: 326
+          amount: 1
+          data: 0
+        slot_5:
+          id: 7
+          amount: 1
+          data: 0
+        slot_6:
+          id: 4
+          amount: 1
+          data: 0
+        slot_7:
+          id: 41
+          amount: 1
+          data: 0
+        slot_8:
+          id: 35
+          amount: 1
+          data: 12
+        slot_9:
+          id: 0
+          amount: 0
+          data: 0
+        slot_10:
+          id: 0
+          amount: 0
+          data: 0
+        slot_11:
+          id: 0
+          amount: 0
+          data: 0
+        slot_12:
+          id: 0
+          amount: 0
+          data: 0
+        slot_13:
+          id: 0
+          amount: 0
+          data: 0
+        slot_14:
+          id: 0
+          amount: 0
+          data: 0
+        slot_15:
+          id: 0
+          amount: 0
+          data: 0
+        slot_16:
+          id: 0
+          amount: 0
+          data: 0
+        slot_17:
+          id: 0
+          amount: 0
+          data: 0
+        slot_18:
+          id: 0
+          amount: 0
+          data: 0
+        slot_19:
+          id: 0
+          amount: 0
+          data: 0
+        slot_20:
+          id: 0
+          amount: 0
+          data: 0
+        slot_21:
+          id: 0
+          amount: 0
+          data: 0
+        slot_22:
+          id: 0
+          amount: 0
+          data: 0
+        slot_23:
+          id: 0
+          amount: 0
+          data: 0
+        slot_24:
+          id: 0
+          amount: 0
+          data: 0
+        slot_25:
+          id: 0
+          amount: 0
+          data: 0
+        slot_26:
+          id: 0
+          amount: 0
+          data: 0
+        slot_27:
+          id: 0
+          amount: 0
+          data: 0
+        slot_28:
+          id: 0
+          amount: 0
+          data: 0
+        slot_29:
+          id: 0
+          amount: 0
+          data: 0
+        slot_30:
+          id: 0
+          amount: 0
+          data: 0
+        slot_31:
+          id: 0
+          amount: 0
+          data: 0
+        slot_32:
+          id: 0
+          amount: 0
+          data: 0
+        slot_33:
+          id: 0
+          amount: 0
+          data: 0
+        slot_34:
+          id: 0
+          amount: 0
+          data: 0
+        slot_35:
+          id: 0
+          amount: 0
+          data: 0
+      survival:
+        slot_0:
+          id: 12
+          amount: 1
+          data: 0
+        slot_1:
+          id: 0
+          amount: 0
+          data: 0
+        slot_2:
+          id: 0
+          amount: 0
+          data: 0
+        slot_3:
+          id: 0
+          amount: 0
+          data: 0
+        slot_4:
+          id: 0
+          amount: 0
+          data: 0
+        slot_5:
+          id: 0
+          amount: 0
+          data: 0
+        slot_6:
+          id: 0
+          amount: 0
+          data: 0
+        slot_7:
+          id: 0
+          amount: 0
+          data: 0
+        slot_8:
+          id: 0
+          amount: 0
+          data: 0
+        slot_9:
+          id: 0
+          amount: 0
+          data: 0
+        slot_10:
+          id: 0
+          amount: 0
+          data: 0
+        slot_11:
+          id: 0
+          amount: 0
+          data: 0
+        slot_12:
+          id: 0
+          amount: 0
+          data: 0
+        slot_13:
+          id: 0
+          amount: 0
+          data: 0
+        slot_14:
+          id: 0
+          amount: 0
+          data: 0
+        slot_15:
+          id: 0
+          amount: 0
+          data: 0
+        slot_16:
+          id: 0
+          amount: 0
+          data: 0
+        slot_17:
+          id: 0
+          amount: 0
+          data: 0
+        slot_18:
+          id: 0
+          amount: 0
+          data: 0
+        slot_19:
+          id: 0
+          amount: 0
+          data: 0
+        slot_20:
+          id: 0
+          amount: 0
+          data: 0
+        slot_21:
+          id: 0
+          amount: 0
+          data: 0
+        slot_22:
+          id: 0
+          amount: 0
+          data: 0
+        slot_23:
+          id: 0
+          amount: 0
+          data: 0
+        slot_24:
+          id: 0
+          amount: 0
+          data: 0
+        slot_25:
+          id: 0
+          amount: 0
+          data: 0
+        slot_26:
+          id: 0
+          amount: 0
+          data: 0
+        slot_27:
+          id: 0
+          amount: 0
+          data: 0
+        slot_28:
+          id: 0
+          amount: 0
+          data: 0
+        slot_29:
+          id: 0
+          amount: 0
+          data: 0
+        slot_30:
+          id: 0
+          amount: 0
+          data: 0
+        slot_31:
+          id: 0
+          amount: 0
+          data: 0
+        slot_32:
+          id: 0
+          amount: 0
+          data: 0
+        slot_33:
+          id: 0
+          amount: 0
+          data: 0
+        slot_34:
+          id: 0
+          amount: 0
+          data: 0
+        slot_35:
+          id: 0
+          amount: 0
+          data: 0

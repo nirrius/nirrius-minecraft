@@ -1,0 +1,81 @@
+loggedWorlds:
+- valhalla
+- valhalla_nether
+- avalon
+- shangri-la
+mysql:
+    port: 3306
+    host: localhost
+    password: logblock
+    user: logblock
+    database: nirrius_minecraft
+logging:
+    logCreeperExplosionsAsPlayerWhoTriggeredThese: false
+    logKillsLevel: PLAYERS
+    hiddenPlayers: []
+    hiddenBlocks:
+    - 0
+    logPlayerInfo: true
+clearlog:
+    dumpDeletedLog: false
+    keepLogDays: -1
+questioner:
+    askRedos: true
+    askClearLogs: true
+    askRollbacks: true
+    askClearLogAfterRollback: true
+    banPermission: mcbans.ban.local
+    askRollbackAfterBan: false
+rollback:
+    replaceAnyway:
+    - 8
+    - 9
+    - 10
+    - 11
+    - 51
+    dontRollback:
+    - 10
+    - 11
+    - 46
+    - 51
+    maxTime: 2 days
+    maxArea: 50
+consumer:
+    delayBetweenRuns: 5
+    forceToProcessAtLeast: 20
+    timePerRun: 200
+    useBukkitScheduler: true
+lookup:
+    toolID: 270
+    toolQuery: area 0 all sum none limit 15 desc silent
+    toolblockID: 7
+    toolBlockQuery: area 0 all sum none limit 15 desc silent
+    defaultDist: 20
+    defaultTime: 30 minutes
+    linesPerPage: 15
+    linesLimit: 1500
+tools:
+    tool:
+        item: 270
+        leftClickBehavior: NONE
+        params: area 0 all sum none limit 15 desc silent
+        rightClickBehavior: TOOL
+        aliases:
+        - t
+        defaultEnabled: true
+        mode: LOOKUP
+        permissionDefault: OP
+    toolblock:
+        item: 7
+        leftClickBehavior: TOOL
+        params: area 0 all sum none limit 15 desc silent
+        rightClickBehavior: BLOCK
+        aliases:
+        - tb
+        defaultEnabled: true
+        mode: LOOKUP
+        permissionDefault: OP
+updater:
+    checkVersion: true
+    installSpout: true
+version: '1.32'

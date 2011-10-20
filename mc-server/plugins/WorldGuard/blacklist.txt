@@ -1,49 +1,49 @@
 [lavabucket]
-ignore-groups=Operator,Moderator
+ignore-groups=Owner,Operator,Moderator
 on-break=log,notify
 on-place=log,notify
 
 [adminium]
-ignore-groups=Operator,Moderator
+ignore-groups=Owner,Operator,Moderator
 on-place=notify,log,deny
 on-acquire=deny
 
 [water]
-ignore-groups=Operator,Moderator
+ignore-groups=Owner,Operator,Moderator
 on-place=notify,log,deny
 on-acquire=deny
 
 [stillwater]
-ignore-groups=Operator,Moderator
+ignore-groups=Owner,Operator,Moderator
 on-place=notify,log,deny
 on-acquire=deny
 
 [lava]
-ignore-groups=Operator,Moderator
+ignore-groups=Owner,Operator,Moderator
 on-place=notify,log,deny
 on-acquire=deny
 
 [stilllava]
-ignore-groups=Operator,Moderator
+ignore-groups=Owner,Operator,Moderator
 on-place=notify,log,deny
 on-acquire=deny
 
 [mobspawner]
-ignore-groups=Operator,Moderator
+ignore-groups=Owner,Operator,Moderator
 on-place=notify,log,deny
 on-break=deny,notify,log
 on-acquire=deny
 
 [tnt]
-ignore-groups=Operator,Moderator,Sponsor,VIP 
+ignore-groups=Owner,Operator,Moderator,Sponsor,VIP 
 on-place=deny,notify,log
 
 [goldblock]
-ignore-groups=Operator,Moderator
+ignore-groups=Owner,Operator,Moderator
 on-break=notify,log
 on-place=notify,log
 
 [diamondblock]
-ignore-groups=Operator,Moderator
+ignore-groups=Owner,Operator,Moderator
 on-break=notify,log
 on-place=notify,log 

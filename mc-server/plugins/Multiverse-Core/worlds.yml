@@ -1,0 +1,105 @@
+worlds:
+  valhalla:
+    environment: NORMAL
+    alias:
+      name: ''
+    pvp: true
+    fakepvp: false
+    scale: 1.0
+    allowweather: true
+    difficulty: NORMAL
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      amount: 0.0
+      currency: -1
+    hunger: true
+    hidden: false
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: 10.0
+      y: 64.0
+      z: 254.0
+      pitch: 0.0
+      yaw: 0.0
+  valhalla_nether:
+    environment: NETHER
+    alias:
+      name: ''
+    pvp: true
+    fakepvp: false
+    scale: 8.0
+    allowweather: true
+    difficulty: NORMAL
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      amount: 0.0
+      currency: -1
+    hunger: true
+    hidden: false
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: 838.5
+      y: 94.0
+      z: 45.5
+      pitch: 0.60000134
+      yaw: -2.849992
+  avalon:
+    environment: NORMAL
+    alias:
+      name: ''
+    pvp: true
+    fakepvp: false
+    scale: 1.0
+    allowweather: true
+    difficulty: EASY
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      amount: 0.0
+      currency: -1
+    hunger: true
+    hidden: false
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: -4.5
+      y: 24.0
+      z: -11.5
+      pitch: 91.893005
+      yaw: -0.30011174
+  shangri-la:
+    environment: NORMAL
+    alias:
+      name: ''
+    pvp: true
+    fakepvp: false
+    scale: 1.0
+    allowweather: true
+    difficulty: EASY
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      amount: 0.0
+      currency: -1
+    hunger: false
+    hidden: false
+    gamemode: CREATIVE
+    keepspawninmemory: true
+    spawn:
+      x: -1.5
+      y: 64.0
+      z: 9.5
+      pitch: 0.0
+      yaw: 0.0

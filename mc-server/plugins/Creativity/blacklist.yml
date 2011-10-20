@@ -1,0 +1,5 @@
+#This is the Creativity Item Blacklist file.
+#Items listed below can not be placed by users !
+#You can use Item ID or Itemname. For the defaults: 10 is Lava !
+#10: true
+#TNT: true

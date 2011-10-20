@@ -1,6 +1,0 @@
-max_warp=50
-max_categories=5
-max_warp_categorie=5
-max_cache_minute_timeout=30
-cleanup_cache_minute_timeout=5
-max_warp_recall=3
