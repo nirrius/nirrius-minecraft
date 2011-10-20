@@ -1,8 +1,9 @@
 npc: false
 socialspy: false
 timestamps:
-    login: 1319137556761
-    lastteleport: 1319137557018
+    login: 1319138941718
+    lastteleport: 1319138981911
+    logout: 1319138993998
 powertoolsenabled: true
 muted: false
 inventory:
@@ -13,9 +14,10 @@ newplayer: false
 afk: false
 jailed: false
 lastlocation:
-    yaw: 37.949978
-    pitch: 21.299986
-    z: 290.8036434145631
-    y: 64.0
+    yaw: 177.75024
+    pitch: 19.05001
+    z: 304.28125
+    y: 65.0
     world: valhalla
-    x: -9.041971383228564
+    x: -9.875
+money: 95.0

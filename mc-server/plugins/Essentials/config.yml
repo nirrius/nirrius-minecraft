@@ -119,67 +119,6 @@ disabled-commands:
 # They are here only if you want something simpler than Permissions.
 # These are the permissions without the "essentials." part.
 player-commands:
-  - afk
-  - back
-  - back.ondeath
-  - balance
-  - clearinventory
-  - compass
-  - depth
-  - getpos
-  - geoip.show
-  - help
-  - helpop
-  - home
-  - home.others
-  - ignore
-  - info
-  - kit
-  - list
-  - mail
-  - mail.send
-  - me
-  - motd
-  - msg
-  - nick
-  - pay
-  - ping
-  - portal
-  - powertool
-  - protect
-  - r
-  - rules
-  - seen
-  - sell
-  - sethome
-  - setxmpp
-  - signs.create.protection
-  - signs.create.trade
-  - signs.break.protection
-  - signs.break.trade
-  - signs.use.balance
-  - signs.use.buy
-  - signs.use.disposal
-  - signs.use.free
-  - signs.use.heal
-  - signs.use.mail
-  - signs.use.protection
-  - signs.use.sell
-  - signs.use.time
-  - signs.use.trade
-  - signs.use.warp
-  - signs.use.weather
-  - spawn
-  - suicide
-  - tpa
-  - tpaccept
-  - tpahere
-  - tpdeny
-  - warp
-  - warp.list
-  - world
-  - worth
-  - xmpp
 
 # Note: All items MUST be followed by a quantity!
 # Times are measured in seconds.
@@ -380,7 +319,7 @@ command-costs:
  # /example costs $1000 PER USE
   nick: 60
   tpa: 15
-  back: 25
+  back: 12.5
   tpahere: 15
   time: 80
   weather: 80
@@ -412,7 +351,7 @@ currency-symbol: 'K'
 
 # Set the maximum amount of money a player can have
 # The amount is always limited to 10 trillions because of the limitations of a java double
-max-money: 10000000000
+max-money: 1000000000
 
 # Enable this to log all interactions with trade/buy/sell signs and sell command
 economy-log-enabled: false
