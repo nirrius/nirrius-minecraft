@@ -2,18 +2,18 @@
 # # The settings only apply to Worlds where creative is activated
 # # for detailed information vist http://dev.bukkit.org/server-mods/creativity/pages/config-yml/
 CWorld-txt enables worlds: true
-Bedrock protected: true
+Bedrock protected: false
 Default Creative mode (minecraft or creativity): minecraft
 Different inventories for creative worlds: true
 Auto switch to creative: true
-Disable fire spread: true
+Disable fire spread: false
 Bottom Layer protected: true
 Clearinventory: true
 Block protection default for players: false
 Players can´t drop items from inventory: true
 Disable explosions: true
-Blacklist enabled: true
-Remove blacklisted Items: true
+Blacklist enabled: false
+Remove blacklisted Items: false
 Language: en_GB
 Time preset:
   valhalla: normal

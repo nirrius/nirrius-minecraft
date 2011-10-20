@@ -157,7 +157,6 @@ groups:
     - essentials.weather
     - essentials.whois
     - essentials.world
-    - multiverse.teleport.other.*
     - groupmanager.listgroups
     - groupmanager.mandemote
     - groupmanager.manpromote
@@ -166,6 +165,7 @@ groups:
     - groupmanager.manudel
     - groupmanager.manwhois
     - groupmanager.notify.other
+    - multiverse.teleport.other.*
     inheritance:
     - sponsor
     info:
