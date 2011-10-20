@@ -104,6 +104,7 @@ groups:
     - groupmanager.manulistp
     - movecraft.*
     - worldedit.*
+    - worldguard.*
     inheritance:
     - moderator
     info:
