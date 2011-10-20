@@ -1,7 +1,7 @@
 npc: false
 socialspy: false
 timestamps:
-    login: 1319138941718
+    login: 1319139311920
     lastteleport: 1319138981911
     logout: 1319138993998
 powertoolsenabled: true
@@ -20,4 +20,4 @@ lastlocation:
     y: 65.0
     world: valhalla
     x: -9.875
-money: 95.0
+money: 15.0
