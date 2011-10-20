@@ -1,7 +1,7 @@
 # # This is the Creativity Player settings file. Usually you don´t need to edit this !
 Player:
   Teffen:
-    mode: mccreative
+    mode: normal
     drops: false
     idrops: false
     prot: false
@@ -10,7 +10,7 @@ Player:
       creative:
         slot_0:
           id: 1
-          amount: 48
+          amount: 45
           data: 0
         slot_1:
           id: 0
@@ -37,7 +37,7 @@ Player:
           amount: 1
           data: 0
         slot_7:
-          id: 41
+          id: 58
           amount: 1
           data: 0
         slot_8:
@@ -45,8 +45,8 @@ Player:
           amount: 1
           data: 12
         slot_9:
-          id: 0
-          amount: 0
+          id: 57
+          amount: 64
           data: 0
         slot_10:
           id: 0
@@ -155,11 +155,11 @@ Player:
       survival:
         slot_0:
           id: 50
-          amount: 1
+          amount: 54
           data: 0
         slot_1:
-          id: 367
-          amount: 1
+          id: 0
+          amount: 0
           data: 0
         slot_2:
           id: 0
@@ -298,11 +298,302 @@ Player:
           amount: 0
           data: 0
   gukinator:
-    mode: normal
+    mode: mccreative
     drops: false
     idrops: false
     prot: false
     ranged: false
+    Inventory:
+      survival:
+        slot_0:
+          id: 3
+          amount: 11
+          data: 0
+        slot_1:
+          id: 258
+          amount: 1
+          data: 0
+        slot_2:
+          id: 19
+          amount: 63
+          data: 0
+        slot_3:
+          id: 361
+          amount: 64
+          data: 0
+        slot_4:
+          id: 362
+          amount: 64
+          data: 0
+        slot_5:
+          id: 0
+          amount: 0
+          data: 0
+        slot_6:
+          id: 0
+          amount: 0
+          data: 0
+        slot_7:
+          id: 0
+          amount: 0
+          data: 0
+        slot_8:
+          id: 0
+          amount: 0
+          data: 0
+        slot_9:
+          id: 0
+          amount: 0
+          data: 0
+        slot_10:
+          id: 0
+          amount: 0
+          data: 0
+        slot_11:
+          id: 0
+          amount: 0
+          data: 0
+        slot_12:
+          id: 0
+          amount: 0
+          data: 0
+        slot_13:
+          id: 0
+          amount: 0
+          data: 0
+        slot_14:
+          id: 0
+          amount: 0
+          data: 0
+        slot_15:
+          id: 0
+          amount: 0
+          data: 0
+        slot_16:
+          id: 0
+          amount: 0
+          data: 0
+        slot_17:
+          id: 0
+          amount: 0
+          data: 0
+        slot_18:
+          id: 0
+          amount: 0
+          data: 0
+        slot_19:
+          id: 0
+          amount: 0
+          data: 0
+        slot_20:
+          id: 0
+          amount: 0
+          data: 0
+        slot_21:
+          id: 0
+          amount: 0
+          data: 0
+        slot_22:
+          id: 0
+          amount: 0
+          data: 0
+        slot_23:
+          id: 0
+          amount: 0
+          data: 0
+        slot_24:
+          id: 0
+          amount: 0
+          data: 0
+        slot_25:
+          id: 0
+          amount: 0
+          data: 0
+        slot_26:
+          id: 0
+          amount: 0
+          data: 0
+        slot_27:
+          id: 0
+          amount: 0
+          data: 0
+        slot_28:
+          id: 0
+          amount: 0
+          data: 0
+        slot_29:
+          id: 0
+          amount: 0
+          data: 0
+        slot_30:
+          id: 0
+          amount: 0
+          data: 0
+        slot_31:
+          id: 0
+          amount: 0
+          data: 0
+        slot_32:
+          id: 0
+          amount: 0
+          data: 0
+        slot_33:
+          id: 0
+          amount: 0
+          data: 0
+        slot_34:
+          id: 0
+          amount: 0
+          data: 0
+        slot_35:
+          id: 0
+          amount: 0
+          data: 0
+      creative:
+        slot_0:
+          id: 35
+          amount: 1
+          data: 15
+        slot_1:
+          id: 35
+          amount: 1
+          data: 7
+        slot_2:
+          id: 35
+          amount: 1
+          data: 0
+        slot_3:
+          id: 35
+          amount: 1
+          data: 8
+        slot_4:
+          id: 35
+          amount: 1
+          data: 5
+        slot_5:
+          id: 35
+          amount: 1
+          data: 13
+        slot_6:
+          id: 0
+          amount: 0
+          data: 0
+        slot_7:
+          id: 0
+          amount: 0
+          data: 0
+        slot_8:
+          id: 0
+          amount: 0
+          data: 0
+        slot_9:
+          id: 0
+          amount: 0
+          data: 0
+        slot_10:
+          id: 0
+          amount: 0
+          data: 0
+        slot_11:
+          id: 0
+          amount: 0
+          data: 0
+        slot_12:
+          id: 0
+          amount: 0
+          data: 0
+        slot_13:
+          id: 0
+          amount: 0
+          data: 0
+        slot_14:
+          id: 0
+          amount: 0
+          data: 0
+        slot_15:
+          id: 0
+          amount: 0
+          data: 0
+        slot_16:
+          id: 0
+          amount: 0
+          data: 0
+        slot_17:
+          id: 0
+          amount: 0
+          data: 0
+        slot_18:
+          id: 0
+          amount: 0
+          data: 0
+        slot_19:
+          id: 0
+          amount: 0
+          data: 0
+        slot_20:
+          id: 0
+          amount: 0
+          data: 0
+        slot_21:
+          id: 0
+          amount: 0
+          data: 0
+        slot_22:
+          id: 0
+          amount: 0
+          data: 0
+        slot_23:
+          id: 0
+          amount: 0
+          data: 0
+        slot_24:
+          id: 0
+          amount: 0
+          data: 0
+        slot_25:
+          id: 0
+          amount: 0
+          data: 0
+        slot_26:
+          id: 0
+          amount: 0
+          data: 0
+        slot_27:
+          id: 0
+          amount: 0
+          data: 0
+        slot_28:
+          id: 0
+          amount: 0
+          data: 0
+        slot_29:
+          id: 0
+          amount: 0
+          data: 0
+        slot_30:
+          id: 0
+          amount: 0
+          data: 0
+        slot_31:
+          id: 0
+          amount: 0
+          data: 0
+        slot_32:
+          id: 0
+          amount: 0
+          data: 0
+        slot_33:
+          id: 0
+          amount: 0
+          data: 0
+        slot_34:
+          id: 0
+          amount: 0
+          data: 0
+        slot_35:
+          id: 0
+          amount: 0
+          data: 0
   Helloworld00:
     mode: normal
     drops: false
@@ -340,11 +631,302 @@ Player:
     prot: false
     ranged: false
   mmmmorshu:
-    mode: normal
+    mode: mccreative
     drops: false
     idrops: false
     prot: false
     ranged: false
+    Inventory:
+      survival:
+        slot_0:
+          id: 345
+          amount: 1
+          data: 0
+        slot_1:
+          id: 278
+          amount: 1
+          data: 0
+        slot_2:
+          id: 0
+          amount: 0
+          data: 0
+        slot_3:
+          id: 50
+          amount: 64
+          data: 0
+        slot_4:
+          id: 0
+          amount: 0
+          data: 0
+        slot_5:
+          id: 0
+          amount: 0
+          data: 0
+        slot_6:
+          id: 0
+          amount: 0
+          data: 0
+        slot_7:
+          id: 0
+          amount: 0
+          data: 0
+        slot_8:
+          id: 0
+          amount: 0
+          data: 0
+        slot_9:
+          id: 0
+          amount: 0
+          data: 0
+        slot_10:
+          id: 0
+          amount: 0
+          data: 0
+        slot_11:
+          id: 0
+          amount: 0
+          data: 0
+        slot_12:
+          id: 0
+          amount: 0
+          data: 0
+        slot_13:
+          id: 0
+          amount: 0
+          data: 0
+        slot_14:
+          id: 0
+          amount: 0
+          data: 0
+        slot_15:
+          id: 0
+          amount: 0
+          data: 0
+        slot_16:
+          id: 0
+          amount: 0
+          data: 0
+        slot_17:
+          id: 0
+          amount: 0
+          data: 0
+        slot_18:
+          id: 0
+          amount: 0
+          data: 0
+        slot_19:
+          id: 0
+          amount: 0
+          data: 0
+        slot_20:
+          id: 0
+          amount: 0
+          data: 0
+        slot_21:
+          id: 0
+          amount: 0
+          data: 0
+        slot_22:
+          id: 0
+          amount: 0
+          data: 0
+        slot_23:
+          id: 0
+          amount: 0
+          data: 0
+        slot_24:
+          id: 0
+          amount: 0
+          data: 0
+        slot_25:
+          id: 0
+          amount: 0
+          data: 0
+        slot_26:
+          id: 0
+          amount: 0
+          data: 0
+        slot_27:
+          id: 0
+          amount: 0
+          data: 0
+        slot_28:
+          id: 7
+          amount: 64
+          data: 0
+        slot_29:
+          id: 7
+          amount: 64
+          data: 0
+        slot_30:
+          id: 0
+          amount: 0
+          data: 0
+        slot_31:
+          id: 0
+          amount: 0
+          data: 0
+        slot_32:
+          id: 0
+          amount: 0
+          data: 0
+        slot_33:
+          id: 0
+          amount: 0
+          data: 0
+        slot_34:
+          id: 0
+          amount: 0
+          data: 0
+        slot_35:
+          id: 0
+          amount: 0
+          data: 0
+      creative:
+        slot_0:
+          id: 345
+          amount: 1
+          data: 0
+        slot_1:
+          id: 0
+          amount: 0
+          data: 0
+        slot_2:
+          id: 351
+          amount: 1
+          data: 15
+        slot_3:
+          id: 2
+          amount: 1
+          data: 0
+        slot_4:
+          id: 295
+          amount: 1
+          data: 0
+        slot_5:
+          id: 0
+          amount: 0
+          data: 0
+        slot_6:
+          id: 0
+          amount: 0
+          data: 0
+        slot_7:
+          id: 0
+          amount: 0
+          data: 0
+        slot_8:
+          id: 271
+          amount: 1
+          data: 0
+        slot_9:
+          id: 0
+          amount: 0
+          data: 0
+        slot_10:
+          id: 0
+          amount: 0
+          data: 0
+        slot_11:
+          id: 0
+          amount: 0
+          data: 0
+        slot_12:
+          id: 0
+          amount: 0
+          data: 0
+        slot_13:
+          id: 0
+          amount: 0
+          data: 0
+        slot_14:
+          id: 0
+          amount: 0
+          data: 0
+        slot_15:
+          id: 0
+          amount: 0
+          data: 0
+        slot_16:
+          id: 0
+          amount: 0
+          data: 0
+        slot_17:
+          id: 0
+          amount: 0
+          data: 0
+        slot_18:
+          id: 0
+          amount: 0
+          data: 0
+        slot_19:
+          id: 0
+          amount: 0
+          data: 0
+        slot_20:
+          id: 0
+          amount: 0
+          data: 0
+        slot_21:
+          id: 0
+          amount: 0
+          data: 0
+        slot_22:
+          id: 0
+          amount: 0
+          data: 0
+        slot_23:
+          id: 0
+          amount: 0
+          data: 0
+        slot_24:
+          id: 0
+          amount: 0
+          data: 0
+        slot_25:
+          id: 0
+          amount: 0
+          data: 0
+        slot_26:
+          id: 0
+          amount: 0
+          data: 0
+        slot_27:
+          id: 0
+          amount: 0
+          data: 0
+        slot_28:
+          id: 0
+          amount: 0
+          data: 0
+        slot_29:
+          id: 0
+          amount: 0
+          data: 0
+        slot_30:
+          id: 0
+          amount: 0
+          data: 0
+        slot_31:
+          id: 0
+          amount: 0
+          data: 0
+        slot_32:
+          id: 0
+          amount: 0
+          data: 0
+        slot_33:
+          id: 0
+          amount: 0
+          data: 0
+        slot_34:
+          id: 0
+          amount: 0
+          data: 0
+        slot_35:
+          id: 0
+          amount: 0
+          data: 0
   atineiatte:
     mode: normal
     drops: false
@@ -352,6 +934,12 @@ Player:
     prot: false
     ranged: false
   Buck_Speedjunk:
+    mode: normal
+    drops: false
+    idrops: false
+    prot: false
+    ranged: false
+  MarckHardt:
     mode: normal
     drops: false
     idrops: false

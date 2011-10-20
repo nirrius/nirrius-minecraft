@@ -1,23 +1,31 @@
 npc: false
 socialspy: false
 timestamps:
-    login: 1319146749222
-    lastteleport: 1319148314796
+    login: 1319149225885
+    lastteleport: 1319151031576
     logout: 1319145060277
 powertoolsenabled: true
 muted: false
 inventory:
     size: 0
-godmode: false
+godmode: true
 teleportenabled: true
 newplayer: false
 afk: false
 jailed: false
 lastlocation:
-    yaw: -348.12335
-    pitch: 11.69999
-    z: -473.2591224270151
-    y: 93.0
+    yaw: 238.73146
+    pitch: -69.00002
+    z: -45.7968787752832
+    y: 64.0
     world: valhalla
-    x: 830.0433737270116
-money: 15.0
+    x: 11.0368500792665
+money: 105.0
+homes:
+    home:
+        yaw: 30.981417
+        pitch: 39.449955
+        z: -50.27178157580758
+        y: 85.0
+        world: valhalla
+        x: 18.891991570305283
