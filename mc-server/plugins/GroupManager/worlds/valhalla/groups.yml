@@ -45,6 +45,7 @@ groups:
     - essentials.pay
     - essentials.ping
     - essentials.powertool
+    - essentials.sell
     - essentials.signs.break.disposal
     - essentials.signs.break.mail
     - essentials.signs.break.protection
