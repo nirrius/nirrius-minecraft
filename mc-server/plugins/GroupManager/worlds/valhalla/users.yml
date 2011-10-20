@@ -112,3 +112,7 @@ users:
     subgroups: []
     permissions: []
     group: Member
+  MarckHardt:
+    subgroups: []
+    permissions: []
+    group: SuperVIP

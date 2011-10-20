@@ -111,7 +111,7 @@ groups:
       prefix: '&c[OP]&f'
       build: true
       suffix: ''
-  SVIP:
+  SuperVIP:
     default: false
     permissions: []
     inheritance:
