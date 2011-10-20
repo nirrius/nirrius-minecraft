@@ -85,8 +85,7 @@ groups:
     - groupmanager.notify.self
     - minecartmania.signs.*
     - multiverse.access.*
-    - multiverse.core.spawn
-    - multiverse.core.teleport.self
+    - multiverse.teleport.self.*
     inheritance: []
     info:
       prefix: '&7[V]&f'
@@ -157,6 +156,7 @@ groups:
     - essentials.weather
     - essentials.whois
     - essentials.world
+    - multiverse.teleport.other.*
     - groupmanager.listgroups
     - groupmanager.mandemote
     - groupmanager.manpromote
