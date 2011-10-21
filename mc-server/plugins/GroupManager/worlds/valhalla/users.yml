@@ -132,6 +132,10 @@ users:
     subgroups: []
     permissions: []
     group: Sponsor
+  0megaXIII:
+    subgroups: []
+    permissions: []
+    group: Member
   dinosawr000:
     subgroups: []
     permissions: []
