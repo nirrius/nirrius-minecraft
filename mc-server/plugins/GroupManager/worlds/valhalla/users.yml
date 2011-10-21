@@ -40,7 +40,15 @@ users:
     subgroups: []
     permissions: []
     group: VIP
+  Azehur:
+    subgroups: []
+    permissions: []
+    group: Member
   ClaudiusDK:
+    subgroups: []
+    permissions: []
+    group: Member
+  atineiatte:
     subgroups: []
     permissions: []
     group: Member
@@ -48,10 +56,6 @@ users:
     subgroups: []
     permissions: []
     group: Operator
-  atineiatte:
-    subgroups: []
-    permissions: []
-    group: Member
   OriginalName010:
     subgroups: []
     permissions: []
@@ -68,6 +72,10 @@ users:
     subgroups: []
     permissions: []
     group: VIP
+  Tony_Stork:
+    subgroups: []
+    permissions: []
+    group: Moderator
   lievreokami:
     subgroups: []
     permissions: []
@@ -76,10 +84,6 @@ users:
     subgroups: []
     permissions: []
     group: VIP
-  klauth:
-    subgroups: []
-    permissions: []
-    group: Moderator
   toxsikkilla:
     subgroups: []
     permissions: []
@@ -88,15 +92,31 @@ users:
     subgroups: []
     permissions: []
     group: Moderator
+  maomao200:
+    subgroups: []
+    permissions: []
+    group: Member
   silvertie:
     subgroups: []
     permissions: []
     group: VIP
-  reykjavik:
+  SaneOsiris:
+    subgroups: []
+    permissions: []
+    group: Sponsor
+  ctxaristide:
+    subgroups: []
+    permissions: []
+    group: Member
+  Zodulus:
+    subgroups: []
+    permissions: []
+    group: Sponsor
+  blazinmeow:
     subgroups: []
     permissions: []
     group: Moderator
-  blazinmeow:
+  reykjavik:
     subgroups: []
     permissions: []
     group: Moderator

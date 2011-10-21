@@ -77,29 +77,3 @@ worlds:
       z: -7.5
       pitch: 91.893005
       yaw: -0.30011174
-  shangri-la:
-    environment: NORMAL
-    alias:
-      name: ''
-    pvp: true
-    fakepvp: false
-    scale: 1.0
-    allowweather: true
-    difficulty: EASY
-    animals:
-      spawn: true
-    monsters:
-      spawn: true
-    entryfee:
-      amount: 0.0
-      currency: -1
-    hunger: false
-    hidden: false
-    gamemode: CREATIVE
-    keepspawninmemory: true
-    spawn:
-      x: -448.5
-      y: 70.0
-      z: 51.5
-      pitch: -9.000036
-      yaw: -90.45003
