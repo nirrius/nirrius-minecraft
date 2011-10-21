@@ -4,3 +4,4 @@ cache_online_minute_timeout=300
 max_warp=0
 max_categories=0
 max_warp_categorie=0
+cache_offline_minute_timeout=15

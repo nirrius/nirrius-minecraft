@@ -4,3 +4,5 @@ max_warp_categorie=3
 max_cache_minute_timeout=30
 cleanup_cache_minute_timeout=5
 max_warp_recall=3
+warp_configbit=3
+warp_warmup=0

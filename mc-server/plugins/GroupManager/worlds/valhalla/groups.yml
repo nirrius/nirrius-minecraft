@@ -107,15 +107,6 @@ groups:
       prefix: '&c[OP]&f'
       build: true
       suffix: ''
-  SuperVIP:
-    default: false
-    permissions: []
-    inheritance:
-    - vip
-    info:
-      prefix: '&d[SVIP]&f'
-      build: true
-      suffix: ''
   Moderator:
     default: false
     permissions:
@@ -161,6 +152,15 @@ groups:
     - sponsor
     info:
       prefix: '&9[MOD]&f'
+      build: true
+      suffix: ''
+  SuperVIP:
+    default: false
+    permissions: []
+    inheritance:
+    - vip
+    info:
+      prefix: '&d[SVIP]&f'
       build: true
       suffix: ''
   Sponsor:

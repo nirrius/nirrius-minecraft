@@ -40,7 +40,15 @@ users:
     subgroups: []
     permissions: []
     group: VIP
+  Azehur:
+    subgroups: []
+    permissions: []
+    group: Member
   ClaudiusDK:
+    subgroups: []
+    permissions: []
+    group: Member
+  atineiatte:
     subgroups: []
     permissions: []
     group: Member
@@ -48,15 +56,11 @@ users:
     subgroups: []
     permissions: []
     group: Operator
-  atineiatte:
+  OriginalName010:
     subgroups: []
     permissions: []
     group: Member
   crazyhacker451:
-    subgroups: []
-    permissions: []
-    group: Member
-  OriginalName010:
     subgroups: []
     permissions: []
     group: Member
@@ -68,6 +72,10 @@ users:
     subgroups: []
     permissions: []
     group: VIP
+  Tony_Stork:
+    subgroups: []
+    permissions: []
+    group: Moderator
   lievreokami:
     subgroups: []
     permissions: []
@@ -76,10 +84,6 @@ users:
     subgroups: []
     permissions: []
     group: VIP
-  klauth:
-    subgroups: []
-    permissions: []
-    group: Moderator
   toxsikkilla:
     subgroups: []
     permissions: []
@@ -88,10 +92,26 @@ users:
     subgroups: []
     permissions: []
     group: Moderator
+  maomao200:
+    subgroups: []
+    permissions: []
+    group: Member
   silvertie:
     subgroups: []
     permissions: []
     group: VIP
+  SaneOsiris:
+    subgroups: []
+    permissions: []
+    group: Sponsor
+  ctxaristide:
+    subgroups: []
+    permissions: []
+    group: Member
+  Zodulus:
+    subgroups: []
+    permissions: []
+    group: Sponsor
   blazinmeow:
     subgroups: []
     permissions: []
@@ -104,6 +124,10 @@ users:
     subgroups: []
     permissions: []
     group: VIP
+  MarckHardt:
+    subgroups: []
+    permissions: []
+    group: SuperVIP
   Buck_Speedjunk:
     subgroups: []
     permissions: []
@@ -112,7 +136,3 @@ users:
     subgroups: []
     permissions: []
     group: Member
-  MarckHardt:
-    subgroups: []
-    permissions: []
-    group: SuperVIP
