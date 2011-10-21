@@ -30,13 +30,10 @@ groups:
     - essentials.balancetop
     - essentials.chat.color
     - essentials.chat.question
-    - essentials.chat.shout
-    - essentials.compass
-    - essentials.depth
     - essentials.home
     - essentials.ignore
     - essentials.kit
-    - essentials.kit.tools
+    - essentials.kit.*
     - essentials.mail
     - essentials.mail.send
     - essentials.me
@@ -44,7 +41,6 @@ groups:
     - essentials.nick
     - essentials.pay
     - essentials.ping
-    - essentials.powertool
     - essentials.sell
     - essentials.signs.break.disposal
     - essentials.signs.break.mail
@@ -64,7 +60,6 @@ groups:
     - essentials.tpdeny
     - essentials.warp
     - essentials.warp.list
-    - essentials.weather
     - essentials.worth
     inheritance:
     - visitor
@@ -128,7 +123,6 @@ groups:
     - essentials.banip
     - essentials.broadcast
     - essentials.clearinventory
-    - essentials.delwarp
     - essentials.ext
     - essentials.getpos
     - essentials.helpop.recieve
@@ -142,11 +136,6 @@ groups:
     - essentials.nick.others
     - essentials.ptime
     - essentials.realname
-    - essentials.setwarp
-    - essentials.signs.break.*
-    - essentials.signs.create.*
-    - essentials.spawner
-    - essentials.thunder
     - essentials.togglejail
     - essentials.top
     - essentials.tp
