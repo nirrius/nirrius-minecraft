@@ -52,11 +52,11 @@ users:
     subgroups: []
     permissions: []
     group: Member
-  crazyhacker451:
+  OriginalName010:
     subgroups: []
     permissions: []
     group: Member
-  OriginalName010:
+  crazyhacker451:
     subgroups: []
     permissions: []
     group: Member
@@ -92,11 +92,11 @@ users:
     subgroups: []
     permissions: []
     group: VIP
-  blazinmeow:
+  reykjavik:
     subgroups: []
     permissions: []
     group: Moderator
-  reykjavik:
+  blazinmeow:
     subgroups: []
     permissions: []
     group: Moderator
@@ -104,6 +104,10 @@ users:
     subgroups: []
     permissions: []
     group: VIP
+  MarckHardt:
+    subgroups: []
+    permissions: []
+    group: SuperVIP
   Buck_Speedjunk:
     subgroups: []
     permissions: []
@@ -112,7 +116,3 @@ users:
     subgroups: []
     permissions: []
     group: Member
-  MarckHardt:
-    subgroups: []
-    permissions: []
-    group: SuperVIP

@@ -1,13 +1,1 @@
-users:
-  snowleo:
-    subgroups: []
-    permissions: []
-    group: Admin
-  mudzereli:
-    subgroups: []
-    permissions: []
-    group: Builder
-  ElgarL:
-    subgroups: []
-    permissions: []
-    group: Admin
+../valhalla/users.yml
