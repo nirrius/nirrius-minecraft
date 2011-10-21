@@ -84,6 +84,7 @@ worlds:
     pvp: true
     fakepvp: false
     scale: 1.0
+    seed: 2557084240934247941
     allowweather: true
     difficulty: EASY
     animals:
@@ -98,8 +99,8 @@ worlds:
     gamemode: CREATIVE
     keepspawninmemory: true
     spawn:
-      x: -448.5
+      x: 0.0
       y: 70.0
-      z: 51.5
+      z: 0.0
       pitch: -9.000036
       yaw: -90.45003
