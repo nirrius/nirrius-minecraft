@@ -72,8 +72,35 @@ worlds:
     gamemode: SURVIVAL
     keepspawninmemory: true
     spawn:
-      x: -5.5
+      x: -4.5
       y: 24.0
-      z: -7.5
+      z: -11.5
       pitch: 91.893005
       yaw: -0.30011174
+  shangri-la:
+    environment: NORMAL
+    alias:
+      name: ''
+    pvp: true
+    fakepvp: false
+    scale: 1.0
+    seed: 2557084240934247941
+    allowweather: true
+    difficulty: EASY
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      amount: 0.0
+      currency: -1
+    hunger: false
+    hidden: false
+    gamemode: CREATIVE
+    keepspawninmemory: true
+    spawn:
+      x: 0.0
+      y: 70.0
+      z: 0.0
+      pitch: -9.000036
+      yaw: -90.45003

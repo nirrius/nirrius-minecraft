@@ -88,14 +88,14 @@ users:
     subgroups: []
     permissions: []
     group: Moderator
-  dynamic-:
-    subgroups: []
-    permissions: []
-    group: Moderator
   maomao200:
     subgroups: []
     permissions: []
     group: Member
+  dynamic-:
+    subgroups: []
+    permissions: []
+    group: Moderator
   silvertie:
     subgroups: []
     permissions: []
