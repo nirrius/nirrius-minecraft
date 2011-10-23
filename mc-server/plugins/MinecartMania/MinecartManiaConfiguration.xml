@@ -7,7 +7,7 @@
 	<!--Normal will produce standard startup console logs, and error logs from MM.-->
 	<!--Debug will produce standard startup console logs, error logs, and debugging logs from MM.-->
 	<!--Timer will produce standard startup console logs, error logs, debugging logs, and process time logs, from MM.-->
-	<LoggingMode>Severe</LoggingMode>
+	<LoggingMode>None</LoggingMode>
 	<!--Minecarts that collide with mobs and animals will kill them and continue uninterrupted.-->
 	<MinecartsKillMobs>true</MinecartsKillMobs>
 	<!--If set to 0, Minecarts Will not clear rails. If set to 1, Minecarts will clear the rails of non-living objects in the way (items, arrows, snowballs, etc).
@@ -32,7 +32,7 @@
 	<!--Stack All Items (Regardless of Notch's stacking limit on certain items)-->
 	<StackAllItems>true</StackAllItems>
 	<!--Minecarts that are destroyed will not drop an item if they are destroyed-->
-	<RemoveDeadMinecarts>false</RemoveDeadMinecarts>
+	<RemoveDeadMinecarts>true</RemoveDeadMinecarts>
     <!--MM only searchs under or parallel to rails for signs, harshly limiting the search radius. 
 	This will improve performance, but will restrict sign placement.-->
 	<LimitedSignRange>false</LimitedSignRange>

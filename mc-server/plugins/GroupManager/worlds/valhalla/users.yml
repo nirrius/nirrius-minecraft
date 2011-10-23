@@ -16,6 +16,10 @@ users:
     subgroups: []
     permissions: []
     group: Moderator
+  Mylian:
+    subgroups: []
+    permissions: []
+    group: Member
   alovard:
     subgroups: []
     permissions: []
@@ -28,10 +32,6 @@ users:
     subgroups: []
     permissions: []
     group: Owner
-  gukinator:
-    subgroups: []
-    permissions: []
-    group: VIP
   dorrax:
     subgroups: []
     permissions: []
@@ -40,11 +40,19 @@ users:
     subgroups: []
     permissions: []
     group: VIP
+  gukinator:
+    subgroups: []
+    permissions: []
+    group: VIP
+  ClaudiusDK:
+    subgroups: []
+    permissions: []
+    group: Member
   Azehur:
     subgroups: []
     permissions: []
     group: Member
-  ClaudiusDK:
+  Shepanator:
     subgroups: []
     permissions: []
     group: Member
@@ -76,14 +84,34 @@ users:
     subgroups: []
     permissions: []
     group: Moderator
+  jgdogg441:
+    subgroups: []
+    permissions: []
+    group: Member
   lievreokami:
     subgroups: []
     permissions: []
     group: Operator
+  alyxwhitlow:
+    subgroups: []
+    permissions: []
+    group: Member
   Tokal:
     subgroups: []
     permissions: []
     group: VIP
+  Dr_Cash:
+    subgroups: []
+    permissions: []
+    group: Member
+  MasterDarkX:
+    subgroups: []
+    permissions: []
+    group: Member
+  Thundercus:
+    subgroups: []
+    permissions: []
+    group: Member
   toxsikkilla:
     subgroups: []
     permissions: []
@@ -112,6 +140,10 @@ users:
     subgroups: []
     permissions: []
     group: Sponsor
+  Sonicmech:
+    subgroups: []
+    permissions: []
+    group: Member
   blazinmeow:
     subgroups: []
     permissions: []
@@ -124,19 +156,27 @@ users:
     subgroups: []
     permissions: []
     group: VIP
-  MarckHardt:
-    subgroups: []
-    permissions: []
-    group: SuperVIP
   Buck_Speedjunk:
     subgroups: []
     permissions: []
     group: Sponsor
+  MarckHardt:
+    subgroups: []
+    permissions: []
+    group: SuperVIP
+  OrionnPSG1:
+    subgroups: []
+    permissions: []
+    group: Member
   0megaXIII:
     subgroups: []
     permissions: []
     group: Member
   dinosawr000:
+    subgroups: []
+    permissions: []
+    group: Member
+  joshmonge:
     subgroups: []
     permissions: []
     group: Member
