@@ -32,14 +32,18 @@ users:
     subgroups: []
     permissions: []
     group: Owner
-  dorrax:
-    subgroups: []
-    permissions: []
-    group: Operator
   thadfoo:
     subgroups: []
     permissions: []
     group: VIP
+  sincorax:
+    subgroups: []
+    permissions: []
+    group: Member
+  dorrax:
+    subgroups: []
+    permissions: []
+    group: Operator
   gukinator:
     subgroups: []
     permissions: []
