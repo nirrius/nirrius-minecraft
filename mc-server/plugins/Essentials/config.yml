@@ -131,79 +131,39 @@ kits:
       - 275 1
       - 50 10
       - 54 1
-  32lightstone_320:
+  glowstone-320:
     delay: 2
     items:
       - 89 32
-  64lightstone_640:
-    delay: 2
-    items:
-      - 89 64
-  32grass_320:
+  grass-320:
     delay: 2
     items:
       - 2 32
-  64grass_640:
-    delay: 2
-    items:
-      - 2 64
-  32leaves_320:
-    delay: 2
-    items:
-      - 18 32
-  64leaves_640:
-    delay: 2
-    items:
-      - 18 64
-  32pumpkin_320:
+  pumpkin-320:
     delay: 2
     items:
       - 86 32
-  64pumpkin_640:
-    delay: 2
-    items:
-      - 86 64
-  32sponge_320:
+  sponge-320:
     delay: 2
     items:
       - 19 32
-  64sponge_640:
-    delay: 2
-    items:
-      - 19 64
-  32ice_320:
+  ice-320:
     delay: 2
     items:
       - 79 32
-  64ice_640:
-    delay: 2
-    items:
-      - 79 64
-  32snow_320:
+  snow-320:
     delay: 2
     items:
       - 80 32
-  64snow_640:
-    delay: 2
-    items:
-      - 80 64
-  32clay_320:
+  clay-320:
     delay: 2
     items:
       - 82 32
-  64clay_640:
-    delay: 2
-    items:
-      - 82 64
-  32mossycobble_640:
+  mossycobble-640:
     delay: 2
     items:
       - 48 32
-  64mossycobble_1280:
-    delay: 2
-    items:
-      - 48 64
-  tbr_3330:
+  protools-3330:
     delay: 800
     items:
       - 287 1
@@ -214,12 +174,12 @@ kits:
       - 318 1
       - 341 1
       - 77 1
-  minecart_25:
+  minecart-25:
     delay: 5
     items:
       - 328 1
-  64gold_640:
-    delay: 100
+  goldingot-640:
+    delay: 500
     items:
       - 266 64
 
@@ -324,27 +284,17 @@ command-costs:
   time: 80
   weather: 80
   # /kit tools costs $1500 PER USE
-  kit-32lightstone_320: 320
-  kit-64lightstone_640: 640
-  kit-32grass_320: 320
-  kit-64grass_640: 640
-  kit-32leaves_320: 320
-  kit-64leaves_640: 640
-  kit-32pumpkin_320: 320
-  kit-64pumpkin_640: 640
-  kit-32sponge_320: 320
-  kit-64sponge_640: 640
-  kit-32ice_320: 320
-  kit-64ice_640: 640
-  kit-32snow_320: 320
-  kit-64snow_640: 640
-  kit-32clay_320: 320
-  kit-64clay_640: 640
-  kit-32mossycobble_640: 640
-  kit-64mossycobble_1280: 1280
-  kit-tbr_3330: 3330
-  kit-minecart_25: 25
-  kit-64gold_700: 700
+  kit-glowstone-320: 320
+  kit-grass-320: 320
+  kit-pumpkin-320: 320
+  kit-sponge-320: 320
+  kit-ice-320: 320
+  kit-snow-320: 320
+  kit-clay-320: 320
+  kit-mossycobble-640: 320
+  kit-protools-3330: 320
+  kit-minecart-25: 25
+  kit-goldingot-640: 640
  
 # Set this to a currency symbol you want to use.
 currency-symbol: 'K'
@@ -399,168 +349,6 @@ chat:
 #     Moderator: '&9[MOD]&f{DISPLAYNAME}&7:&f {MESSAGE}'
 #     VIPModerator: '&e[MOD]&f{DISPLAYNAME}&7:&f {MESSAGE}'
 #     Operator: '&c[OP]&f{DISPLAYNAME}&7:&f {MESSAGE}'
-
-
-
-
-############################################################
-# +------------------------------------------------------+ #
-# |                 EssentialsProtect                    | #
-# +------------------------------------------------------+ #
-############################################################
-
-protect:
-  # Database settings for sign/rail protection
-  # get mysql.jar and sqlite and place it in your serverroot/lib directory from here:
-  # http://java.net/projects/essentials/sources/svn/show/lib?rev=435
-
-  # mysql, sqlite or none
-  datatype: 'sqlite'
-
-  # If you specified MySQL above, you MUST enter the appropriate details here.
-  # If you specified SQLite above, these will be IGNORED.
-  username: 'root'
-  password: 'root'
-  mysqlDb: 'jdbc:mysql://localhost:3306/minecraft'
-
-  # For which block types would you like to be alerted?
-  # You can find a list of IDs in plugins/Essentials/items.csv after loading Essentials for the first time.
-  alert:
-    # 10: lava
-    # 11: still lava
-    # 46: TNT
-    on-placement: 10,11,46
-    on-use: 
-    # 46: TNT
-    on-break: 
-
-  # Users cannot PLACE these types of blocks/items.
-  # < 255 designates a BLOCK
-  # > 255 designates an ITEM (Some blocks can be placed as blocks OR items; lava blocks can be placed by lava buckets, for example.)
-  blacklist:
-    placement: 327,326,14,56,46,11,10,9,8
-    usage: 327,326,325
-    
-    #prevent people from breaking blocks
-    #break: 20,50
-    break:
-    
-    # Which blocks should not be pushed by pistons
-    piston:
-
-  # General physics/behavior modifications
-  prevent:
-    lava-flow: false
-    water-flow: false
-    water-bucket-flow: false
-    fire-spread: true
-    lava-fire-spread: true
-    flint-fire: false
-    lightning-fire-spread: true
-    portal-creation: false
-    tnt-explosion: false
-    tnt-playerdamage: false
-    fireball-explosion: false
-    fireball-fire: false
-    fireball-playerdamage: false
-    creeper-explosion: false
-    creeper-playerdamage: false
-    creeper-blockdamage: false
-    enderman-pickup: false
-    # Monsters won't follow players
-    # permission essentials.protect.entitytarget.bypass disables this
-    entitytarget: false
-    # Prevent the spawning of creatures
-    spawn:
-      chicken: false
-      cow: false
-      creeper: false
-      ghast: true
-      giant: false
-      monster: false
-      pig: false
-      pig_zombie: false
-      sheep: false
-      skeleton: false
-      slime: true
-      spider: false
-      squid: false
-      zombie: false
-      wolf: false
-      cave_spider: false
-      enderman: false
-      silverfish: false
-  
-  # Maximum height the creeper should explode. -1 allows them to explode everywhere.
-  # Set prevent.creeper-explosion to true, if you want to disable creeper explosions.
-  creeper:
-    max-height: -1
-  
-  # Protect various blocks.
-  protect:
-    # Protect all signs
-    signs: true
-
-    # Prevent users from destroying rails
-    rails: true
-
-    # Blocks below rails/signs are also protected if the respective rail/sign is protected.
-    # This makes it more difficult to circumvent protection, and should be enabled.
-    # This only has an effect if "rails" or "signs" is also enabled.
-    block-below: true
-
-    # Prevent placing blocks above protected rails, this is to stop a potential griefing
-    prevent-block-on-rails: false
-    
-    # Store blocks / signs in memory before writing
-    memstore: false
-
-  # Disable various default physics and behaviors
-  disable:
-    # Should fall damage be disabled?
-    fall: false
-
-    # Users with the essentials.protect.pvp permission will still be able to attack each other if this is set to true.
-    # They will be unable to attack users without that same permission node.
-    pvp: false
-
-    # Should drowning damage be disabled?
-    # (Split into two behaviors; generally, you want both set to the same value)
-    drown: false
-    suffocate: false
-
-    # Should damage via lava be disabled?  Items that fall into lava will still burn to a crisp. ;)
-    lavadmg: false
-
-    # Should arrow damage be disabled
-    projectiles: false
-
-    # This will disable damage from touching cacti.
-    contactdmg: false
-
-    # Burn, baby, burn!  Should fire damage be disabled?
-    firedmg: false
-    
-    # Should the damage after hit by a lightning be disabled?
-    lightning: false
-
-    # Should people with build: false in permissions be allowed to build
-    # Set true to disable building for those people
-    build: true
-    
-    # Should people with build: false in permissions be allowed to use items
-    # Set true to disable useing for those people
-    use: true
-
-    # Should we tell people they are not allowed to build
-    warn-on-build-disallow: true
-
-
-    # Disable weather options
-    weather:
-      storm: false
-      thunder: false
-      lightning: false
 
 ############################################################
 # +------------------------------------------------------+ #

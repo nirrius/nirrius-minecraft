@@ -72,9 +72,9 @@ worlds:
     gamemode: SURVIVAL
     keepspawninmemory: true
     spawn:
-      x: -5.5
+      x: -4.5
       y: 24.0
-      z: -7.5
+      z: -11.5
       pitch: 91.893005
       yaw: -0.30011174
   shangri-la:

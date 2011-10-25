@@ -1,7 +1,7 @@
 # # This is the Creativity Player settings file. Usually you don´t need to edit this !
 Player:
   Teffen:
-    mode: mccreative
+    mode: normal
     drops: false
     idrops: false
     prot: false
@@ -17,8 +17,8 @@ Player:
           amount: 1
           data: 0
         slot_2:
-          id: 368
-          amount: 2
+          id: 0
+          amount: 0
           data: 0
         slot_3:
           id: 0
