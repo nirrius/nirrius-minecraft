@@ -100,10 +100,6 @@ users:
     subgroups: []
     permissions: []
     group: Moderator
-  CDynamic:
-    subgroups: []
-    permissions: []
-    group: Moderator
   Mylian:
     subgroups: []
     permissions: []
@@ -140,7 +136,7 @@ users:
     subgroups: []
     permissions: []
     group: Member
-  dillin:
+  silvertie:
     subgroups: []
     permissions: []
     group: VIP
@@ -160,11 +156,7 @@ users:
     subgroups: []
     permissions: []
     group: Member
-  Thundercus:
-    subgroups: []
-    permissions: []
-    group: Member
-  dynamic-:
+  CDynamic:
     subgroups: []
     permissions: []
     group: Moderator
@@ -172,10 +164,6 @@ users:
     subgroups: []
     permissions: []
     group: Member
-  silvertie:
-    subgroups: []
-    permissions: []
-    group: VIP
   ctxaristide:
     subgroups: []
     permissions: []
