@@ -36,7 +36,7 @@ users:
     subgroups: []
     permissions: []
     group: Owner
-  gukinator:
+  thadfoo:
     subgroups: []
     permissions: []
     group: VIP
@@ -44,7 +44,7 @@ users:
     subgroups: []
     permissions: []
     group: Operator
-  thadfoo:
+  gukinator:
     subgroups: []
     permissions: []
     group: VIP

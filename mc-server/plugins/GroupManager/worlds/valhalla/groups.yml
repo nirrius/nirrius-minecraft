@@ -150,8 +150,7 @@ groups:
     - groupmanager.manwhois
     - groupmanager.notify.other
     - multiverse.teleport.other.*
-    inheritance:
-    - sponsor
+    inheritance: []
     info:
       prefix: '&9[MOD]&f'
       build: true
