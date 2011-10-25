@@ -1,0 +1,6 @@
+--2011-10-23 00:06:41--  http://repo1.maven.org/maven2/de/schlichtherle/truezip/6.8.1/truezip-6.8.1.jar
+Resolving repo1.maven.org... 207.223.241.90
+Connecting to repo1.maven.org|207.223.241.90|:80... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2011-10-23 00:06:41 ERROR 403: Forbidden.
+

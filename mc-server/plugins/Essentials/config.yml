@@ -90,6 +90,7 @@ warn-on-smite: true
 motd:
   - "&fWelcome to the &dnirrius &fMinecraft server, &c{PLAYER}&f!"
   - "&fType &c/help&f for a list of commands or see &c/who&f is online!"
+  - "Hey you! There is a blog post explaining all the updates at &dnirri.us&f."
 
 # The server rules, available by typing /rules
 rules:

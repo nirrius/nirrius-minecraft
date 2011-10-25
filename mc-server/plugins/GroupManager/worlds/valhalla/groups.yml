@@ -97,10 +97,10 @@ groups:
     - groupmanager.mantogglevalidate
     - groupmanager.manucheckp
     - groupmanager.manulistp
+    - instamode.*
     - movecraft.*
     - worldedit.*
     - worldguard.*
-    - instamode.*
     inheritance:
     - moderator
     info:
