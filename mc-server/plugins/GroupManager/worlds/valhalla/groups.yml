@@ -42,6 +42,8 @@ groups:
     - essentials.pay
     - essentials.ping
     - essentials.sell
+    - essentials.seen
+    - essentials.realname
     - essentials.signs.break.disposal
     - essentials.signs.break.mail
     - essentials.signs.break.protection

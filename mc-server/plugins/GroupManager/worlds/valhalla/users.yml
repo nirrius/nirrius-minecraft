@@ -12,91 +12,11 @@ users:
     subgroups: []
     permissions: []
     group: Operator
-  thadfoo:
-    subgroups: []
-    permissions: []
-    group: VIP
-  dorrax:
-    subgroups: []
-    permissions: []
-    group: Operator
-  gukinator:
-    subgroups: []
-    permissions: []
-    group: VIP
-  Shepanator:
-    subgroups: []
-    permissions: []
-    group: Member
-  mmmmorshu:
-    subgroups: []
-    permissions: []
-    group: Operator
-  atineiatte:
-    subgroups: []
-    permissions: []
-    group: Member
-  jgdogg441:
-    subgroups: []
-    permissions: []
-    group: Member
-  TacoDelPaco:
-    subgroups: []
-    permissions: []
-    group: Member
-  alyxwhitlow:
-    subgroups: []
-    permissions: []
-    group: Member
-  Dr_Cash:
-    subgroups: []
-    permissions: []
-    group: Member
-  MasterDarkX:
-    subgroups: []
-    permissions: []
-    group: Member
-  toxsikkilla:
+  baconbits:
     subgroups: []
     permissions: []
     group: Moderator
-  SaneOsiris:
-    subgroups: []
-    permissions: []
-    group: Sponsor
-  Zodulus:
-    subgroups: []
-    permissions: []
-    group: Sponsor
-  Sonicmech:
-    subgroups: []
-    permissions: []
-    group: Member
-  MarckHardt:
-    subgroups: []
-    permissions: []
-    group: SuperVIP
-  Buck_Speedjunk:
-    subgroups: []
-    permissions: []
-    group: Sponsor
-  OrionnPSG1:
-    subgroups: []
-    permissions: []
-    group: Member
-  0megaXIII:
-    subgroups: []
-    permissions: []
-    group: Member
-  joshmonge:
-    subgroups: []
-    permissions: []
-    group: Member
-  dinosawr000:
-    subgroups: []
-    permissions: []
-    group: Member
-  baconbits:
+  CDynamic:
     subgroups: []
     permissions: []
     group: Moderator
@@ -116,15 +36,43 @@ users:
     subgroups: []
     permissions: []
     group: Owner
-  Azehur:
+  gukinator:
     subgroups: []
     permissions: []
-    group: Member
+    group: VIP
+  dorrax:
+    subgroups: []
+    permissions: []
+    group: Operator
+  thadfoo:
+    subgroups: []
+    permissions: []
+    group: VIP
   ClaudiusDK:
     subgroups: []
     permissions: []
     group: Member
+  Azehur:
+    subgroups: []
+    permissions: []
+    group: Member
+  Shepanator:
+    subgroups: []
+    permissions: []
+    group: Member
+  atineiatte:
+    subgroups: []
+    permissions: []
+    group: Member
+  mmmmorshu:
+    subgroups: []
+    permissions: []
+    group: Operator
   OriginalName010:
+    subgroups: []
+    permissions: []
+    group: Member
+  crazyhacker451:
     subgroups: []
     permissions: []
     group: Member
@@ -132,31 +80,43 @@ users:
     subgroups: []
     permissions: []
     group: VIP
-  crazyhacker451:
-    subgroups: []
-    permissions: []
-    group: Member
-  silvertie:
-    subgroups: []
-    permissions: []
-    group: VIP
   Tony_Stork:
     subgroups: []
     permissions: []
     group: Moderator
+  TacoDelPaco:
+    subgroups: []
+    permissions: []
+    group: Member
+  jgdogg441:
+    subgroups: []
+    permissions: []
+    group: Member
   lievreokami:
     subgroups: []
     permissions: []
     group: Operator
+  alyxwhitlow:
+    subgroups: []
+    permissions: []
+    group: Member
   Tokal:
     subgroups: []
     permissions: []
     group: VIP
+  Dr_Cash:
+    subgroups: []
+    permissions: []
+    group: Member
+  MasterDarkX:
+    subgroups: []
+    permissions: []
+    group: Member
   Dyamalos:
     subgroups: []
     permissions: []
     group: Member
-  CDynamic:
+  toxsikkilla:
     subgroups: []
     permissions: []
     group: Moderator
@@ -164,7 +124,23 @@ users:
     subgroups: []
     permissions: []
     group: Member
+  silvertie:
+    subgroups: []
+    permissions: []
+    group: VIP
+  SaneOsiris:
+    subgroups: []
+    permissions: []
+    group: Sponsor
   ctxaristide:
+    subgroups: []
+    permissions: []
+    group: Member
+  Zodulus:
+    subgroups: []
+    permissions: []
+    group: Sponsor
+  Sonicmech:
     subgroups: []
     permissions: []
     group: Member
@@ -184,3 +160,27 @@ users:
     subgroups: []
     permissions: []
     group: VIP
+  Buck_Speedjunk:
+    subgroups: []
+    permissions: []
+    group: Sponsor
+  MarckHardt:
+    subgroups: []
+    permissions: []
+    group: SuperVIP
+  OrionnPSG1:
+    subgroups: []
+    permissions: []
+    group: Member
+  0megaXIII:
+    subgroups: []
+    permissions: []
+    group: Member
+  dinosawr000:
+    subgroups: []
+    permissions: []
+    group: Member
+  joshmonge:
+    subgroups: []
+    permissions: []
+    group: Member

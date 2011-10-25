@@ -23,6 +23,8 @@ groups:
     default: false
     permissions:
     - essentials.afk
+    - essentials.compass
+    - essentials.getpos
     - essentials.home
     - essentials.ignore
     - essentials.mail
@@ -31,6 +33,8 @@ groups:
     - essentials.msg
     - essentials.nick
     - essentials.ping
+    - essentials.realname
+    - essentials.seen
     - essentials.suicide
     - essentials.time
     - essentials.time.set
@@ -41,6 +45,8 @@ groups:
     - essentials.warp
     - essentials.warp.list
     - essentials.worth
+    - worldedit.navigation.thru
+    - worldedit.navigation.jumpto
     inheritance:
     - visitor
     info:
@@ -50,6 +56,7 @@ groups:
   Visitor:
     default: true
     permissions:
+    - essentials.clearinventory
     - essentials.help
     - essentials.helpop
     - essentials.list
