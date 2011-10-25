@@ -219,10 +219,10 @@ kits:
     delay: 5
     items:
       - 328 1
-  64gold_640:
-    delay: 100
-    items:
-      - 266 64
+#  64gold_640:
+#    delay: 100
+#    items:
+#      - 266 64
 
 # Disable all signs
 signs-disabled: false
