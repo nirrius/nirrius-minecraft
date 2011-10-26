@@ -99,8 +99,8 @@ worlds:
     gamemode: CREATIVE
     keepspawninmemory: true
     spawn:
-      x: -135.5
+      x: -128.5
       y: 68.0
-      z: 35.5
+      z: 51.5
       pitch: -1.3500508
       yaw: -201.74995

@@ -41,9 +41,9 @@ groups:
     - essentials.nick
     - essentials.pay
     - essentials.ping
-    - essentials.sell
-    - essentials.seen
     - essentials.realname
+    - essentials.seen
+    - essentials.sell
     - essentials.signs.break.disposal
     - essentials.signs.break.mail
     - essentials.signs.break.protection
@@ -150,7 +150,8 @@ groups:
     - groupmanager.manwhois
     - groupmanager.notify.other
     - multiverse.teleport.other.*
-    inheritance: []
+    inheritance:
+    - member
     info:
       prefix: '&9[MOD]&f'
       build: true

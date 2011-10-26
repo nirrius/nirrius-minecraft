@@ -12,30 +12,6 @@ users:
     subgroups: []
     permissions: []
     group: Operator
-  baconbits:
-    subgroups: []
-    permissions: []
-    group: Moderator
-  CDynamic:
-    subgroups: []
-    permissions: []
-    group: Moderator
-  Mylian:
-    subgroups: []
-    permissions: []
-    group: Member
-  skizerz:
-    subgroups: []
-    permissions: []
-    group: Operator
-  alovard:
-    subgroups: []
-    permissions: []
-    group: Moderator
-  Teffen:
-    subgroups: []
-    permissions: []
-    group: Owner
   thadfoo:
     subgroups: []
     permissions: []
@@ -48,19 +24,7 @@ users:
     subgroups: []
     permissions: []
     group: VIP
-  ClaudiusDK:
-    subgroups: []
-    permissions: []
-    group: Member
-  Azehur:
-    subgroups: []
-    permissions: []
-    group: Member
   Shepanator:
-    subgroups: []
-    permissions: []
-    group: Member
-  atineiatte:
     subgroups: []
     permissions: []
     group: Member
@@ -68,23 +32,7 @@ users:
     subgroups: []
     permissions: []
     group: Operator
-  OriginalName010:
-    subgroups: []
-    permissions: []
-    group: Member
-  crazyhacker451:
-    subgroups: []
-    permissions: []
-    group: Member
-  jengajam2:
-    subgroups: []
-    permissions: []
-    group: VIP
-  Tony_Stork:
-    subgroups: []
-    permissions: []
-    group: Moderator
-  TacoDelPaco:
+  atineiatte:
     subgroups: []
     permissions: []
     group: Member
@@ -92,18 +40,14 @@ users:
     subgroups: []
     permissions: []
     group: Member
-  lievreokami:
+  TacoDelPaco:
     subgroups: []
     permissions: []
-    group: Operator
+    group: Member
   alyxwhitlow:
     subgroups: []
     permissions: []
     group: Member
-  Tokal:
-    subgroups: []
-    permissions: []
-    group: VIP
   Dr_Cash:
     subgroups: []
     permissions: []
@@ -112,27 +56,15 @@ users:
     subgroups: []
     permissions: []
     group: Member
-  Dyamalos:
-    subgroups: []
-    permissions: []
-    group: Member
   toxsikkilla:
     subgroups: []
     permissions: []
     group: Moderator
-  maomao200:
-    subgroups: []
-    permissions: []
-    group: Member
-  silvertie:
-    subgroups: []
-    permissions: []
-    group: VIP
   SaneOsiris:
     subgroups: []
     permissions: []
     group: Sponsor
-  ctxaristide:
+  iNarcissistic:
     subgroups: []
     permissions: []
     group: Member
@@ -144,22 +76,6 @@ users:
     subgroups: []
     permissions: []
     group: Member
-  reykjavik:
-    subgroups: []
-    permissions: []
-    group: Moderator
-  blazinmeow:
-    subgroups: []
-    permissions: []
-    group: Moderator
-  MHebes:
-    subgroups: []
-    permissions: []
-    group: Member
-  aminim00se:
-    subgroups: []
-    permissions: []
-    group: VIP
   Buck_Speedjunk:
     subgroups: []
     permissions: []
@@ -176,11 +92,107 @@ users:
     subgroups: []
     permissions: []
     group: Member
-  dinosawr000:
-    subgroups: []
-    permissions: []
-    group: Member
   joshmonge:
     subgroups: []
     permissions: []
     group: Member
+  dinosawr000:
+    subgroups: []
+    permissions: []
+    group: Member
+  baconbits:
+    subgroups: []
+    permissions: []
+    group: Moderator
+  CDynamic:
+    subgroups: []
+    permissions: []
+    group: Moderator
+  Mylian:
+    subgroups: []
+    permissions: []
+    group: Member
+  alovard:
+    subgroups: []
+    permissions: []
+    group: Moderator
+  skizerz:
+    subgroups: []
+    permissions: []
+    group: Operator
+  Teffen:
+    subgroups: []
+    permissions: []
+    group: Owner
+  Azehur:
+    subgroups: []
+    permissions: []
+    group: Member
+  ClaudiusDK:
+    subgroups: []
+    permissions: []
+    group: Member
+  Incoming:
+    subgroups: []
+    permissions: []
+    group: Member
+  OriginalName010:
+    subgroups: []
+    permissions: []
+    group: Member
+  jengajam2:
+    subgroups: []
+    permissions: []
+    group: VIP
+  crazyhacker451:
+    subgroups: []
+    permissions: []
+    group: Member
+  Tony_Stork:
+    subgroups: []
+    permissions: []
+    group: Moderator
+  lievreokami:
+    subgroups: []
+    permissions: []
+    group: Operator
+  Tokal:
+    subgroups: []
+    permissions: []
+    group: VIP
+  Dyamalos:
+    subgroups: []
+    permissions: []
+    group: Member
+  Thundercus:
+    subgroups: []
+    permissions: []
+    group: Member
+  maomao200:
+    subgroups: []
+    permissions: []
+    group: Member
+  silvertie:
+    subgroups: []
+    permissions: []
+    group: VIP
+  ctxaristide:
+    subgroups: []
+    permissions: []
+    group: Member
+  blazinmeow:
+    subgroups: []
+    permissions: []
+    group: Moderator
+  reykjavik:
+    subgroups: []
+    permissions: []
+    group: Moderator
+  MHebes:
+    subgroups: []
+    permissions: []
+    group: Member
+  aminim00se:
+    subgroups: []
+    permissions: []
+    group: VIP

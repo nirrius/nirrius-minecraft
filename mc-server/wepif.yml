@@ -21,7 +21,7 @@
 # - Now with multiworld support (see example)
 
 
-ignore-nijiperms-bridges: true
+ignore-nijiperms-bridges: false
 permissions:
     users:
         sk89q:

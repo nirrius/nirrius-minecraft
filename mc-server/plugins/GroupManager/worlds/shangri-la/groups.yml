@@ -45,8 +45,8 @@ groups:
     - essentials.warp
     - essentials.warp.list
     - essentials.worth
-    - worldedit.navigation.thru
     - worldedit.navigation.jumpto
+    - worldedit.navigation.thru
     inheritance:
     - visitor
     info:
