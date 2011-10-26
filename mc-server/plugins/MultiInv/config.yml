@@ -1,0 +1,15 @@
+# Do you want health to be split across different world groups
+isHealthSplit: false
+
+# Do you want hunger levels to be split across different world groups
+isHungerSplit: false
+
+# Do you want exp split across different world groups
+# *Currently doesn't work due to Bukkit exp bugs*
+isExpSplit: false
+
+# Do you want to allow this plugin to control which worlds are creative/survival
+worldTypes: false
+
+# Players you wish to never switch inventories (using YML lists)
+ignore: []

@@ -1,8 +1,0 @@
-#This is the Creativity Block protection file.
-#Items listed below can not be destroyed if Block Protection is enabled !
-WALL_SIGN: true
-SIGN_POST: true
-IRON_DOOR_BLOCK: true
-WOODEN_DOOR: true
-STONE_BUTTON: true
-LEVER: true

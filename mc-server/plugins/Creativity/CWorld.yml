@@ -1,6 +1,0 @@
-# #This is the Creativity world config file.
-# #In the Worlds listed below Creativity is enabled, if "CWorld-txt enables worlds" is true in config.yml#If you change "CWorld-txt enables worlds" to false, Creativity will be disabled in the worlds listed here
-valhalla: false
-valhalla_nether: false
-avalon: false
-shangri-la: true
