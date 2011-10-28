@@ -13,7 +13,8 @@
 # groupName2: [world3, world4]
 
 default:
-- world
-- world_nether
+- valhalla
+- valhalla_nether
+- avalon
 
 creativeGroups:

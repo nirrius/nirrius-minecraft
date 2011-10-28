@@ -56,6 +56,14 @@ users:
     subgroups: []
     permissions: []
     group: Member
+  SilvyX3:
+    subgroups: []
+    permissions: []
+    group: Member
+  lancesrage:
+    subgroups: []
+    permissions: []
+    group: Member
   toxsikkilla:
     subgroups: []
     permissions: []
@@ -92,11 +100,11 @@ users:
     subgroups: []
     permissions: []
     group: Member
-  joshmonge:
+  dinosawr000:
     subgroups: []
     permissions: []
     group: Member
-  dinosawr000:
+  joshmonge:
     subgroups: []
     permissions: []
     group: Member
@@ -124,6 +132,10 @@ users:
     subgroups: []
     permissions: []
     group: Owner
+  1nfinitum:
+    subgroups: []
+    permissions: []
+    group: Member
   Azehur:
     subgroups: []
     permissions: []
@@ -137,6 +149,10 @@ users:
     permissions: []
     group: Member
   OriginalName010:
+    subgroups: []
+    permissions: []
+    group: Member
+  TheBoyFroWonder:
     subgroups: []
     permissions: []
     group: Member
@@ -156,6 +172,10 @@ users:
     subgroups: []
     permissions: []
     group: Operator
+  platedcassava:
+    subgroups: []
+    permissions: []
+    group: Member
   Tokal:
     subgroups: []
     permissions: []
@@ -180,11 +200,11 @@ users:
     subgroups: []
     permissions: []
     group: Member
-  blazinmeow:
+  reykjavik:
     subgroups: []
     permissions: []
     group: Moderator
-  reykjavik:
+  blazinmeow:
     subgroups: []
     permissions: []
     group: Moderator

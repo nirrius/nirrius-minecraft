@@ -135,7 +135,6 @@ groups:
     - essentials.tp
     - essentials.tphere
     - essentials.tppos
-    - essentials.tptoggle
     - essentials.unban
     - essentials.unbanip
     - essentials.weather
