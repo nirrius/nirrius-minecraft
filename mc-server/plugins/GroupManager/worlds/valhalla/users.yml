@@ -12,6 +12,14 @@ users:
     subgroups: []
     permissions: []
     group: Operator
+  Preferably:
+    subgroups: []
+    permissions: []
+    group: Member
+  okros:
+    subgroups: []
+    permissions: []
+    group: Member
   thadfoo:
     subgroups: []
     permissions: []
@@ -24,7 +32,7 @@ users:
     subgroups: []
     permissions: []
     group: VIP
-  Shepanator:
+  atineiatte:
     subgroups: []
     permissions: []
     group: Member
@@ -32,15 +40,15 @@ users:
     subgroups: []
     permissions: []
     group: Operator
-  atineiatte:
-    subgroups: []
-    permissions: []
-    group: Member
-  jgdogg441:
+  Shepanator:
     subgroups: []
     permissions: []
     group: Member
   TacoDelPaco:
+    subgroups: []
+    permissions: []
+    group: Member
+  jgdogg441:
     subgroups: []
     permissions: []
     group: Member
@@ -49,6 +57,10 @@ users:
     permissions: []
     group: Member
   Dr_Cash:
+    subgroups: []
+    permissions: []
+    group: Member
+  BarMiner:
     subgroups: []
     permissions: []
     group: Member
@@ -72,6 +84,10 @@ users:
     subgroups: []
     permissions: []
     group: Sponsor
+  Baron_Praxis:
+    subgroups: []
+    permissions: []
+    group: Member
   iNarcissistic:
     subgroups: []
     permissions: []
@@ -136,11 +152,11 @@ users:
     subgroups: []
     permissions: []
     group: Member
-  Azehur:
+  ClaudiusDK:
     subgroups: []
     permissions: []
     group: Member
-  ClaudiusDK:
+  Azehur:
     subgroups: []
     permissions: []
     group: Member
@@ -163,11 +179,15 @@ users:
   crazyhacker451:
     subgroups: []
     permissions: []
-    group: Member
+    group: Sponsor
   Tony_Stork:
     subgroups: []
     permissions: []
     group: Moderator
+  Empoleon416:
+    subgroups: []
+    permissions: []
+    group: Member
   lievreokami:
     subgroups: []
     permissions: []
@@ -180,6 +200,10 @@ users:
     subgroups: []
     permissions: []
     group: VIP
+  BlocksRock:
+    subgroups: []
+    permissions: []
+    group: Member
   Dyamalos:
     subgroups: []
     permissions: []
@@ -216,3 +240,19 @@ users:
     subgroups: []
     permissions: []
     group: VIP
+  Kanbadak:
+    subgroups: []
+    permissions: []
+    group: Member
+  java122:
+    subgroups: []
+    permissions: []
+    group: Member
+  AnotherAnonymous:
+    subgroups: []
+    permissions: []
+    group: Member
+  LastNote678:
+    subgroups: []
+    permissions: []
+    group: Member

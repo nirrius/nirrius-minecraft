@@ -15,6 +15,11 @@ groups:
     - '*'
     inheritance:
     - operator
+    - moderator
+    - vip
+    - sponsor
+    - member
+    - visitor
     info:
       prefix: '&c~&f'
       build: true
@@ -121,7 +126,6 @@ groups:
     - essentials.getpos
     - essentials.helpop.recieve
     - essentials.home.others
-    - essentials.invsee
     - essentials.jails
     - essentials.kick
     - essentials.kick.notify
