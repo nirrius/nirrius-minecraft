@@ -3,6 +3,10 @@ users:
     subgroups: []
     permissions: []
     group: VIP
+  LyvainSoftail:
+    subgroups: []
+    permissions: []
+    group: Moderator
   katsuku:
     subgroups:
     - VIP
@@ -84,11 +88,11 @@ users:
     subgroups: []
     permissions: []
     group: Sponsor
-  Baron_Praxis:
+  iNarcissistic:
     subgroups: []
     permissions: []
     group: Member
-  iNarcissistic:
+  Baron_Praxis:
     subgroups: []
     permissions: []
     group: Member
@@ -121,6 +125,10 @@ users:
     permissions: []
     group: Member
   joshmonge:
+    subgroups: []
+    permissions: []
+    group: Member
+  SpeedAtNight:
     subgroups: []
     permissions: []
     group: Member
