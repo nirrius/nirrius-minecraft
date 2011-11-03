@@ -36,14 +36,14 @@ users:
     subgroups: []
     permissions: []
     group: VIP
-  atineiatte:
-    subgroups: []
-    permissions: []
-    group: Member
   mmmmorshu:
     subgroups: []
     permissions: []
     group: Operator
+  atineiatte:
+    subgroups: []
+    permissions: []
+    group: Member
   Shepanator:
     subgroups: []
     permissions: []
