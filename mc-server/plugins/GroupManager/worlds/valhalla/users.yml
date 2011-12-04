@@ -7,15 +7,23 @@ users:
     subgroups: []
     permissions: []
     group: Moderator
+  phone:
+    subgroups: []
+    permissions: []
+    group: Member
   katsuku:
     subgroups:
-    - VIP
+    - Moderator
     permissions: []
-    group: Moderator
+    group: VIP
   admiral.bacon:
     subgroups: []
     permissions: []
     group: Operator
+  Johnny757:
+    subgroups: []
+    permissions: []
+    group: Member
   Preferably:
     subgroups: []
     permissions: []
@@ -24,7 +32,11 @@ users:
     subgroups: []
     permissions: []
     group: Member
-  thadfoo:
+  Masterpretzel:
+    subgroups: []
+    permissions: []
+    group: Member
+  gukinator:
     subgroups: []
     permissions: []
     group: VIP
@@ -32,18 +44,22 @@ users:
     subgroups: []
     permissions: []
     group: Operator
-  gukinator:
+  thadfoo:
     subgroups: []
     permissions: []
     group: VIP
-  mmmmorshu:
+  Minotitan:
     subgroups: []
     permissions: []
-    group: Operator
+    group: Member
   atineiatte:
     subgroups: []
     permissions: []
     group: Member
+  mmmmorshu:
+    subgroups: []
+    permissions: []
+    group: Operator
   Shepanator:
     subgroups: []
     permissions: []
@@ -60,7 +76,19 @@ users:
     subgroups: []
     permissions: []
     group: Member
+  Totentag:
+    subgroups: []
+    permissions: []
+    group: Member
   Dr_Cash:
+    subgroups: []
+    permissions: []
+    group: Member
+  klauth:
+    subgroups: []
+    permissions: []
+    group: Member
+  donmiguel125:
     subgroups: []
     permissions: []
     group: Member
@@ -128,6 +156,10 @@ users:
     subgroups: []
     permissions: []
     group: Member
+  Athos101:
+    subgroups: []
+    permissions: []
+    group: Member
   SpeedAtNight:
     subgroups: []
     permissions: []
@@ -136,10 +168,18 @@ users:
     subgroups: []
     permissions: []
     group: Moderator
+  Euphenics:
+    subgroups: []
+    permissions: []
+    group: Member
   CDynamic:
     subgroups: []
     permissions: []
     group: Moderator
+  MrPink:
+    subgroups: []
+    permissions: []
+    group: Member
   Mylian:
     subgroups: []
     permissions: []
@@ -172,6 +212,14 @@ users:
     subgroups: []
     permissions: []
     group: Member
+  crazyhacker451:
+    subgroups: []
+    permissions: []
+    group: Sponsor
+  jengajam2:
+    subgroups: []
+    permissions: []
+    group: VIP
   OriginalName010:
     subgroups: []
     permissions: []
@@ -180,14 +228,6 @@ users:
     subgroups: []
     permissions: []
     group: Member
-  jengajam2:
-    subgroups: []
-    permissions: []
-    group: VIP
-  crazyhacker451:
-    subgroups: []
-    permissions: []
-    group: Sponsor
   Tony_Stork:
     subgroups: []
     permissions: []
@@ -200,6 +240,14 @@ users:
     subgroups: []
     permissions: []
     group: Operator
+  zombiekiller1171:
+    subgroups: []
+    permissions: []
+    group: Member
+  Airplanefood:
+    subgroups: []
+    permissions: []
+    group: Member
   platedcassava:
     subgroups: []
     permissions: []
@@ -208,6 +256,10 @@ users:
     subgroups: []
     permissions: []
     group: VIP
+  thaiceman:
+    subgroups: []
+    permissions: []
+    group: Member
   BlocksRock:
     subgroups: []
     permissions: []
@@ -220,6 +272,10 @@ users:
     subgroups: []
     permissions: []
     group: Member
+  newtype06:
+    subgroups: []
+    permissions: []
+    group: Member
   maomao200:
     subgroups: []
     permissions: []
@@ -229,6 +285,14 @@ users:
     permissions: []
     group: VIP
   ctxaristide:
+    subgroups: []
+    permissions: []
+    group: Member
+  mr_mustasch:
+    subgroups: []
+    permissions: []
+    group: Member
+  BorreH:
     subgroups: []
     permissions: []
     group: Member
@@ -261,6 +325,10 @@ users:
     permissions: []
     group: Member
   LastNote678:
+    subgroups: []
+    permissions: []
+    group: Member
+  Epicroller:
     subgroups: []
     permissions: []
     group: Member
