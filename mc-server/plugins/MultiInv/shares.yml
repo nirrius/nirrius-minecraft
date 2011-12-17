@@ -13,8 +13,10 @@
 # groupName2: [world3, world4]
 
 default:
+- centralius
+- centralius_nether
+- centralius_the_end
 - valhalla
-- valhalla_nether
-- avalon
+- heaven
 
 creativeGroups:
