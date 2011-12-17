@@ -26,3 +26,110 @@ worlds:
       z: 51.5
       pitch: -1.3500508
       yaw: -201.74995
+  heaven:
+    environment: NORMAL
+    alias:
+      name: ''
+      color: WHITE
+    pvp: true
+    fakepvp: false
+    scale: 1.0
+    seed: 529849355
+    allowweather: true
+    difficulty: NORMAL
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      amount: 0.0
+      currency: -1
+      price: 0.0
+    hunger: true
+    hidden: false
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: 0.0
+      y: 126.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+      world: heaven
+    respawnworld: ''
+    autoheal: true
+    adjustspawn: true
+    autoload: true
+    bedrespawn: true
+  valhalla:
+    environment: NORMAL
+    alias:
+      name: ''
+      color: WHITE
+    pvp: true
+    fakepvp: false
+    scale: 1.0
+    allowweather: true
+    difficulty: NORMAL
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      amount: 0.0
+      currency: -1
+      price: 0.0
+    hunger: true
+    hidden: false
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: 12.5
+      y: 64.0
+      z: 252.5
+      pitch: 0.0
+      yaw: 0.0
+      world: valhalla
+    seed: -7724932828977041023
+    respawnworld: ''
+    autoheal: true
+    adjustspawn: true
+    autoload: true
+    bedrespawn: true
+  shangri-la:
+    environment: NORMAL
+    alias:
+      name: ''
+      color: WHITE
+    pvp: true
+    fakepvp: false
+    scale: 1.0
+    seed: -8747350736947870534
+    allowweather: true
+    difficulty: EASY
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      amount: 0.0
+      currency: -1
+      price: 0.0
+    hunger: false
+    hidden: false
+    gamemode: CREATIVE
+    keepspawninmemory: true
+    spawn:
+      x: -128.5
+      y: 68.0
+      z: 51.5
+      pitch: -201.74995
+      yaw: -1.3500508
+      world: shangri-la
+    respawnworld: ''
+    autoheal: true
+    adjustspawn: true
+    autoload: true
+    bedrespawn: true
+
+
