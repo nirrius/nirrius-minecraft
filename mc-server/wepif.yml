@@ -19,6 +19,8 @@
 # About Configuration Permissions
 # - See http://wiki.sk89q.com/wiki/WorldEdit/Permissions/Bukkit
 # - Now with multiworld support (see example)
+
+
 ignore-nijiperms-bridges: false
 permissions:
     users:
@@ -36,4 +38,13 @@ permissions:
         admins:
             permissions:
             - '*'
-dinnerperms: false
+dinnerperms: null
+resolvers:
+    enabled:
+    - PluginPermissionsResolver
+    - PermissionsExResolver
+    - NijiPermissionsResolver
+    - DinnerPermsResolver
+    - FlatFilePermissionsResolver
+    disabled: []
+dinner-perms: null
