@@ -23,15 +23,15 @@ worlds:
     gamemode: SURVIVAL
     keepspawninmemory: true
     spawn:
-      x: -128.5
-      y: 68.0
-      z: 51.5
-      pitch: -1.3500508
-      yaw: -201.74995
+      x: -302.8125
+      y: 63.0
+      z: 35.25
+      pitch: -3.4500427
+      yaw: -88.95032
       world: centralius
     respawnworld: ''
     autoheal: true
-    adjustspawn: true
+    adjustspawn: false
     autoload: true
     bedrespawn: true
   heaven:
@@ -42,7 +42,7 @@ worlds:
     pvp: true
     fakepvp: false
     scale: 1.0
-    seed: -8747350736947870534
+    seed: 4
     allowweather: true
     difficulty: NORMAL
     animals:
@@ -58,9 +58,9 @@ worlds:
     gamemode: SURVIVAL
     keepspawninmemory: true
     spawn:
-      x: 0.0
-      y: 126.0
-      z: 0.0
+      x: 590.5
+      y: 64.0
+      z: -506.5
       pitch: 0.0
       yaw: 0.0
       world: heaven

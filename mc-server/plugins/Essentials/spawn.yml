@@ -1,11 +1,11 @@
 spawns: 
   default: 
-    world: shangri-la
-    x: -149.30000001192093
-    y: 163.1294371994186
-    z: 31.67121926586405
-    yaw: 2.098877
-    pitch: 90.0
+    world: centralius
+    x: -302.8125
+    y: 63.0
+    z: 35.25
+    yaw: -88.95032
+    pitch: -3.4500427
   operator: 
     world: valhalla
     x: 17.109090713744386
