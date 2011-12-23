@@ -4,29 +4,29 @@ timer-delay-ticks: 5
 debug-mode: false
 whoosh-effect: true
 round-border: false
-cfg-version: 3
+cfg-version: 4
 worlds:
-    centralius_the_end:
-        radius: 1350
-        z: 0.0
-        x: 0.0
-    heaven:
-        radius: 600
-        z: 0.0
-        x: 0.0
-    centralius:
-        radius: 500
-        z: 0.0
-        x: 0.0
-    centralius_nether:
-        radius: 1350
-        z: 0.0
-        x: 0.0
-    valhalla:
-        radius: 1350
-        z: 0.0
-        x: 0.0
-    shangri-la:
-        radius: 1350
-        z: 0.0
-        x: 0.0
+  centralius_the_end:
+    x: 0.0
+    z: 0.0
+    radius: 1350
+  heaven:
+    x: 0.0
+    z: 0.0
+    radius: 600
+  centralius_nether:
+    x: 0.0
+    z: 0.0
+    radius: 1350
+  centralius:
+    x: 0.0
+    z: 0.0
+    radius: 500
+  valhalla:
+    x: 0.0
+    z: 0.0
+    radius: 1350
+  shangri-la:
+    x: 0.0
+    z: 0.0
+    radius: 1350

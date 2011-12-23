@@ -38,7 +38,7 @@ permissions:
         admins:
             permissions:
             - '*'
-dinnerperms: null
+dinnerperms:
 resolvers:
     enabled:
     - PluginPermissionsResolver
@@ -47,4 +47,3 @@ resolvers:
     - DinnerPermsResolver
     - FlatFilePermissionsResolver
     disabled: []
-dinner-perms: null

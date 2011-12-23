@@ -1,0 +1,10 @@
+portals:
+  test1:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    owner: dorrax
+    location: -271.0,72.0,-64.0:-270.0,73.0,-64.0
+    world: centralius
+    destination: heaven
