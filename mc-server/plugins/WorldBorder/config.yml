@@ -6,28 +6,6 @@ whoosh-effect: true
 round-border: false
 cfg-version: 4
 worlds:
-<<<<<<< HEAD
-    TEST:
-        radius: 500
-        z: 0.0
-        x: 0.0
-    valhalla:
-        radius: 1350
-        z: 0.0
-        x: 0.0
-    valhalla_nether:
-        radius: 1350
-        z: 0.0
-        x: 0.0
-    avalon:
-        radius: 1350
-        z: 0.0
-        x: 0.0
-    shangri-la:
-        radius: 1350
-        z: 0.0
-        x: 0.0
-=======
   centralius_the_end:
     x: 0.0
     z: 0.0
@@ -52,4 +30,4 @@ worlds:
     x: 0.0
     z: 0.0
     radius: 1350
->>>>>>> c6b86d55b1e998d7d2550dbe33ef3614ea56b68b
+
