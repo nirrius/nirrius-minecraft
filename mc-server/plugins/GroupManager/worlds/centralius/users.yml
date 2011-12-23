@@ -1,0 +1,307 @@
+users:
+  helloworld00:
+    subgroups: []
+    permissions: []
+    group: VIP
+  LyvainSoftail:
+    subgroups: []
+    permissions: []
+    group: Moderator
+  katsuku:
+    subgroups:
+    - VIP
+    permissions: []
+    group: Moderator
+  admiral.bacon:
+    subgroups: []
+    permissions: []
+    group: Operator
+  Preferably:
+    subgroups: []
+    permissions: []
+    group: Member
+  okros:
+    subgroups: []
+    permissions: []
+    group: Member
+  Masterpretzel:
+    subgroups: []
+    permissions: []
+    group: Member
+  thadfoo:
+    subgroups: []
+    permissions: []
+    group: VIP
+  dorrax:
+    subgroups: []
+    permissions: []
+    group: Owner
+  gukinator:
+    subgroups: []
+    permissions: []
+    group: VIP
+  mmmmorshu:
+    subgroups: []
+    permissions: []
+    group: Operator
+  atineiatte:
+    subgroups: []
+    permissions: []
+    group: Member
+  Shepanator:
+    subgroups: []
+    permissions: []
+    group: Member
+  Minotitan:
+    subgroups: []
+    permissions: []
+    group: Member
+  TacoDelPaco:
+    subgroups: []
+    permissions: []
+    group: Member
+  jgdogg441:
+    subgroups: []
+    permissions: []
+    group: Member
+  alyxwhitlow:
+    subgroups: []
+    permissions: []
+    group: Member
+  Dr_Cash:
+    subgroups: []
+    permissions: []
+    group: Member
+  BarMiner:
+    subgroups: []
+    permissions: []
+    group: Member
+  MasterDarkX:
+    subgroups: []
+    permissions: []
+    group: Member
+  SilvyX3:
+    subgroups: []
+    permissions: []
+    group: Member
+  lancesrage:
+    subgroups: []
+    permissions: []
+    group: Member
+  toxsikkilla:
+    subgroups: []
+    permissions: []
+    group: Moderator
+  zeoneo1992:
+    subgroups: []
+    permissions: []
+    group: Member
+  SaneOsiris:
+    subgroups: []
+    permissions: []
+    group: Sponsor
+  iNarcissistic:
+    subgroups: []
+    permissions: []
+    group: Member
+  Baron_Praxis:
+    subgroups: []
+    permissions: []
+    group: Member
+  Zodulus:
+    subgroups: []
+    permissions: []
+    group: Sponsor
+  Sonicmech:
+    subgroups: []
+    permissions: []
+    group: Member
+  Buck_Speedjunk:
+    subgroups: []
+    permissions: []
+    group: Sponsor
+  MarckHardt:
+    subgroups: []
+    permissions:
+    - essentials.powertool
+    group: SuperVIP
+  OrionnPSG1:
+    subgroups: []
+    permissions: []
+    group: Member
+  0megaXIII:
+    subgroups: []
+    permissions: []
+    group: Member
+  dinosawr000:
+    subgroups: []
+    permissions: []
+    group: Member
+  joshmonge:
+    subgroups: []
+    permissions: []
+    group: Member
+  Athos101:
+    subgroups: []
+    permissions: []
+    group: Member
+  SpeedAtNight:
+    subgroups: []
+    permissions: []
+    group: Member
+  baconbits:
+    subgroups: []
+    permissions: []
+    group: Operator
+  CDynamic:
+    subgroups: []
+    permissions: []
+    group: Moderator
+  Mylian:
+    subgroups: []
+    permissions: []
+    group: Member
+  alovard:
+    subgroups: []
+    permissions: []
+    group: Moderator
+  skizerz:
+    subgroups: []
+    permissions: []
+    group: Operator
+  Teffen:
+    subgroups: []
+    permissions: []
+    group: Owner
+  1nfinitum:
+    subgroups: []
+    permissions: []
+    group: Member
+  ClaudiusDK:
+    subgroups: []
+    permissions: []
+    group: Member
+  Azehur:
+    subgroups: []
+    permissions: []
+    group: Member
+  Incoming:
+    subgroups: []
+    permissions: []
+    group: Member
+  jengajam2:
+    subgroups: []
+    permissions: []
+    group: VIP
+  crazyhacker451:
+    subgroups: []
+    permissions: []
+    group: Sponsor
+  OriginalName010:
+    subgroups: []
+    permissions: []
+    group: Member
+  TheBoyFroWonder:
+    subgroups: []
+    permissions: []
+    group: Member
+  dillin:
+    subgroups: []
+    permissions: []
+    group: Member
+  Tony_Stork:
+    subgroups: []
+    permissions: []
+    group: Moderator
+  Empoleon416:
+    subgroups: []
+    permissions: []
+    group: Member
+  lievreokami:
+    subgroups: []
+    permissions: []
+    group: Operator
+  AssHaggis:
+    subgroups: []
+    permissions: []
+    group: Member
+  platedcassava:
+    subgroups: []
+    permissions: []
+    group: Member
+  Tokal:
+    subgroups: []
+    permissions: []
+    group: VIP
+  thaiceman:
+    subgroups: []
+    permissions: []
+    group: Member
+  BlocksRock:
+    subgroups: []
+    permissions: []
+    group: Member
+  Captain_Cannabis:
+    subgroups: []
+    permissions: []
+    group: Member
+  Dyamalos:
+    subgroups: []
+    permissions: []
+    group: Member
+  Thundercus:
+    subgroups: []
+    permissions: []
+    group: Member
+  newtype06:
+    subgroups: []
+    permissions: []
+    group: Member
+  maomao200:
+    subgroups: []
+    permissions: []
+    group: Member
+  silvertie:
+    subgroups: []
+    permissions: []
+    group: VIP
+  ctxaristide:
+    subgroups: []
+    permissions: []
+    group: Member
+  reykjavik:
+    subgroups: []
+    permissions: []
+    group: Moderator
+  blazinmeow:
+    subgroups: []
+    permissions: []
+    group: Moderator
+  MHebes:
+    subgroups: []
+    permissions: []
+    group: Member
+  aminim00se:
+    subgroups: []
+    permissions: []
+    group: VIP
+  Kanbadak:
+    subgroups: []
+    permissions: []
+    group: Member
+  java122:
+    subgroups: []
+    permissions: []
+    group: Member
+  AnotherAnonymous:
+    subgroups: []
+    permissions: []
+    group: Member
+  LastNote678:
+    subgroups: []
+    permissions: []
+    group: Member
+  Epicroller:
+    subgroups: []
+    permissions: []
+    group: Member

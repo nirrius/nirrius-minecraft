@@ -4,3 +4,7 @@ updateUsersPowerToolsFormat: true
 sanitizeAllUserFilenames: true
 deleteOldItemsCsv: true
 updateUsersHomesFormat: true
+movemotdToFile: true
+moverulesToFile: true
+updateSpawnsToNewSpawnsConfig: true
+updateJailsToNewJailsConfig: true

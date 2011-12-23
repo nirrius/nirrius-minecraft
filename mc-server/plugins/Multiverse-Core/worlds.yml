@@ -1,90 +1,118 @@
 worlds:
-  valhalla:
+  centralius:
     environment: NORMAL
     alias:
       name: ''
-    pvp: true
-    fakepvp: false
-    scale: 1.0
-    allowweather: true
-    difficulty: NORMAL
-    animals:
-      spawn: true
-    monsters:
-      spawn: true
-    entryfee:
-      amount: 0.0
-      currency: -1
-    hunger: true
-    hidden: false
-    gamemode: SURVIVAL
-    keepspawninmemory: true
-    spawn:
-      x: 12.5
-      y: 64.0
-      z: 252.5
-      pitch: 0.0
-      yaw: 0.0
-  valhalla_nether:
-    environment: NETHER
-    alias:
-      name: ''
-    pvp: true
-    fakepvp: false
-    scale: 8.0
-    allowweather: true
-    difficulty: NORMAL
-    animals:
-      spawn: true
-    monsters:
-      spawn: true
-    entryfee:
-      amount: 0.0
-      currency: -1
-    hunger: true
-    hidden: false
-    gamemode: SURVIVAL
-    keepspawninmemory: true
-    spawn:
-      x: 838.5
-      y: 94.0
-      z: 45.5
-      pitch: 0.60000134
-      yaw: -2.849992
-  avalon:
-    environment: SKYLANDS
-    alias:
-      name: ''
-    pvp: true
-    fakepvp: false
-    scale: 1.0
-    allowweather: true
-    difficulty: EASY
-    animals:
-      spawn: true
-    monsters:
-      spawn: true
-    entryfee:
-      amount: 0.0
-      currency: -1
-    hunger: true
-    hidden: false
-    gamemode: SURVIVAL
-    keepspawninmemory: true
-    spawn:
-      x: -5.5
-      y: 24.0
-      z: -7.5
-      pitch: 91.893005
-      yaw: -0.30011174
-  shangri-la:
-    environment: NORMAL
-    alias:
-      name: ''
+      color: WHITE
     pvp: true
     fakepvp: false
     scale: 1.0
     seed: 511391400
+    allowweather: false
+    difficulty: PEACEFUL
+    animals:
+      spawn: true
+    monsters:
+      spawn: false
+    entryfee:
+      amount: 0.0
+      currency: -1
+      price: 0.0
+    hunger: false
+    hidden: false
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: 0.0
+      y: 100.0
+      z: 0.0
+      pitch: -88.95032
+      yaw: -3.4500427
+      world: centralius
+    respawnworld: ''
+    autoheal: true
+    adjustspawn: false
+    autoload: true
+    bedrespawn: true
+  heaven:
+    environment: NORMAL
+    alias:
+      name: ''
+      color: WHITE
+    pvp: true
+    fakepvp: false
+    scale: 1.0
+    seed: 4
+    allowweather: true
+    difficulty: NORMAL
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      amount: 0.0
+      currency: -1
+      price: 0.0
+    hunger: true
+    hidden: false
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: 590.5
+      y: 64.0
+      z: -506.5
+      pitch: 0.0
+      yaw: 0.0
+      world: heaven
+    respawnworld: ''
+    autoheal: true
+    adjustspawn: true
+    autoload: true
+    bedrespawn: true
+  valhalla:
+    environment: NORMAL
+    alias:
+      name: ''
+      color: WHITE
+    pvp: true
+    fakepvp: false
+    scale: 1.0
+    allowweather: true
+    difficulty: NORMAL
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      amount: 0.0
+      currency: -1
+      price: 0.0
+    hunger: true
+    hidden: false
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: -238.5
+      y: 64.0
+      z: 168.5
+      pitch: 0.0
+      yaw: 0.0
+      world: valhalla
+    seed: -7724932828977041023
+    respawnworld: ''
+    autoheal: true
+    adjustspawn: true
+    autoload: true
+    bedrespawn: true
+  shangri-la:
+    environment: NORMAL
+    alias:
+      name: ''
+      color: WHITE
+    pvp: true
+    fakepvp: false
+    scale: 1.0
+    seed: -8747350736947870534
     allowweather: true
     difficulty: EASY
     animals:
@@ -94,13 +122,86 @@ worlds:
     entryfee:
       amount: 0.0
       currency: -1
+      price: 0.0
     hunger: false
     hidden: false
     gamemode: CREATIVE
     keepspawninmemory: true
     spawn:
-      x: -128.5
-      y: 68.0
-      z: 51.5
-      pitch: -1.3500508
-      yaw: -201.74995
+      x: 105.5
+      y: 64.0
+      z: 247.5
+      pitch: 0.0
+      yaw: 0.0
+      world: shangri-la
+    respawnworld: ''
+    autoheal: true
+    adjustspawn: true
+    autoload: true
+    bedrespawn: true
+  centralius_nether:
+    seed: 511391400
+    environment: NETHER
+    hidden: false
+    alias:
+      name: ''
+      color: WHITE
+    pvp: true
+    scale: 8.0
+    respawnworld: ''
+    allowweather: true
+    difficulty: EASY
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: true
+    autoheal: true
+    adjustspawn: true
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: -38.5
+      y: 63.0
+      z: 27.5
+      pitch: 0.0
+      yaw: 0.0
+      world: centralius_nether
+    autoload: true
+    bedrespawn: true
+  centralius_the_end:
+    seed: 511391400
+    environment: THE_END
+    hidden: false
+    alias:
+      name: ''
+      color: WHITE
+    pvp: true
+    scale: 1.0
+    respawnworld: ''
+    allowweather: true
+    difficulty: EASY
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: true
+    autoheal: true
+    adjustspawn: true
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: 0.0
+      y: 60.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+      world: centralius_the_end
+    autoload: true
+    bedrespawn: true

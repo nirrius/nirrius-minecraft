@@ -5,17 +5,19 @@ settings:
   data:
     save:
       # How often GroupManager will save it's data back to groups and users.yml
-      minutes: 10
+      minutes: 2
   logging:
     # level of detail GroupManager will use when logging.
     # Acceptable entries are - ALL,CONFIG,FINE,FINER,FINEST,INFO,OFF,SEVERE,WARNING
-    level: INFO
+    level: WARNING
   permission:
     world:
       mirror:
         # Worlds listed here have their permissions mirrored in their children.
-        valhalla:
-          - valhalla_nether
-          - avalon
+        centralius:
+          - centralius_nether
+          - centralius_the_end
+          - valhalla
+          - heaven
       #  world4:
       #    - world5

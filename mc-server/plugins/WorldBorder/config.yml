@@ -1,11 +1,12 @@
 message: You have reached the edge of this world.
 knock-back-dist: 3.0
 timer-delay-ticks: 5
-debug-mode: true
+debug-mode: false
 whoosh-effect: true
 round-border: false
-cfg-version: 3
+cfg-version: 4
 worlds:
+<<<<<<< HEAD
     TEST:
         radius: 500
         z: 0.0
@@ -26,3 +27,29 @@ worlds:
         radius: 1350
         z: 0.0
         x: 0.0
+=======
+  centralius_the_end:
+    x: 0.0
+    z: 0.0
+    radius: 1350
+  heaven:
+    x: 0.0
+    z: 0.0
+    radius: 600
+  centralius_nether:
+    x: 0.0
+    z: 0.0
+    radius: 1350
+  centralius:
+    x: 0.0
+    z: 0.0
+    radius: 500
+  valhalla:
+    x: 0.0
+    z: 0.0
+    radius: 1350
+  shangri-la:
+    x: 0.0
+    z: 0.0
+    radius: 1350
+>>>>>>> c6b86d55b1e998d7d2550dbe33ef3614ea56b68b

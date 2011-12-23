@@ -1,14 +1,15 @@
-default:
-    yaw: 2.098877
-    pitch: 90.0
-    z: 31.67121926586405
-    y: 163.1294371994186
-    world: shangri-la
-    x: -149.30000001192093
-Operator:
-    yaw: 299.25003
-    pitch: 8.850005
-    z: 254.79091073093412
-    y: 64.0
+spawns: 
+  default: 
+    world: centralius
+    x: -302.8125
+    y: 63.0
+    z: 35.25
+    yaw: -88.95032
+    pitch: -3.4500427
+  operator: 
     world: valhalla
     x: 17.109090713744386
+    y: 64.0
+    z: 254.79091073093412
+    yaw: 299.25003
+    pitch: 8.850005
