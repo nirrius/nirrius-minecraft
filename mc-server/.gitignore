@@ -12,3 +12,6 @@ maps/*
 #backups
 backups/*
 savestates/*
+#garbage
+.server.log.swp
+
