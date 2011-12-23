@@ -6,6 +6,10 @@ whoosh-effect: true
 round-border: false
 cfg-version: 3
 worlds:
+    TEST:
+        radius: 500
+        z: 0.0
+        x: 0.0
     valhalla:
         radius: 1350
         z: 0.0
