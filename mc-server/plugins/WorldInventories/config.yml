@@ -1,0 +1,12 @@
+domiimport: true
+donotifications: true
+dostats: false
+groups:
+    survival:
+    - centralius
+    - centralius_nether
+    - centralius_the_end
+    - valhalla
+    - heaven
+    creative:
+    - shangri-la

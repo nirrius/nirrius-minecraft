@@ -40,14 +40,14 @@ users:
     subgroups: []
     permissions: []
     group: VIP
-  atineiatte:
-    subgroups: []
-    permissions: []
-    group: Member
   mmmmorshu:
     subgroups: []
     permissions: []
     group: Operator
+  atineiatte:
+    subgroups: []
+    permissions: []
+    group: Member
   Shepanator:
     subgroups: []
     permissions: []
@@ -189,14 +189,14 @@ users:
     subgroups: []
     permissions: []
     group: Member
-  crazyhacker451:
-    subgroups: []
-    permissions: []
-    group: Sponsor
   jengajam2:
     subgroups: []
     permissions: []
     group: VIP
+  crazyhacker451:
+    subgroups: []
+    permissions: []
+    group: Sponsor
   OriginalName010:
     subgroups: []
     permissions: []
