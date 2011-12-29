@@ -92,9 +92,9 @@ worlds:
     gamemode: SURVIVAL
     keepspawninmemory: true
     spawn:
-      x: -238.5
+      x: 12.5
       y: 64.0
-      z: 168.5
+      z: 252.5
       pitch: 0.0
       yaw: 0.0
       world: valhalla
@@ -128,9 +128,9 @@ worlds:
     gamemode: CREATIVE
     keepspawninmemory: true
     spawn:
-      x: 105.5
-      y: 64.0
-      z: 247.5
+      x: -128.5
+      y: 68.0
+      z: 52.5
       pitch: 0.0
       yaw: 0.0
       world: shangri-la

@@ -1,4 +1,4 @@
-domiimport: true
+domiimport: false
 donotifications: true
 dostats: false
 groups:
@@ -10,3 +10,6 @@ groups:
     - heaven
     creative:
     - shangri-la
+    backups:
+    - backups
+saveinterval: 0
