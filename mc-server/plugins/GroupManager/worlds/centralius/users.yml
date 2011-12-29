@@ -44,14 +44,14 @@ users:
     subgroups: []
     permissions: []
     group: Member
-  mmmmorshu:
-    subgroups: []
-    permissions: []
-    group: Operator
   atineiatte:
     subgroups: []
     permissions: []
     group: Member
+  mmmmorshu:
+    subgroups: []
+    permissions: []
+    group: Operator
   Shepanator:
     subgroups: []
     permissions: []
@@ -199,7 +199,7 @@ users:
   crazyhacker451:
     subgroups: []
     permissions: []
-    group: Sponsor
+    group: Member
   OriginalName010:
     subgroups: []
     permissions: []

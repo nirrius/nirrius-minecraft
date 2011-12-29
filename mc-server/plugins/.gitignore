@@ -5,4 +5,7 @@ PrivateWarp/players/*
 WorldGuard/report.txt
 Multiverse-NetherPortals/debug.*
 Multiverse-Portals/debug.*
-
+WorldInventories/survival/*
+WorldInventories/creative/*
+Showcase/stacks.csv
+PrivateWarp/players/*
