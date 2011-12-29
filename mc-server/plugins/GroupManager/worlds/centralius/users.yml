@@ -40,6 +40,14 @@ users:
     subgroups: []
     permissions: []
     group: VIP
+  Minotitan:
+    subgroups: []
+    permissions: []
+    group: Member
+  atineiatte:
+    subgroups: []
+    permissions: []
+    group: Member
   mmmmorshu:
     subgroups: []
     permissions: []
@@ -49,10 +57,6 @@ users:
     permissions: []
     group: Member
   Shepanator:
-    subgroups: []
-    permissions: []
-    group: Member
-  Minotitan:
     subgroups: []
     permissions: []
     group: Member
@@ -111,7 +115,7 @@ users:
   Zodulus:
     subgroups: []
     permissions: []
-    group: Sponsor
+    group: VIP
   Sonicmech:
     subgroups: []
     permissions: []
@@ -122,8 +126,7 @@ users:
     group: Sponsor
   MarckHardt:
     subgroups: []
-    permissions:
-    - essentials.powertool
+    permissions: []
     group: SuperVIP
   OrionnPSG1:
     subgroups: []
@@ -182,6 +185,10 @@ users:
     permissions: []
     group: Member
   Azehur:
+    subgroups: []
+    permissions: []
+    group: Member
+  sirobar:
     subgroups: []
     permissions: []
     group: Member
@@ -250,6 +257,10 @@ users:
     permissions: []
     group: Member
   Thundercus:
+    subgroups: []
+    permissions: []
+    group: Member
+  A4Brogan:
     subgroups: []
     permissions: []
     group: Member

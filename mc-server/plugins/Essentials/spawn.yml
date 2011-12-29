@@ -1,11 +1,11 @@
 spawns: 
   default: 
     world: centralius
-    x: -302.8125
-    y: 63.0
-    z: 35.25
-    yaw: -88.95032
-    pitch: -3.4500427
+    x: 0.5
+    y: 98.0
+    z: 0.5
+    yaw: 0.0
+    pitch: 0.0
   operator: 
     world: valhalla
     x: 17.109090713744386
