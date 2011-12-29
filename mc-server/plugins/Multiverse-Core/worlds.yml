@@ -26,8 +26,8 @@ worlds:
       x: 0.0
       y: 100.0
       z: 0.0
-      pitch: -3.4500427
-      yaw: -88.95032
+      pitch: -88.95032
+      yaw: -3.4500427
       world: centralius
     respawnworld: ''
     autoheal: true

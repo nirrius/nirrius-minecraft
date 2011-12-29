@@ -21,7 +21,7 @@ worlds:
   centralius:
     x: 0.0
     z: 0.0
-    radius: 500
+    radius: 100
   valhalla:
     x: 0.0
     z: 0.0
