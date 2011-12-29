@@ -15,9 +15,10 @@
 #   category.
 # - If you want to check the format of this file before putting it
 #   into WorldGuard, paste it into http://yaml-online-parser.appspot.com/
-#   and see if it gives "ERROR:"
+#   and see if it gives "ERROR:".
 # - Lines starting with # are comments and so they are ignored.
 #
+
 protection:
     enforce-single-session: true
     item-durability: true

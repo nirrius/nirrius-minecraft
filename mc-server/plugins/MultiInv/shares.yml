@@ -12,11 +12,6 @@
 # groupName: [world1, world2]
 # groupName2: [world3, world4]
 
-default:
-- centralius
-- centralius_nether
-- centralius_the_end
-- valhalla
-- heaven
+survival: [centralius, centralius_nether, centralius_the_end, valhalla, heaven]
 
-creativeGroups:
+creative: [shangri-la]
