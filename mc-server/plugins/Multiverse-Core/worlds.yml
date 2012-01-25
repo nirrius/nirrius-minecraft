@@ -7,7 +7,7 @@ worlds:
     pvp: true
     fakepvp: false
     scale: 1.0
-    seed: 511391400
+    seed: 2044134946
     allowweather: false
     difficulty: PEACEFUL
     animals:
@@ -23,11 +23,11 @@ worlds:
     gamemode: SURVIVAL
     keepspawninmemory: true
     spawn:
-      x: 0.0
-      y: 100.0
-      z: 0.0
-      pitch: -3.4500427
-      yaw: -88.95032
+      x: -261.8927369224109
+      y: 67.0
+      z: 969.8140763874901
+      pitch: -222.75
+      yaw: 7.9500093
       world: centralius
     respawnworld: ''
     autoheal: true
@@ -128,9 +128,9 @@ worlds:
     gamemode: CREATIVE
     keepspawninmemory: true
     spawn:
-      x: -128.5
-      y: 68.0
-      z: 52.5
+      x: -131.5
+      y: 65.0
+      z: 63.5
       pitch: 0.0
       yaw: 0.0
       world: shangri-la

@@ -2,6 +2,7 @@ worlds:
   centralius:
     portalgoesto:
       NETHER: centralius
+      END: centralius
   valhalla:
     portalgoesto:
       NETHER: valhalla

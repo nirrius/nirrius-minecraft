@@ -44,14 +44,14 @@ users:
     subgroups: []
     permissions: []
     group: Member
-  atineiatte:
-    subgroups: []
-    permissions: []
-    group: Member
   mmmmorshu:
     subgroups: []
     permissions: []
     group: Operator
+  atineiatte:
+    subgroups: []
+    permissions: []
+    group: Member
   Shepanator:
     subgroups: []
     permissions: []

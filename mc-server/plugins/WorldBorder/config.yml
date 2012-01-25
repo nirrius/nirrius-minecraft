@@ -18,10 +18,6 @@ worlds:
     x: 0.0
     z: 0.0
     radius: 1350
-  centralius:
-    x: 0.0
-    z: 0.0
-    radius: 100
   valhalla:
     x: 0.0
     z: 0.0
@@ -30,3 +26,7 @@ worlds:
     x: 0.0
     z: 0.0
     radius: 1350
+  centralius:
+    x: -261.90625
+    z: 969.8125
+    radius: 400

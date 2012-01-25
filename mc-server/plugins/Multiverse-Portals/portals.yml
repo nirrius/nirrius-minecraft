@@ -16,3 +16,72 @@ portals:
     owner: dorrax
     location: 12.0,64.0,-52.0:14.0,64.0,-50.0
     world: valhalla
+  WarpToValhalla:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    owner: dorrax
+    location: -443.0,85.0,832.0:-443.0,86.0,834.0
+    world: centralius
+    destination: p:ValhallaSpawn
+  WarpToHeaven:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    owner: dorrax
+    location: -443.0,85.0,836.0:-443.0,87.0,838.0
+    world: centralius
+    destination: p:HeavenSpawn
+  HeavenSpawn:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    owner: dorrax
+    location: 21.0,68.0,137.0:21.0,68.0,137.0
+    world: heaven
+  HeavenToCentralius:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    owner: dorrax
+    location: 35.0,70.0,118.0:38.0,72.0,121.0
+    world: heaven
+    destination: p:CentraliusReturn
+  CentraliusReturn:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    owner: dorrax
+    location: -437.0,85.0,835.0:-437.0,85.0,835.0
+    world: centralius
+  ShangrilaSpawn:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    owner: dorrax
+    location: -150.0,63.0,31.0:-150.0,63.0,31.0
+    world: shangri-la
+  ShangrilaToCentralius:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    owner: dorrax
+    location: -162.0,63.0,15.0:-159.0,66.0,18.0
+    world: shangri-la
+    destination: p:CentraliusReturn
+  WarpToShangrila:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    owner: dorrax
+    location: -431.0,85.0,832.0:-431.0,87.0,834.0
+    world: centralius
+    destination: p:ShangrilaSpawn
