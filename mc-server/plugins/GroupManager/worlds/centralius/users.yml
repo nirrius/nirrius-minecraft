@@ -16,6 +16,10 @@ users:
     subgroups: []
     permissions: []
     group: Operator
+  S0ulEvans:
+    subgroups: []
+    permissions: []
+    group: Member
   Preferably:
     subgroups: []
     permissions: []
@@ -33,14 +37,24 @@ users:
     permissions: []
     group: VIP
   dorrax:
-    subgroups: []
+    subgroups:
+    - VIP
     permissions: []
     group: Owner
   gukinator:
+    subgroups:
+    - VIP
+    permissions: []
+    group: Operator
+  Tangotaz:
     subgroups: []
     permissions: []
-    group: VIP
+    group: Member
   Minotitan:
+    subgroups: []
+    permissions: []
+    group: Member
+  atineiatte:
     subgroups: []
     permissions: []
     group: Member
@@ -48,10 +62,6 @@ users:
     subgroups: []
     permissions: []
     group: Operator
-  atineiatte:
-    subgroups: []
-    permissions: []
-    group: Member
   Shepanator:
     subgroups: []
     permissions: []
@@ -88,11 +98,19 @@ users:
     subgroups: []
     permissions: []
     group: Member
+  zeoneo1992:
+    subgroups: []
+    permissions: []
+    group: Member
   toxsikkilla:
     subgroups: []
     permissions: []
     group: Moderator
-  zeoneo1992:
+  Connballz:
+    subgroups: []
+    permissions: []
+    group: Member
+  Narrified:
     subgroups: []
     permissions: []
     group: Member
@@ -168,23 +186,27 @@ users:
     subgroups: []
     permissions: []
     group: Operator
-  Teffen:
+  Poison233:
     subgroups: []
     permissions: []
-    group: Owner
+    group: Member
   1nfinitum:
     subgroups: []
     permissions: []
     group: Member
+  Teffen:
+    subgroups: []
+    permissions: []
+    group: Owner
   ClaudiusDK:
     subgroups: []
     permissions: []
     group: Member
-  Azehur:
+  sirobar:
     subgroups: []
     permissions: []
     group: Member
-  sirobar:
+  Azehur:
     subgroups: []
     permissions: []
     group: Member
@@ -244,11 +266,11 @@ users:
     subgroups: []
     permissions: []
     group: Member
-  Captain_Cannabis:
+  Dyamalos:
     subgroups: []
     permissions: []
     group: Member
-  Dyamalos:
+  Captain_Cannabis:
     subgroups: []
     permissions: []
     group: Member
@@ -265,6 +287,10 @@ users:
     permissions: []
     group: Member
   maomao200:
+    subgroups: []
+    permissions: []
+    group: Member
+  CaptainHack:
     subgroups: []
     permissions: []
     group: Member

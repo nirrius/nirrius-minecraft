@@ -5,3 +5,5 @@ max_cache_minute_timeout=30
 cleanup_cache_minute_timeout=5
 default_world=rammap
 max_warp_recall=3
+warp_warmup=0
+warp_configbit=3

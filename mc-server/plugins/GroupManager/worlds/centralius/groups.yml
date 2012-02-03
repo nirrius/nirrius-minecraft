@@ -2,7 +2,10 @@ groups:
   VIP:
     default: false
     permissions:
+    - essentials.weather
     - movecraft.airship.*
+    - worldguard.stack
+    - worldguard.stack.illegitimate
     inheritance:
     - sponsor
     info:
@@ -68,6 +71,11 @@ groups:
     - essentials.warp
     - essentials.warp.list
     - essentials.worth
+    - multiverse.core.list.worlds
+    - multiverse.portal.access.*
+    - multiverse.portal.list
+    - -multiverse.access.valhalla
+    - showcase.basic
     inheritance:
     - visitor
     info:
@@ -88,6 +96,7 @@ groups:
     - groupmanager.notify.self
     - minecartmania.signs.*
     - multiverse.access.*
+    - -multiverse.access.valhalla
     - multiverse.teleport.self.*
     inheritance: []
     info:
@@ -106,6 +115,7 @@ groups:
     - groupmanager.manulistp
     - instamode.*
     - movecraft.*
+    - showcase.admin
     - worldedit.*
     - worldguard.*
     inheritance:

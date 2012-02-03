@@ -85,3 +85,46 @@ portals:
     location: -431.0,85.0,832.0:-431.0,87.0,834.0
     world: centralius
     destination: p:ShangrilaSpawn
+  noobspawn:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    owner: dorrax
+    location: -89.0,35.0,994.0:-89.0,35.0,994.0
+    world: centralius
+  NoobCatch:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    owner: dorrax
+    location: -134.0,24.0,980.0:-104.0,24.0,1010.0
+    world: centralius
+    destination: p:noobspawn
+  NoobFinish:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    owner: dorrax
+    location: -120.0,35.0,994.0:-120.0,37.0,996.0
+    world: centralius
+    destination: p:VisitorVillage
+  VisitorVillage:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    owner: dorrax
+    location: -192.0,73.0,993.0:-192.0,73.0,993.0
+    world: centralius
+  ValhallaToCentralius:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    owner: dorrax
+    location: 37.0,64.0,-33.0:40.0,67.0,-30.0
+    world: valhalla
+    destination: p:CentraliusReturn
