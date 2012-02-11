@@ -1,0 +1,33 @@
+# 'Ban Duration:' is in real hours. '-1' indicates a perma-ban.  A negative server lives value indicates
+Op Commands: false
+Priority: High
+Server:
+  Ban Duration: -1
+  Use Lives: false
+  Lives: 5
+Worlds:
+  centralius:
+    Hardcore: false
+    Mob Difficulty: Hard
+    Ban Duration: -1
+  armok:
+    Hardcore: true
+    Mob Difficulty: Hard
+    Ban Duration: 24
+    Lives: 3
+  valhalla:
+    Hardcore: false
+    Mob Difficulty: Hard
+    Ban Duration: -1
+  shangri-la:
+    Hardcore: false
+    Mob Difficulty: Hard
+    Ban Duration: -1
+  heaven:
+    Hardcore: false
+    Mob Difficulty: Hard
+    Ban Duration: -1
+  centralius_nether:
+    Hardcore: false
+    Mob Difficulty: Hard
+    Ban Duration: -1

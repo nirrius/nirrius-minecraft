@@ -12,4 +12,6 @@ groups:
     - shangri-la
     backups:
     - backups
+    harcore:
+    - armok
 saveinterval: 0

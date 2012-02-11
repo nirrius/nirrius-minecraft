@@ -23,11 +23,11 @@ worlds:
     gamemode: SURVIVAL
     keepspawninmemory: true
     spawn:
-      x: -261.8927369224109
-      y: 67.0
-      z: 969.8140763874901
-      pitch: -222.75
-      yaw: 7.9500093
+      x: -441.56105098703944
+      y: 68.0
+      z: 893.3658064771105
+      pitch: -10.349995
+      yaw: 180.01909
       world: centralius
     respawnworld: ''
     autoheal: true
@@ -58,9 +58,9 @@ worlds:
     gamemode: SURVIVAL
     keepspawninmemory: true
     spawn:
-      x: 590.5
-      y: 64.0
-      z: -506.5
+      x: 21.5
+      y: 68.0
+      z: 137.5
       pitch: 0.0
       yaw: 0.0
       world: heaven
@@ -92,11 +92,11 @@ worlds:
     gamemode: SURVIVAL
     keepspawninmemory: true
     spawn:
-      x: 12.5
+      x: 13.5
       y: 64.0
-      z: 252.5
-      pitch: 0.0
-      yaw: 0.0
+      z: -50.5
+      pitch: -2.1000016
+      yaw: -267.9
       world: valhalla
     seed: -7724932828977041023
     respawnworld: ''
@@ -128,11 +128,11 @@ worlds:
     gamemode: CREATIVE
     keepspawninmemory: true
     spawn:
-      x: -131.5
-      y: 65.0
-      z: 63.5
-      pitch: 0.0
-      yaw: 0.0
+      x: -149.60001649011008
+      y: 63.0
+      z: 31.69008661561071
+      pitch: 6.300001
+      yaw: 183.29994
       world: shangri-la
     respawnworld: ''
     autoheal: true
@@ -203,5 +203,73 @@ worlds:
       pitch: 0.0
       yaw: 0.0
       world: centralius_the_end
+    autoload: true
+    bedrespawn: true
+  armok:
+    environment: NORMAL
+    alias:
+      name: ''
+      color: RED
+    pvp: true
+    fakepvp: false
+    scale: 1.0
+    seed: -2757066985355483555
+    allowweather: true
+    difficulty: HARD
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      amount: 0.0
+      currency: -1
+      price: 0.0
+    hunger: true
+    hidden: false
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: 1.5596630314055338
+      y: 76.0
+      z: 579.5731841089861
+      pitch: 92.250946
+      yaw: -9.300018
+      world: armok
+    respawnworld: centralius
+    autoheal: false
+    adjustspawn: false
+    autoload: true
+    bedrespawn: true
+  world:
+    seed: 6237684554680927509
+    environment: NORMAL
+    hidden: false
+    alias:
+      name: ''
+      color: WHITE
+    pvp: true
+    scale: 1.0
+    respawnworld: ''
+    allowweather: true
+    difficulty: EASY
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: true
+    autoheal: true
+    adjustspawn: true
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: 225.5
+      y: 69.0
+      z: 259.5
+      pitch: 0.0
+      yaw: 0.0
+      world: world
     autoload: true
     bedrespawn: true

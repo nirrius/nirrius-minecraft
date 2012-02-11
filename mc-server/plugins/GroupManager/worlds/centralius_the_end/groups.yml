@@ -1,30 +1,33 @@
 groups:
-  Default:
-    default: true
+  VIP:
+    default: false
     permissions:
-    - essentials.help
-    - essentials.helpop
-    - essentials.list
-    - essentials.motd
-    - essentials.rules
-    - essentials.spawn
-    - groupmanager.notify.self
-    inheritance: []
+    - essentials.weather
+    - movecraft.airship.*
+    - worldguard.stack
+    - worldguard.stack.illegitimate
+    inheritance:
+    - sponsor
     info:
-      prefix: '&e'
-      build: false
+      prefix: '&e[VIP]&f'
+      build: true
       suffix: ''
   Owner:
     default: false
     permissions:
     - '*'
     inheritance:
-    - admin
+    - operator
+    - moderator
+    - vip
+    - sponsor
+    - member
+    - visitor
     info:
-      prefix: '&4'
+      prefix: '&c~&f'
       build: true
       suffix: ''
-  Builder:
+  Member:
     default: false
     permissions:
     - essentials.afk
@@ -34,14 +37,11 @@ groups:
     - essentials.balance.others
     - essentials.balancetop
     - essentials.chat.color
-    - essentials.chat.shout
     - essentials.chat.question
-    - essentials.compass
-    - essentials.depth
     - essentials.home
     - essentials.ignore
     - essentials.kit
-    - essentials.kit.tools
+    - essentials.kit.*
     - essentials.mail
     - essentials.mail.send
     - essentials.me
@@ -49,21 +49,21 @@ groups:
     - essentials.nick
     - essentials.pay
     - essentials.ping
-    - essentials.portal
-    - essentials.powertool
-    - essentials.protect
-    - essentials.sethome
-    - essentials.signs.use.*
-    - essentials.signs.create.disposal
-    - essentials.signs.create.mail
-    - essentials.signs.create.protection
-    - essentials.signs.create.trade
+    - essentials.realname
+    - essentials.seen
+    - essentials.sell
     - essentials.signs.break.disposal
     - essentials.signs.break.mail
     - essentials.signs.break.protection
     - essentials.signs.break.trade
+    - essentials.signs.create.disposal
+    - essentials.signs.create.mail
+    - essentials.signs.create.protection
+    - essentials.signs.create.trade
+    - essentials.signs.use.*
     - essentials.suicide
     - essentials.time
+    - essentials.time.set
     - essentials.tpa
     - essentials.tpaccept
     - essentials.tpahere
@@ -71,10 +71,55 @@ groups:
     - essentials.warp
     - essentials.warp.list
     - essentials.worth
+    - multiverse.core.list.worlds
+    - multiverse.portal.access.*
+    - multiverse.portal.list
+    - showcase.basic
     inheritance:
-    - default
+    - visitor
     info:
-      prefix: '&2'
+      prefix: '&b[M]&f'
+      build: true
+      suffix: ''
+  Visitor:
+    default: true
+    permissions:
+    - essentials.help
+    - essentials.helpop
+    - essentials.list
+    - essentials.motd
+    - essentials.portal
+    - essentials.rules
+    - essentials.spawn
+    - essentials.warp
+    - groupmanager.notify.self
+    - minecartmania.signs.*
+    - multiverse.access.*
+    - multiverse.teleport.self.*
+    inheritance: []
+    info:
+      prefix: '&7[V]&f'
+      build: false
+      suffix: ''
+  Operator:
+    default: false
+    permissions:
+    - essentials.*
+    - groupmanager.mangcheckp
+    - groupmanager.manglistp
+    - groupmanager.mansave
+    - groupmanager.mantogglevalidate
+    - groupmanager.manucheckp
+    - groupmanager.manulistp
+    - instamode.*
+    - movecraft.*
+    - showcase.admin
+    - worldedit.*
+    - worldguard.*
+    inheritance:
+    - moderator
+    info:
+      prefix: '&c[OP]&f'
       build: true
       suffix: ''
   Moderator:
@@ -85,39 +130,23 @@ groups:
     - essentials.banip
     - essentials.broadcast
     - essentials.clearinventory
-    - essentials.delwarp
-    - essentials.eco.loan
     - essentials.ext
     - essentials.getpos
     - essentials.helpop.recieve
     - essentials.home.others
-    - essentials.invsee
     - essentials.jails
-    - essentials.jump
     - essentials.kick
     - essentials.kick.notify
     - essentials.kill
     - essentials.mute
     - essentials.nick.others
-    - essentials.realname
-    - essentials.setwarp
-    - essentials.signs.create.*
-    - essentials.signs.break.*
-    - essentials.spawner
-    - essentials.thunder
-    - essentials.time
-    - essentials.time.set
-    - essentials.protect.alerts
-    - essentials.protect.admin
-    - essentials.protect.ownerinfo
     - essentials.ptime
-    - essentials.ptime.others
+    - essentials.realname
     - essentials.togglejail
     - essentials.top
     - essentials.tp
     - essentials.tphere
     - essentials.tppos
-    - essentials.tptoggle
     - essentials.unban
     - essentials.unbanip
     - essentials.weather
@@ -131,30 +160,29 @@ groups:
     - groupmanager.manudel
     - groupmanager.manwhois
     - groupmanager.notify.other
+    - multiverse.teleport.other.*
     inheritance:
-    - builder
+    - member
     info:
-      prefix: '&5'
+      prefix: '&9[MOD]&f'
       build: true
       suffix: ''
-  Admin:
+  SuperVIP:
+    default: false
+    permissions: []
+    inheritance:
+    - vip
+    info:
+      prefix: '&d[SVIP]&f'
+      build: true
+      suffix: ''
+  Sponsor:
     default: false
     permissions:
-    - -essentials.backup
-    - -essentials.essentials
-    - -essentials.setspawn
-    - -essentials.reloadall
-    - -essentials.plugin
-    - essentials.*
-    - groupmanager.mantogglevalidate
-    - groupmanager.mansave
-    - groupmanager.mangcheckp
-    - groupmanager.manglistp
-    - groupmanager.manucheckp
-    - groupmanager.manulistp
+    - PrivateWarp.pw
     inheritance:
-    - moderator
+    - member
     info:
-      prefix: '&c'
+      prefix: '&2[S]&f'
       build: true
       suffix: ''

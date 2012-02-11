@@ -1,0 +1,23 @@
+#Minecraft server properties
+#Sun Jan 22 01:10:38 EST 2012
+allow-nether=true
+level-name=centralius
+enable-query=false
+allow-flight=true
+server-port=25565
+level-type=DEFAULT
+enable-rcon=false
+level-seed=511391400
+server-ip=192.168.1.99
+spawn-npcs=true
+white-list=false
+spawn-animals=true
+online-mode=true
+pvp=true
+difficulty=1
+-server-ip=mc.nirri.us
+gamemode=0
+max-players=20
+spawn-monsters=true
+view-distance=10
+motd=nirrius gaming community >\:3

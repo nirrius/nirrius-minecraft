@@ -1,15 +1,22 @@
 spawns: 
   default: 
     world: centralius
-    x: -441.47979186132244
+    x: -441.56105098703944
     y: 68.0
-    z: 893.4533668964626
-    yaw: 83.41919
-    pitch: 90.0
+    z: 893.3658064771105
+    yaw: 180.01909
+    pitch: -10.349995
   operator: 
-    world: valhalla
-    x: 17.109090713744386
-    y: 64.0
-    z: 254.79091073093412
-    yaw: 299.25003
-    pitch: 8.850005
+    world: centralius
+    x: -441.5
+    y: 68.0
+    z: 893.5
+    yaw: 180.01909
+    pitch: -10.349995
+  newbie: 
+    world: centralius
+    x: -88.5
+    y: 35.0
+    z: 994.5
+    yaw: -180.15004
+    pitch: -0.14999965

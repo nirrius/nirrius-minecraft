@@ -1,0 +1,361 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                       Notes                          | #
+# +------------------------------------------------------+ #
+############################################################
+
+# If you want to use special characters in this document, such as accented letters, you MUST save the file as UTF-8, not ANSI.
+# If you receive an error when Essentials loads, ensure that:
+#   - No tabs are present: YAML only allows spaces
+#   - Indents are correct: YAML heirarchy is based entirely on indentation
+#   - You have "escaped" all apostrophes in your text: If you want to write "don't", for example, write "don''t" instead (note the doubled apostrphe)
+#   - List items are prefixed with a hyphen and indented:
+#       lists:
+#         - look like this
+#       not:
+#       - like this
+#   - Text with symbols is enclosed in single or double quotation marks
+#   - CraftBukkit and Permissions have been updated: CraftBukkit and Essentials almost always line up, but sometimes other plugins fall behind CraftBukkit's multiple daily updates
+#   - You have saved the document as UTF-8, NOT the default, ANSI
+
+
+
+
+
+############################################################
+# +------------------------------------------------------+ #
+# |                 Essentials (Global)                  | #
+# +------------------------------------------------------+ #
+############################################################
+
+# A color code between 0-9 or a-f. Set to 'none' to disable.
+ops-name-color: 'none'
+
+# The character(s) to prefix all nicknames, so that you know they are not true usernames.
+nickname-prefix: "`"
+
+# Disable this if you have any other plugin, that modifies the displayname of a user.
+change-displayname: true
+
+# Adds the prefix and suffix to the displayname of the player, so it will be displayed in messages and lists.
+# The prefix/suffix can be set using Permissions, Group Manager or PermissionsEx.
+# The value of change-displayname (above) has to be true.
+# If you don't set this, it will default to true if essentials chat is installed.
+# Don't forget to remove the # infront of the line
+#add-prefix-suffix: false
+
+# The delay, in seconds, required between /home, /tp, etc.
+teleport-cooldown: 0
+
+# The delay, in seconds, before a user actually teleports.  If the user moves or gets attacked in this timeframe, the teleport never occurs.
+teleport-delay: 0
+
+# The delay, in seconds, required between /heal attempts
+heal-cooldown: 60
+
+# The number of items given if the quantity parameter is left out in /item or /give.
+default-stack-size: 64
+
+# What to prevent from /i /give
+# e.g item-spawn-blacklist: 46,11,10
+item-spawn-blacklist:
+permission-based-item-spawn: false
+
+# Whether or not to reclaim memory on player logout; this is technical, and should only be changed under special circumstances.
+# This generally increases server stability unless very specific runtime configurations are used.
+# HOWEVER, it is known to cause lag upon users logging OUT, so beware!
+reclaim-onlogout: false
+
+# Should primitive spawn protection be enabled?  For most servers, this should be flase; it is better to use a third-party plugin to protect it.
+spawn-protection: false
+
+# Mob limit on spawnmob
+spawnmob-limit: 10
+
+# Shall we notify users when using /lightning
+warn-on-smite: true
+
+# The message of the day, displayed on connect and by typing /motd.
+# Valid tags are: {PLAYER}, {IP}, {BALANCE}, {MAILS}, {WORLD}, {ONLINE}, {UNIQUE}, {PLAYERLIST}
+motd:
+  - "&fWelcome to the &dnirrius &fMinecraft server, &c{PLAYER}&f!"
+  - "&fType &c/help&f for a list of commands or see &c/who&f is online!"
+  - "Hey you! There is a blog post explaining all the updates at &dnirri.us&f."
+
+# The server rules, available by typing /rules
+rules:
+  - "[1] Do unto to others as you would have them do unto you."
+  - "[2] If something is not yours, do not alter it."
+  - "[3] Exploiting glitches is prohibited."
+  - "[4] All non-aesthetic client modifications are prohibited."
+  - "[5] Respect personal space when building."
+
+# When a command conflicts with another plugin, by default, Essentials will try to force the OTHER plugin to take
+# priority.  If a command is in this list, Essentials will try to give ITSELF priority.  This does not always work:
+# usually whichever plugin was updated most recently wins out.  However, the full name of the command will always work.
+# For example, if WorldGuard and Essentials are both enabled, and WorldGuard takes control over /god, /essentials:god
+# will still map to Essentials, whereas it might normally get forced upon WorldGuard.  Commands prefixed with an "e",
+# such as /egod, will always grant Essentials priority.
+# We should try to take priority over /god.  If this doesn't work, use
+# /essentials:god or /egod.  If god is set using WorldGuard, use /ungod to remove then use whichever you see fit.
+overridden-commands:
+ - heal
+# Disabled commands will be completelly unavailable on the server.
+disabled-commands:
+# - nick
+
+# Restricted commands have been removed.
+# Now we have a whitelist, all commands not on this list are only available to ops.
+# These will have NO EFFECT if you have Permissions installed!
+# They are here only if you want something simpler than Permissions.
+# These are the permissions without the "essentials." part.
+player-commands:
+
+# Note: All items MUST be followed by a quantity!
+# Times are measured in seconds.
+kits:
+  newbie:
+    delay: 800
+    items:
+      - 273 1
+      - 274 1
+      - 275 1
+      - 50 10
+      - 54 1
+  glowstone-320:
+    delay: 2
+    items:
+      - 89 32
+  grass-320:
+    delay: 2
+    items:
+      - 2 32
+  pumpkin-320:
+    delay: 2
+    items:
+      - 86 32
+  sponge-320:
+    delay: 2
+    items:
+      - 19 32
+  ice-320:
+    delay: 2
+    items:
+      - 79 32
+  snow-320:
+    delay: 2
+    items:
+      - 80 32
+  clay-320:
+    delay: 2
+    items:
+      - 82 32
+  mossycobble-640:
+    delay: 2
+    items:
+      - 48 32
+  protools-3330:
+    delay: 800
+    items:
+      - 287 1
+      - 348 1
+      - 316 1
+      - 290 1
+      - 332 2
+      - 318 1
+      - 341 1
+      - 77 1
+  minecart-25:
+    delay: 5
+    items:
+      - 328 1
+  goldingot-640:
+    delay: 60
+    items:
+      - 266 64
+
+# Disable all signs
+signs-disabled: false
+
+# Backup runs a command while saving is disabled
+backup:
+  # Interval in minutes
+  interval: 60
+  # Add a command that backups your data, e.g.
+  #command: 'rdiff-backup World1 backups/World1'
+
+# Set this true to enable permission per warp.
+per-warp-permission: false
+
+# Sort output of /list command by groups
+sort-list-by-groups: true
+
+# More output to the console
+debug: false
+
+# Set the locale for all messages
+# If you don't set this, the default locale of the server will be used.
+# Don't forget to remove the # infront of the line
+#locale: de_DE
+
+# Turn off god mode when people exit
+remove-god-on-disconnect: false
+
+# Use the permission system of bukkit
+# This only works if no other permission plugins are installed
+use-bukkit-permissions: false
+
+# Auto-AFK
+# After this timeout in seconds, the user will be set as afk.
+# Set to -1 for no timeout.
+auto-afk: 300
+
+# Auto-AFK Kick
+# After this timeout in seconds, the user will be kicked from the server.
+# Set to -1 for no timeout.
+auto-afk-kick: -1
+
+# Set this to true, if you want to freeze the player, if he is afk.
+# Other players or monsters can't push him out of afk mode then.
+# This will also enable temporary god mode for the afk player.
+# The player has to use the command /afk to leave the afk mode.
+freeze-afk-players: false
+
+# You can disable the death messages of minecraft here
+death-messages: true
+
+############################################################
+# +------------------------------------------------------+ #
+# |                   EssentialsHome                     | #
+# +------------------------------------------------------+ #
+############################################################
+
+# When users die, should they respawn at their homes, instead of the spawnpoint?
+respawn-at-home: true
+
+# When a user interacts with a bed, should their home be set to that location?
+# If you enable this and remove default user access to the /sethome command, you can make beds the only way for players to set their home location.
+bed-sethome: true
+
+# If no home is set send you to spawn when /home is used
+spawn-if-no-home: false
+
+# Allow players to have multiple homes.
+# Define different amounts of multiple homes for different permissions, e.g. essentials.sethome.multiple.vip
+# People with essentials.sethome.multiple.unlimited are not limited by these numbers.
+sethome-multiple:  
+  # essentials.sethome.multiple
+  #default: 1
+  # essentials.sethome.multiple.Sponsor
+  #Sponsor: 30
+  # essentials.sethome.multiple.VIP
+  #VIP: 50
+  # essentials.sethome.multiple.SuperVIP
+  #SuperVIP: 100
+
+############################################################
+# +------------------------------------------------------+ #
+# |                   EssentialsEco                      | #
+# +------------------------------------------------------+ #
+############################################################
+
+# Defines the balance with which new players begin.  Defaults to 0.
+starting-balance: 1000
+
+# worth-# defines the value of an item when it is sold to the server via /sell.
+# These are now defined in worth.yml
+
+# Defines the cost to use the given commands PER USE
+command-costs:
+ # /example costs $1000 PER USE
+  nick: 60
+  tpa: 15
+  back: 12.5
+  tpahere: 15
+  time: 80
+  weather: 80
+  # /kit tools costs $1500 PER USE
+  kit-glowstone-320: 320
+  kit-grass-320: 320
+  kit-pumpkin-320: 320
+  kit-sponge-320: 320
+  kit-ice-320: 320
+  kit-snow-320: 320
+  kit-clay-320: 320
+  kit-mossycobble-640: 320
+  kit-protools-3330: 320
+  kit-minecart-25: 25
+  kit-goldingot-640: 640
+ 
+# Set this to a currency symbol you want to use.
+currency-symbol: 'K'
+
+# Set the maximum amount of money a player can have
+# The amount is always limited to 10 trillions because of the limitations of a java double
+max-money: 1000000000
+
+# Enable this to log all interactions with trade/buy/sell signs and sell command
+economy-log-enabled: false
+
+############################################################
+# +------------------------------------------------------+ #
+# |                   EssentialsHelp                     | #
+# +------------------------------------------------------+ #
+############################################################
+
+# Show other plugins commands in help
+non-ess-in-help: true
+
+# Hide plugins which dont give a permission
+# You can override a true value here for a single plugin by adding a permission to a user/group.
+# The indervidual permission is: essentials.help.<plugin>, anyone with essentials.* or '*' will see all help this setting reguardless.
+# You can use negitive permissions to remove access to just a single plugins help if the following is enabled.
+hide-permissionless-help: true
+
+############################################################
+# +------------------------------------------------------+ #
+# |                   EssentialsChat                     | #
+# +------------------------------------------------------+ #
+############################################################
+
+# If EssentialsChat is installed, this will define how far a player's voice travels, in blocks.  Set to 0 to make all chat global.
+# Note that users with the "essentials.chat.spy" permission will hear everything, regardless of this setting.
+# Users with essentials.chat.shout can override this by prefixing text with an exclamation mark (!)
+# Or with essentials.chat.question can override this by prefixing text with a question mark (?)
+# You can add command costs for shout/question by adding chat-shout and chat-question to the command costs section."
+chat:
+  radius: 0
+  
+  # If set to the default chat format which "should" be compatible with ichat.
+  format: '{DISPLAYNAME}: {MESSAGE}'
+  #format: '&7[{GROUP}]&f {DISPLAYNAME}&7:&f {MESSAGE}'
+  
+  # You can also have group-specific formats, uncomment to enable:
+  group-formats:
+#     default: '&7[V]&f{DISPLAYNAME}&7:&f {MESSAGE}'
+#     Miner: '&b[M]&f{DISPLAYNAME}&7:&f {MESSAGE}'
+#     Sponsor: '&2[S]&f{DISPLAYNAME}&7:&f {MESSAGE}'
+#     VIP: '&e[VIP]&f{DISPLAYNAME}&7:&f {MESSAGE}'
+#     SuperVIP: '&d[VIP]&f{DISPLAYNAME}&7:&f {MESSAGE}'
+#     Moderator: '&9[MOD]&f{DISPLAYNAME}&7:&f {MESSAGE}'
+#     VIPModerator: '&e[MOD]&f{DISPLAYNAME}&7:&f {MESSAGE}'
+#     Operator: '&c[OP]&f{DISPLAYNAME}&7:&f {MESSAGE}'
+
+############################################################
+# +------------------------------------------------------+ #
+# |                    New Players                       | #
+# +------------------------------------------------------+ #
+############################################################
+
+newbies:
+  # Should we announce to the server when someone logs in for the first time?
+  # If so, use this format, replacing {DISPLAYNAME} with the player name.
+  # If not, set to ''
+  #announce-format: ''
+  announce-format: "&d{DISPLAYNAME}&f has logged in for the first time :D"
+  
+  # When we spawn for the first time, which spawnpoint do we use?
+  # Set to "none" if you want to use the spawn point of the world.
+  spawnpoint: newbie
+
+# End of File <-- No seriously, you're done with configuration.

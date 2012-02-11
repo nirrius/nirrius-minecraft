@@ -31,8 +31,7 @@ physics:
     allow-portal-anywhere: false
     no-physics-sand: false
     no-physics-gravel: false
-    disable-water-damage-blocks:
-    - 66
+    disable-water-damage-blocks: []
 ignition:
     block-tnt-block-damage: false
     block-tnt: false
@@ -43,7 +42,7 @@ regions:
     invincibility-removes-mobs: false
     max-claim-volume: 30000
     high-frequency-flags: false
-    enable: false
+    enable: true
     use-scheduler: true
     wand: 287
 simulation:
@@ -64,7 +63,7 @@ mobs:
     anti-wolf-dumbness: false
     block-creature-spawn: []
     block-fireball-explosions: false
-    block-fireball-block-damage: false
+    block-fireball-block-damage: true
     block-creeper-block-damage: true
     disable-enderman-griefing: true
     block-creeper-explosions: false
@@ -80,7 +79,7 @@ blacklist:
     use-as-whitelist: false
     logging:
         console:
-            enable: false
+            enable: true
         file:
             path: worldguard/logs/%Y-%m-%d.log
             enable: false
@@ -91,7 +90,7 @@ blacklist:
             table: blacklist_events
             user: root
             pass: ''
-summary-on-start: false
+summary-on-start: true
 weather:
     always-raining: false
     disable-powered-creepers: false
@@ -102,10 +101,10 @@ weather:
     disable-thunderstorm: false
     disable-pig-zombification: false
 crops:
-    disable-creature-trampling: false
-    disable-player-trampling: false
+    disable-creature-trampling: true
+    disable-player-trampling: true
 use-player-move-event: true
-op-permissions: false
+op-permissions: true
 player-damage:
     teleport-on-void-falling: false
     disable-drowning-damage: false

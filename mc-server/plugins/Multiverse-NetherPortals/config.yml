@@ -2,7 +2,7 @@ worlds:
   centralius:
     portalgoesto:
       NETHER: centralius
-      END: centralius
+      END: centralius_the_end
   valhalla:
     portalgoesto:
       NETHER: valhalla
@@ -15,7 +15,7 @@ worlds:
       NETHER: centralius_nether
   centralius_the_end:
     portalgoesto:
-      END: heaven
+      END: centralius
   shangri-la:
     portalgoesto:
       NETHER: shangri-la

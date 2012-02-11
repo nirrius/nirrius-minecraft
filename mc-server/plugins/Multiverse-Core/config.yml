@@ -7,5 +7,5 @@
 worldnameprefix: false
 enforceaccess: true
 enforcegamemodes: true
-bedrespawn: false
+bedrespawn: true
 version: 2.4

@@ -1,0 +1,155 @@
+groups:
+  VIP:
+    default: false
+    permissions:
+    - worldguard.stack
+    - worldguard.stack.illegitimate
+    inheritance:
+    - sponsor
+    info:
+      prefix: '&e[VIP]&f'
+      build: true
+      suffix: ''
+  Owner:
+    default: false
+    permissions:
+    - '*'
+    inheritance:
+    - operator
+    - moderator
+    - vip
+    - sponsor
+    - member
+    - visitor
+    info:
+      prefix: '&c~&f'
+      build: true
+      suffix: ''
+  Member:
+    default: false
+    permissions:
+    - essentials.afk
+    - essentials.back
+    - essentials.back.ondeath
+    - essentials.balance
+    - essentials.balance.others
+    - essentials.balancetop
+    - essentials.chat.color
+    - essentials.chat.question
+    - essentials.home
+    - essentials.ignore
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.me
+    - essentials.msg
+    - essentials.nick
+    - essentials.pay
+    - essentials.ping
+    - essentials.realname
+    - essentials.seen
+    - essentials.sell
+    - essentials.signs.break.disposal
+    - essentials.signs.break.mail
+    - essentials.signs.break.protection
+    - essentials.signs.break.trade
+    - essentials.signs.create.disposal
+    - essentials.signs.create.mail
+    - essentials.signs.create.protection
+    - essentials.signs.create.trade
+    - essentials.signs.use.*
+    - essentials.suicide
+    - multiverse.access.armok
+    - multiverse.access.centralius
+    - showcase.basic
+    - hcw.ban.world.armok
+    inheritance:
+    - visitor
+    info:
+      prefix: '&b[M]&f'
+      build: true
+      suffix: ''
+  Visitor:
+    default: true
+    permissions:
+    - essentials.help
+    - essentials.helpop
+    - essentials.list
+    - essentials.motd
+    - essentials.portal
+    - essentials.rules
+    - groupmanager.notify.self
+    inheritance: []
+    info:
+      prefix: '&7[V]&f'
+      build: false
+      suffix: ''
+  Operator:
+    default: false
+    permissions:
+    - essentials.*
+    - groupmanager.mangcheckp
+    - groupmanager.manglistp
+    - groupmanager.mansave
+    - groupmanager.mantogglevalidate
+    - groupmanager.manucheckp
+    - groupmanager.manulistp
+    - instamode.*
+    - showcase.admin
+    inheritance:
+    - moderator
+    info:
+      prefix: '&c[OP]&f'
+      build: true
+      suffix: ''
+  Moderator:
+    default: false
+    permissions:
+    - essentials.ban
+    - essentials.ban.notify
+    - essentials.banip
+    - essentials.broadcast
+    - essentials.ext
+    - essentials.getpos
+    - essentials.helpop.recieve
+    - essentials.kick
+    - essentials.kick.notify
+    - essentials.mute
+    - essentials.nick.others
+    - essentials.ptime
+    - essentials.realname
+    - essentials.unban
+    - essentials.unbanip
+    - essentials.whois
+    - essentials.world
+    - groupmanager.listgroups
+    - groupmanager.mandemote
+    - groupmanager.manpromote
+    - groupmanager.manselect
+    - groupmanager.manuadd
+    - groupmanager.manudel
+    - groupmanager.manwhois
+    - groupmanager.notify.other
+    inheritance:
+    - member
+    info:
+      prefix: '&9[MOD]&f'
+      build: true
+      suffix: ''
+  SuperVIP:
+    default: false
+    permissions: []
+    inheritance:
+    - vip
+    info:
+      prefix: '&d[SVIP]&f'
+      build: true
+      suffix: ''
+  Sponsor:
+    default: false
+    permissions: []
+    inheritance:
+    - member
+    info:
+      prefix: '&2[S]&f'
+      build: true
+      suffix: ''

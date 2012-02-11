@@ -74,8 +74,8 @@ groups:
     - multiverse.core.list.worlds
     - multiverse.portal.access.*
     - multiverse.portal.list
-    - -multiverse.access.valhalla
     - showcase.basic
+    - hcw.ban.world.armok
     inheritance:
     - visitor
     info:
@@ -93,15 +93,19 @@ groups:
     - essentials.rules
     - essentials.spawn
     - essentials.warp
+    - essentials.home
+    - essentials.sethome
+    - essentials.signs.use.*
     - groupmanager.notify.self
     - minecartmania.signs.*
     - multiverse.access.*
-    - -multiverse.access.valhalla
+    - multiverse.portal.access.*
+    - -multiverse.access.armok
     - multiverse.teleport.self.*
     inheritance: []
     info:
       prefix: '&7[V]&f'
-      build: false
+      build: true
       suffix: ''
   Operator:
     default: false
@@ -118,6 +122,9 @@ groups:
     - showcase.admin
     - worldedit.*
     - worldguard.*
+    - hcw.*
+    - privatewarp.pw
+    - privatewarp.pwa
     inheritance:
     - moderator
     info:

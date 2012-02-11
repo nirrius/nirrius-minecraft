@@ -1,0 +1,207 @@
+worlds:
+  centralius:
+    environment: NORMAL
+    alias:
+      name: ''
+      color: WHITE
+    pvp: true
+    fakepvp: false
+    scale: 1.0
+    seed: Treehouse
+    allowweather: false
+    difficulty: PEACEFUL
+    animals:
+      spawn: true
+    monsters:
+      spawn: false
+    entryfee:
+      amount: 0.0
+      currency: -1
+      price: 0.0
+    hunger: false
+    hidden: false
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: -339.0
+      y: 100.0
+      z: 819.0
+      pitch: -88.95032
+      yaw: -3.4500427
+      world: centralius
+    respawnworld: ''
+    autoheal: true
+    adjustspawn: false
+    autoload: true
+    bedrespawn: true
+  heaven:
+    environment: NORMAL
+    alias:
+      name: ''
+      color: WHITE
+    pvp: true
+    fakepvp: false
+    scale: 1.0
+    seed: 529849355
+    allowweather: true
+    difficulty: NORMAL
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      amount: 0.0
+      currency: -1
+      price: 0.0
+    hunger: true
+    hidden: false
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: 590.5
+      y: 64.0
+      z: -506.5
+      pitch: 0.0
+      yaw: 0.0
+      world: heaven
+    respawnworld: ''
+    autoheal: true
+    adjustspawn: true
+    autoload: true
+    bedrespawn: true
+  valhalla:
+    environment: NORMAL
+    alias:
+      name: ''
+      color: WHITE
+    pvp: true
+    fakepvp: false
+    scale: 1.0
+    allowweather: true
+    difficulty: NORMAL
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      amount: 0.0
+      currency: -1
+      price: 0.0
+    hunger: true
+    hidden: false
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: 12.5
+      y: 64.0
+      z: 252.5
+      pitch: 0.0
+      yaw: 0.0
+      world: valhalla
+    seed: -7724932828977041023
+    respawnworld: ''
+    autoheal: true
+    adjustspawn: true
+    autoload: true
+    bedrespawn: true
+  shangri-la:
+    environment: NORMAL
+    alias:
+      name: ''
+      color: WHITE
+    pvp: true
+    fakepvp: false
+    scale: 1.0
+    seed: -8747350736947870534
+    allowweather: true
+    difficulty: EASY
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      amount: 0.0
+      currency: -1
+      price: 0.0
+    hunger: false
+    hidden: false
+    gamemode: CREATIVE
+    keepspawninmemory: true
+    spawn:
+      x: -131.5
+      y: 65.0
+      z: 63.5
+      pitch: 0.0
+      yaw: 0.0
+      world: shangri-la
+    respawnworld: ''
+    autoheal: true
+    adjustspawn: true
+    autoload: true
+    bedrespawn: true
+  centralius_nether:
+    seed: 511391400
+    environment: NETHER
+    hidden: false
+    alias:
+      name: ''
+      color: WHITE
+    pvp: true
+    scale: 8.0
+    respawnworld: ''
+    allowweather: true
+    difficulty: EASY
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: true
+    autoheal: true
+    adjustspawn: true
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: -38.5
+      y: 63.0
+      z: 27.5
+      pitch: 0.0
+      yaw: 0.0
+      world: centralius_nether
+    autoload: true
+    bedrespawn: true
+  centralius_the_end:
+    seed: 511391400
+    environment: THE_END
+    hidden: false
+    alias:
+      name: ''
+      color: WHITE
+    pvp: true
+    scale: 1.0
+    respawnworld: ''
+    allowweather: true
+    difficulty: EASY
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: true
+    autoheal: true
+    adjustspawn: true
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: 0.0
+      y: 60.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+      world: centralius_the_end
+    autoload: true
+    bedrespawn: true

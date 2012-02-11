@@ -8,8 +8,7 @@ users:
     permissions: []
     group: Moderator
   katsuku:
-    subgroups:
-    - VIP
+    subgroups: []
     permissions: []
     group: Moderator
   admiral.bacon:
@@ -36,16 +35,18 @@ users:
     subgroups: []
     permissions: []
     group: VIP
-  dorrax:
-    subgroups:
-    - VIP
-    permissions: []
-    group: Owner
   gukinator:
-    subgroups:
-    - VIP
+    subgroups: []
     permissions: []
     group: Operator
+  dorrax:
+    subgroups: []
+    permissions: []
+    group: Owner
+  wert278:
+    subgroups: []
+    permissions: []
+    group: Member
   Tangotaz:
     subgroups: []
     permissions: []
@@ -54,15 +55,19 @@ users:
     subgroups: []
     permissions: []
     group: Member
-  atineiatte:
-    subgroups: []
-    permissions: []
-    group: Member
   mmmmorshu:
     subgroups: []
     permissions: []
     group: Operator
+  atineiatte:
+    subgroups: []
+    permissions: []
+    group: Member
   Shepanator:
+    subgroups: []
+    permissions: []
+    group: Member
+  ausilo3:
     subgroups: []
     permissions: []
     group: Member
@@ -73,7 +78,7 @@ users:
   jgdogg441:
     subgroups: []
     permissions: []
-    group: Member
+    group: Moderator
   alyxwhitlow:
     subgroups: []
     permissions: []
@@ -83,6 +88,10 @@ users:
     permissions: []
     group: Member
   BarMiner:
+    subgroups: []
+    permissions: []
+    group: Member
+  PsychoPenguinX:
     subgroups: []
     permissions: []
     group: Member
@@ -174,18 +183,18 @@ users:
     subgroups: []
     permissions: []
     group: Moderator
-  Mylian:
-    subgroups: []
-    permissions: []
-    group: Member
-  alovard:
-    subgroups: []
-    permissions: []
-    group: Moderator
   skizerz:
     subgroups: []
     permissions: []
     group: Operator
+  alovard:
+    subgroups: []
+    permissions: []
+    group: Moderator
+  Mylian:
+    subgroups: []
+    permissions: []
+    group: Member
   Poison233:
     subgroups: []
     permissions: []
@@ -198,6 +207,10 @@ users:
     subgroups: []
     permissions: []
     group: Owner
+  Lothgen:
+    subgroups: []
+    permissions: []
+    group: Member
   ClaudiusDK:
     subgroups: []
     permissions: []
@@ -214,19 +227,19 @@ users:
     subgroups: []
     permissions: []
     group: Member
-  jengajam2:
-    subgroups: []
-    permissions: []
-    group: VIP
   crazyhacker451:
     subgroups: []
     permissions: []
     group: Member
-  OriginalName010:
+  jengajam2:
+    subgroups: []
+    permissions: []
+    group: VIP
+  TheBoyFroWonder:
     subgroups: []
     permissions: []
     group: Member
-  TheBoyFroWonder:
+  OriginalName010:
     subgroups: []
     permissions: []
     group: Member
@@ -239,6 +252,10 @@ users:
     permissions: []
     group: Moderator
   Empoleon416:
+    subgroups: []
+    permissions: []
+    group: Member
+  zombiekiller1171:
     subgroups: []
     permissions: []
     group: Member
@@ -261,7 +278,7 @@ users:
   thaiceman:
     subgroups: []
     permissions: []
-    group: Member
+    group: Sponsor
   BlocksRock:
     subgroups: []
     permissions: []
@@ -302,11 +319,11 @@ users:
     subgroups: []
     permissions: []
     group: Member
-  reykjavik:
+  blazinmeow:
     subgroups: []
     permissions: []
     group: Moderator
-  blazinmeow:
+  reykjavik:
     subgroups: []
     permissions: []
     group: Moderator
